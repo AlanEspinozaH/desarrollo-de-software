@@ -1,7 +1,7 @@
 # Actividad 1: Introducción DevOps / DevSecOps
 **Autor:** Espinoza Hu. Alan  
 **Fecha:** 2025-09-3  
-**Tiempo total invertido:** hh:mm
+**Tiempo total invertido:** 3h
 
 **Entorno usado:**
 Ubuntu 22.04 (usuario estándar), navegador Firefox/Chrome, herramientas: draw.io/Excalidraw para diagramas; DevTools para HTTP/TLS; herramienta de DNS; utilidad del sistema para puertos. Sin credenciales.
