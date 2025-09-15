@@ -8,7 +8,7 @@ Ubuntu 22.04 (usuario estándar), navegador Firefox/Chrome, herramientas: draw.i
 
 ---
 
-## 4.1 DevOps vs. cascada tradicional
+## 4.1 DevOps vs. cascada tradicional (waterfall)
 ![Comparativo](imagenes/devops-vs-cascada.png)
 
 **Síntesis:**  
