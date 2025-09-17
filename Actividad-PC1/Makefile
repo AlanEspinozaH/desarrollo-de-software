@@ -6,7 +6,7 @@ MAKEFLAGS += --no-builtin-rules --warn-undefined-variables
 APP_NAME  ?= configurador
 RELEASE   ?= v0.1.0
 PORT      ?= 8080
-MESSAGE   ?= "Hola desde $(APP_NAME)"
+MESSAGE   ?= Hola desde $(APP_NAME)
 CONFIG_URL?=
 DNS_SERVER?=
 TARGETS   ?= example.com
@@ -37,15 +37,21 @@ tools: ## Verifica bash, curl, dig, nc, ss, systemd, journalctl, bats
 	echo "tools OK"
 
 build: tools ## Genera artefactos en out/
-	printf "PORT=%s\nMESSAGE=%s\nRELEASE=%s\n" "$(PORT)" "$(MESSAGE)" "$(RELEASE)" > "$(OUT)/config.env"
-	if [[ -n "$(CONFIG_URL)" ]]; then
-	  echo "[build] CONFIG_URL=$(CONFIG_URL)"
-	  curl -fsS -z "$(CACHE)/config.cfg" -o "$(CACHE)/config.cfg" "$(CONFIG_URL)" || true
-	  curl -fsSI "$(CONFIG_URL)" > "$(LOG)/config_headers.txt" || true
+	@echo "Verificando dependencias..."
+	@echo "tools OK"
+	@{ \
+	  printf "%s\n" "PORT=$(PORT)"; \
+	  printf "%s\n" "MESSAGE=$(MESSAGE)"; \
+	  printf "%s\n" "RELEASE=$(RELEASE)"; \
+	} >"$(OUT)/config.env"
+	@if [[ -n "$(CONFIG_URL)" ]]; then \
+	  echo "[build] CONFIG_URL=$(CONFIG_URL)"; \
+	  curl -fsS -z "$(CACHE)/config.cfg" -o "$(CACHE)/config.cfg" "$(CONFIG_URL)" || true; \
+	  curl -fsSI "$(CONFIG_URL)" >"$(LOG)/config_headers.txt" || true; \
 	fi
-	echo "build OK -> $(OUT)/config.env"
+	@echo "build OK -> $(OUT)/config.env"
 
-test: tools ## Corre Bats (reporte en out/test-report.txt)
+test: stop build ## Corre Bats (reporte en out/test-report.txt)
 	@bats -t tests | tee "$(OUT)/test-report.txt"
 
 run: tools ## Arranca servidor HTTP (nc) con logs y PID
@@ -57,12 +63,22 @@ run: tools ## Arranca servidor HTTP (nc) con logs y PID
 	for i in {1..20}; do ss -ltn | awk '{print $$4}' | grep -q ":$(PORT)$$" && break || sleep 0.2; done
 	echo "Escuchando en 127.0.0.1:$(PORT) (PID $$(cat $(OUT)/http.pid))"
 
-stop: ## Detiene servidor (si corre)
-	@if [[ -f "$(OUT)/http.pid" ]]; then \
-	  kill "$$(cat $(OUT)/http.pid)" 2>/dev/null || true; \
-	  rm -f "$(OUT)/http.pid"; \
-	  echo "detenido"; \
-	else echo "(no hay PID)"; fi
+stop: ## Detiene servidor (si corre) — siempre exit 0
+	@set +e; set +o pipefail; \
+	if [[ -f "$(OUT)/http.pid" ]]; then \
+	  pid="$$(cat '$(OUT)/http.pid' 2>/dev/null)"; \
+	  if [[ -n "$$pid" ]] && kill -0 "$$pid" 2>/dev/null; then \
+	    kill "$$pid" 2>/dev/null || true; \
+	  fi; \
+	  rm -f '$(OUT)/http.pid'; \
+	  echo "Servidor detenido (vía PID)"; \
+	else \
+	  echo "(no se encontró archivo PID)"; \
+	fi; \
+	# Seguro extra: mata listeners exactos en $(PORT) si quedaron huérfanos
+	pids="$$(ss -ltnp 'sport = :$(PORT)' 2>/dev/null | awk -F',' '/pid=/ {print $$2}' | awk -F'=' '{print $$2}')"; \
+	if [[ -n "$$pids" ]]; then kill $$pids 2>/dev/null || true; fi; \
+	true
 
 pack: build ## Empaqueta release en dist/
 	tar -czf "$(DIST)/$(APP_NAME)-$(RELEASE).tar.gz" src tests Makefile "$(OUT)/config.env" docs
