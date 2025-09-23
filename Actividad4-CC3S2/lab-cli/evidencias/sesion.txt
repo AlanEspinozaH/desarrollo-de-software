@@ -1,820 +1,0 @@
-Script started on 2025-09-22 16:42:30-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="77" LINES="13"]
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7mnano ~/.bashrc[27mnano ~/.bashrc
-[?2004l[?2004h[?1049h[22;0;0t[1;13r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[11;32H(B[0;7m[ Reading... ](B[m[11;30H(B[0;7m[ Read 117 lines ](B[m[H(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [1;76H(B[m[12d(B[0;7m^G(B[m Help[12;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[12;61H(B[0;7m^T(B[m Execute[13d(B[0;7m^X(B[m Exit[13;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[36m# ~/.bashrc: executed by bash(1) for non-login shells.[3d# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)[4d# for examples[6d# If not running interactively, don't do anything[7d[32mcase[39m(B[m (B[0;1m[31m$-[39m(B[m [32min[8;5H[39m(B[m*i*[32m)[39m(B[m [32m;;[9;7H[39m(B[m*[32m)[39m(B[m [32mreturn;;[10desac[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[11d[K[?12l[?25h7[2;11r8
-[1;13r[10;1H[?25l[?12l[?25h7[2;11r8[11d
-[1;13r[10;1H[36m# don't put duplicate lines or lines starting with space in the history.[39m(B[m[?25l[?12l[?25h7[2;11r8[11d
-[1;13r[10;1H[36m# See bash(1) for more options[39m(B[m[?25l[?12l[?25h7[2;11r8[11d
-[1;13r[10;1HHISTCONTROL[32m=[39m(B[mignoreboth[?25l[?12l[?25h7[2;11r8[11d
-[1;13r[10;1H[?25l[?12l[?25h7[2;11r8[11d
-[1;13r[10;1H[36m# append to the history file, don't overwrite it[39m(B[m[?25l[?12l[?25h7[2;11r8[11d
-[1;13r[10;1Hshopt(B[0;1m[35m -s[39m(B[m histappend[?25l[?12l[?25h7[2;11r8[11d
-[1;13r[10;1H[?25l[?12l[?25h7[2;11r8[11d
-[1;13r[10;1H[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[39m(B[m[?25l[?12l[?25h7[2;11r8[11d
-[1;13r[10;1HHISTSIZE[32m=[39m(B[m1000[?25l[?12l[?25h7[2;11r8[11d
-[1;13r[10;1HHISTFILESIZE[32m=[39m(B[m2000[13;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;14r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J[?2004h[?1h=[?1h=(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [1;76H(B[m[2d[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[13d(B[0;7m^G(B[m Help[13;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[13;61H(B[0;7m^T(B[m Execute[14d(B[0;7m^X(B[m Exit[14;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[14;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;15r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[13d(B[0;7m^G(B[m Help[13;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[13;61H(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[13d[J[1;76H[12d[36m# check the window size after each command and, if necessary,[14d[39m(B[0;7m^G(B[m Help[14;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[14;61H(B[0;7m^T(B[m Execute[15d(B[0;7m^X(B[m Exit[15;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[15;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;17r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[12d[36m# check the window size after each command and, if necessary,[14d[39m(B[0;7m^G(B[m Help[14;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[14;61H(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[76G[13d[2L[36m# update the values of LINES and COLUMNS.[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[17d(B[0;7m^X(B[m Exit[17;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[17;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;18r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[12d[36m# check the window size after each command and, if necessary,[13d# update the values of LINES and COLUMNS.[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[H[?2004h[?1h=[?1h=[76G[17d(B[0;7m^G(B[m Help[17;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[17;61H(B[0;7m^T(B[m Execute[18d(B[0;7m^X(B[m Exit[18;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[18;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;20r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[12d[36m# check the window size after each command and, if necessary,[13d# update the values of LINES and COLUMNS.[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[17d(B[0;7m^G(B[m Help[17;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[17;61H(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[76G[15d[2L[16d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[17d# match all files and zero or more directories and subdirectories.[20d[39m(B[0;7m^X(B[m Exit[20;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[20;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;21r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[12d[36m# check the window size after each command and, if necessary,[13d# update the values of LINES and COLUMNS.[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[16d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[17d# match all files and zero or more directories and subdirectories.[H[39m(B[m[?2004h[?1h=[?1h=[76G[18d[36m#shopt -s globstar[20d[39m(B[0;7m^G(B[m Help[20;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[20;61H(B[0;7m^T(B[m Execute[21d(B[0;7m^X(B[m Exit[21;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[21;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;22r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[12d[36m# check the window size after each command and, if necessary,[13d# update the values of LINES and COLUMNS.[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[16d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[17d# match all files and zero or more directories and subdirectories.[18d#shopt -s globstar[20d[39m(B[0;7m^G(B[m Help[20;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[20;61H(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[20d[J[1;76H[21d(B[0;7m^G(B[m Help[21;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[21;61H(B[0;7m^T(B[m Execute[22d(B[0;7m^X(B[m Exit[22;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[22;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;23r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[12d[36m# check the window size after each command and, if necessary,[13d# update the values of LINES and COLUMNS.[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[16d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[17d# match all files and zero or more directories and subdirectories.[18d#shopt -s globstar[21d[39m(B[0;7m^G(B[m Help[21;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[21;61H(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[21d[J[1;76H[20d[36m# make less more friendly for non-text input files, see lesspipe(1)[22d[39m(B[0;7m^G(B[m Help[22;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[22;61H(B[0;7m^T(B[m Execute[23d(B[0;7m^X(B[m Exit[23;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[23;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;24r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[12d[36m# check the window size after each command and, if necessary,[13d# update the values of LINES and COLUMNS.[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[16d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[17d# match all files and zero or more directories and subdirectories.[18d#shopt -s globstar[20d# make less more friendly for non-text input files, see lesspipe(1)[22d[39m(B[0;7m^G(B[m Help[22;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[22;61H(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[22d[J[1;76H[21d[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[23d[39m(B[0;7m^G(B[m Help[23;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[23;61H(B[0;7m^T(B[m Execute[24d(B[0;7m^X(B[m Exit[24;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;25r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[12d[36m# check the window size after each command and, if necessary,[13d# update the values of LINES and COLUMNS.[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[16d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[17d# match all files and zero or more directories and subdirectories.[18d#shopt -s globstar[20d# make less more friendly for non-text input files, see lesspipe(1)[21d[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[23d[39m(B[0;7m^G(B[m Help[23;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[23;61H(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[23d[J[1;76H[24d(B[0;7m^G(B[m Help[24;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[24;61H(B[0;7m^T(B[m Execute[25d(B[0;7m^X(B[m Exit[25;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[25;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;26r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[12d[36m# check the window size after each command and, if necessary,[13d# update the values of LINES and COLUMNS.[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[16d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[17d# match all files and zero or more directories and subdirectories.[18d#shopt -s globstar[20d# make less more friendly for non-text input files, see lesspipe(1)[21d[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[24d[39m(B[0;7m^G(B[m Help[24;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[24;61H(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[24d[J[1;76H[23d[36m# set variable identifying the chroot you work in (used in the prompt below)[25d[39m(B[0;7m^G(B[m Help[25;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[25;61H(B[0;7m^T(B[m Execute[26d(B[0;7m^X(B[m Exit[26;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[26;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;27r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [2;1H(B[0m[36m# See bash(1) for more options[3d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[5d[36m# append to the history file, don't overwrite it[6d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[8d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[9d[39m(B[mHISTSIZE[32m=[39m(B[m1000[10dHISTFILESIZE[32m=[39m(B[m2000[12d[36m# check the window size after each command and, if necessary,[13d# update the values of LINES and COLUMNS.[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[16d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[17d# match all files and zero or more directories and subdirectories.[18d#shopt -s globstar[20d# make less more friendly for non-text input files, see lesspipe(1)[21d[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[23d(B[0m[36m# set variable identifying the chroot you work in (used in the prompt below)[25d[39m(B[0;7m^G(B[m Help[25;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[25;61H(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[25d[J[1;76H[24d[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[26d[39m(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute[27d(B[0;7m^X(B[m Exit[27;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?25l[?12l[?25h[10d[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;24r8M[1;27r[2;1H[36m# don't put duplicate lines or lines starting with space in the history.[39m(B[m[?25l[?12l[?25h7[2;24r8M[1;27r[2;1H[?25l[?12l[?25h7[2;25r8M[1;27r[2;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;24r8M[1;27r[2;7H*[32m)[39m(B[m [32mreturn;;[39m(B[m[?25l[?12l[?25h7[2;24r8M[1;27r[2;5H*i*[32m)[39m(B[m [32m;;[39m(B[m[?25l[?12l[?25h7[2;25r8M[1;27r[2;1H[32mcase[39m(B[m (B[0;1m[31m$-[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;24r8M[1;27r[2;1H[36m# If not running interactively, don't do anything[39m(B[m[?25l[?12l[?25h7[2;24r8M[1;27r[2;1H[?25l[?12l[?25h7[2;24r8M[1;27r[2;1H[36m# for examples[39m(B[m[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;1H[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;1H[36m# match all files and zero or more directories and subdirectories.[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;1H[36m#shopt -s globstar[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;1H[36m# make less more friendly for non-text input files, see lesspipe(1)[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;1H[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;1H[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;1H[36m# set variable identifying the chroot you work in (used in the prompt below)[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;1H[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;5Hdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[39m(B[m[?25l[?12l[?25h7[2;25r8[25d
-[1;27r[24;1H[32mfi[39m(B[m[27;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;47r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 7.2                 /home/alulo/.bashrc                           [3d(B[0m[36m# append to the history file, don't overwrite it[4d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[6d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[7d[39m(B[mHISTSIZE[32m=[39m(B[m1000[8dHISTFILESIZE[32m=[39m(B[m2000[10d[36m# check the window size after each command and, if necessary,[11d# update the values of LINES and COLUMNS.[12d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[14d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[15d# match all files and zero or more directories and subdirectories.[16d#shopt -s globstar[18d# make less more friendly for non-text input files, see lesspipe(1)[19d[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[21d(B[0m[36m# set variable identifying the chroot you work in (used in the prompt below)[22d[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[23;5H[39m(B[mdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[24dfi[26d[39m(B[0;7m^G(B[m Help[26;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[26;61H(B[0;7m^T(B[m Execute[H[?2004h[?1h=[?1h=[1;32H(B[0;7m                   [1;72H/home/alulo/.bashrc                                                                  [1;155H(B[m[26d[36m# set a fancy prompt (non-color, unless we know we (B[0;1m[33m"want"(B[0m[36m color)[39m(B[m[K[27d[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[28;5H[39m(B[mxterm-color[32m|[39m(B[m*-256color[32m)[39m(B[m color_prompt[32m=[39m(B[myes[32m;;[29desac[31d[36m# uncomment for a colored prompt, if the terminal has the capability; turned[32d# off by default to not distract the user: the focus in a terminal window[33d# should be on the output of commands, not on the prompt[34d#force_color_prompt=yes[36d[32mif[39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"$force_color_prompt"[39m(B[m [32m];[39m(B[m [32mthen[37;5Hif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/tput [32m][39m(B[m [32m&&[39m(B[m tput setaf 1 [32m>&[39m(B[m/dev/null[32m;[39m(B[m [32mthen[38;8H[36m[1K # We have color support; assume it's compliant with Ecma-48[39;8H[1K # (ISO/IEC-6429). (Lack of such support is extremely rare, and such[40;8H[1K # a case would tend to support setf rather than setaf.)[41;9H[39m(B[mcolor_prompt[32m=[39m(B[myes[42;5H[32melse[43d[39m(B[mcolor_prompt[32m=[44;5Hfi[46d[39m(B[0;7m^G(B[m Help[46;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[46;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[46;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[47d(B[0;7m^X(B[m Exit[47;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[47;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[47;120H(B[0;7mM-6(B[m Copy[47;137H(B[0;7m^Q(B[m Where Was[?25l[?12l[?25h[24d[?25l[?12l[?25h[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h[39d[?25l[?12l[?25h[40d[?25l[?12l[?25h[41d[?25l[?12l[?25h[42d[?25l[?12l[?25h[43d[?25l[?12l[?25h[44d[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$color_prompt"[39m(B[m [32m=[39m(B[m yes [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32melse[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H(B[0;1m[34munset[39m(B[m color_prompt force_color_prompt[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# If this is an xterm set the title to user@host:dir[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1Hxterm*[32m|[39m(B[mrxvt*[32m)[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5HPS1[32m=(B[0;1m[33m"\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H*[32m)[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# enable color support of ls and also add handy aliases[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/dircolors [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5Htest(B[0;1m[35m -r[39m(B[m ~/.dircolors [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b ~/.dircolors)"[39m(B[m [32m||[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b)"[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5Halias ls[32m=(B[0;1m[33m'ls --color=auto'[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;4H[36m #alias dir=(B[0;1m[33m'dir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;4H[36m #alias vdir=(B[0;1m[33m'vdir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5Halias (B[0;1m[34mgrep(B[0m[32m=(B[0;1m[33m'grep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5Halias fgrep[32m=(B[0;1m[33m'fgrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5Halias egrep[32m=(B[0;1m[33m'egrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# colored GCC warnings and errors[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m#export GCC_COLORS=(B[0;1m[33m'error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# some more ls aliases[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1Halias ll[32m=(B[0;1m[33m'ls -alF'[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1Halias la[32m=(B[0;1m[33m'ls -A'[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1Halias l[32m=(B[0;1m[33m'ls -CF'[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# Add an (B[0;1m[33m"alert"(B[0m[36m alias for long running commands.  Use like so:[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m#   sleep 10; alert[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1Halias alert[32m=(B[0;1m[33m'notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '(B[0m[32m\(B[0;1m[33m''[39m(B[ms/^[32m\[39m(B[ms*[32m[[39m(B[m0-9[32m]\[39m(B[m+[32m\[39m(B[ms*//[32m;[39m(B[ms/[32m[;&|]\[39m(B[ms*alert[32m$[39m(B[0;7m>[44;1H(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# Alias definitions.[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# You may want to put all your additions into a separate file like[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# ~/.bash_aliases, instead of adding them here directly.[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# See /usr/share/doc/bash-doc/examples in the bash-doc package.[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m ~/.bash_aliases [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5H. ~/.bash_aliases[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# enable programmable completion features (you don't need to enable[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[36m# sources /etc/bash.bashrc).[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mif[39m(B[m [32m![39m(B[m shopt -oq posix[32m;[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;3H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m /usr/share/bash-completion/bash_completion [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5H. /usr/share/bash-completion/bash_completion[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;3H[32melif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m /etc/bash_completion [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;5H. /etc/bash_completion[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;3H[32mfi[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;92H(B[0;7m*[155G(B[m[2;45r[45;1H
-[1;47r[44;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[32mrepoGithub(B[0m[32m()[39m(B[m [32m{[39m(B[m (B[0;1m[34mcd[39m(B[m (B[0;1m[33m"$HOME/CC3S2-desarrollo-software/desarrollo-de-software"(B[0m[32m;[39m(B[m [32m}[39m(B[m[?12l[?25h[?25l[?12l[?25h[A[?25l[44d[K[?12l[?25h[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H(B[0;1m[32mrepoGithub(B[0m[32m()[39m(B[m [32m{[39m(B[m (B[0;1m[34mcd[39m(B[m (B[0;1m[33m"$HOME/CC3S2-desarrollo-software/desarrollo-de-software"(B[0m[32m;[39m(B[m [32m}[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[41;45r[41;1HM[1;47r[43;1H[?12l[?25h[?25l[44d[K[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[44d[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H(B[0;1m[32mrepoGithub(B[0m[32m()[39m(B[m [32m{[39m(B[m (B[0;1m[34mcd[39m(B[m (B[0;1m[33m"$HOME/CC3S2-desarrollo-software/desarrollo-de-software"(B[0m[32m;[39m(B[m [32m}[39m(B[m[?25l[?12l[?25h7[2;45r8[45d
-[1;47r[44;1H[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[36m#[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m T[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[36mA[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mj[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m p[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m m[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m r[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36mp[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m d[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m g[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m h[39m(B[m[?25l[?12l[?25h[36mu[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[36m.[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m C[39m(B[m[?25l[?12l[?25h[36mu[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m d[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m d[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m s[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mf[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[36mw[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m c[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h[36m.[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m P[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36mf[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mf[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m C[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m L[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36m.[39m(B[m[?25l[45;72H(B[0;7m[ Writing... ](B[m[1;92H(B[0;7m [155G(B[m[45;69H(B[0;7m[ Wrote 122 lines ](B[m[?12l[?25h[42;90H[?25l[46;18H[22X[46;40H(B[0;7mM-D(B[m DOS Format    [46;69H          (B[0;7mM-A(B[m Append        [103G        [118G(B[0;7mM-B(B[m Backup File[K[47;2H(B[0;7mC(B[m Cancel[47;18H[22X[47;40H(B[0;7mM-M(B[m Mac Format      [47;69H          (B[0;7mM-P(B[m Prepend[21X[47;118H(B[0;7m^T(B[m Browse[K[45d(B[0;7mFile Name to Write: /home/alulo/.bashrc                                                                                                                     [45;40H(B[m[?12l[?25h[?25l[45;71H[1K (B[0;7m[ Writing... ](B[m[K[1;155H[45;69H(B[0;7m[ Wrote 122 lines ](B[m[46;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^KScript started on 2025-09-22 23:16:36-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli/evidencias[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli/evidencias[00m$ sed -E \
-[?2004l[?2004h> -e ''s'/'/'/'[1@([1@)[1@p[1@a[1@s[1@s[1@w[1@o[1@r[1@d[7@(arg: 1) -e 's/((arg: 0) -e 's/([7P> -e 's/([1@|[1Ppassword)[1@|[1@t[1@o[1@k[1@e[1@n[1@|[1@s[1@e[1@c[1@r[1@e[1@t)/[1@[[1@][1@R[1@E[1@D[1@A[1@C[1@T[1@E[1@D]/g'I''\ \\
-[?2004l[?2004h> -e [7m's/\b(pass(word)?|token|secret|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1: [REDACTED]/gI' \[27m> -e 's/\b(pass(word)?|token|secret|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1: [REDACTED]/gI' \
-[?2004l[?2004h> evidencias/sesion.txt < > evkde c     idencias/sesion_redactada.tt xt
-[?2004lbash: evidencias/sesion_redactada.txt: No such file or directory
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli/evidencias[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli/evidencias[00m$ ls  cd ..
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ cd ..sed -E -e 's/(passwordd|token|secret)/[REDACTED]/gI' -e 's/\b(pass(word)?|token|secret|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+//\1: [REDACTED]/gI' evidencias/sesion.txt > evidencias/sesion_redactada.txt
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K" (arg: 1) [K3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Estp o busca [7mAuthoriz[27m[7ma[27m[7mation: Bearer/Basic[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca Authorization: Bearer/Basic[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca Authorica  Authoriz[1@a[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca c Authori[1@z[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca ca Author[1@i[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cab Autho[1@r[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cabe Auth[1@o[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cabec Aut[1@h[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cabece Au[1@t[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cabecer A[1@u[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cabecera [1@A[1@s Authorization: Bearer/Basic y oculta el contenido
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7msed -E 's/\b(Authoriz[27m[7ma[27m[7mation:)[[:space:]]+(Basic|Bearer)[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1 \2 [REDACTED]/gI' \[27m
-[7m  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sed -E 's/\b(Authorization:)[[:space:]]+(Basic|Bearer)[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1 \2 [REDACTED]/gI' \
-  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-[?2004lmv: overwrite 'evidencias/sesion_redactada.txt'? y
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K# lim    p  para limpiar codigo  ANSI
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mevidencias/sesion_red[27m[7ma[27m[7mactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  \mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  \mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-[?2004lbash: evidencias/sesion_redactada.txt: Permission denied
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7msed -E 's/\x1B\[[0-9;[27m[7m][27m[7m]*[A-Za-z]//g' \[27m
-[7m  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  \mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sed -E 's/\x1B\[[0-9;]*[A-Za-z]//g' \
-  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  \mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K# pARA    Para verificar que  no qeda   uedaron secretos
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mgrep -nEi '(pass(word[27m[7m)[27m[7m)?|token|secret|api[-_]?key|authorization)' evidencias/sesion_redactada.txt | head[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ grep -nEi '(pass(word)?|token|secret|api[-_]?key|authorization)' evidencias/sesion_redactada.txt | head
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [Kls
-[?2004l[0m[01;34mevidencias[0m
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ tooucj    uch - .gitignore
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ nano .gitignore
-[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2 [42b.gitignore [51b [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[28d[K[1;69H(B[0;7m*[119G(B[m[2dlab-cli/evidencias/sesion.txt[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hi[?25l[?12l[?25h/[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25he[?25l[?12l[?25hv[?25l[?12l[?25hi[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hc[?25l[?12l[?25hi[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25h/[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25h.[?25l[?12l[?25ht[?25l[?12l[?25hx[?25l[?12l[?25ht[?25l[?12l[?25h[3d[?25l[?12l[?25he[?25l[?12l[?25hv[?25l[?12l[?25hi[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25hc[?25l[?12l[?25hi[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25h/[?25l[?12l[?25h*[?25l[?12l[?25h.[?25l[?12l[?25ht[?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[4d[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format [6b[29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format [8b[61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: .gitignore [88b [28;31H(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 3 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo [6b(B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[4d[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7mfind . -maxdepth 1 -n[27m[7ma[27m[7mame 'archivo*.txt' -print0 | xargs -0 rm --[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ find . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 rm --
-[?2004lrm: missing operand
-Try 'rm --help' for more information.
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mscript -aq evidencias[27m[7m/[27m[7m/sesion.txt[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ script -aq evidencias/sesion.txt
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7mcd /tmp[27m
-[7mtouch archivo1.txt archivo2.txt "archivo con espacios.txt" archivo3.doc[27m
-[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ cd /tmp
-touch archivo1.txt archivo2.txt "archivo con espacios.txt" archivo3.doc
-[A
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [K[7mfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l[27mfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l
-[?2004l}4
-[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [K} [7mfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l[27mfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l
-[?2004l4
-[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [K[7mfind . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 -r echo rm --[27mfind . -maScript started on 2025-09-23 00:18:26-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7mcd /tmp[27m
-[7mtouch archivo1.txt archivo2.txt "archivo con espacios.txt" archivo3.doc[27m
-[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ cd /tmp
-touch archivo1.txt archivo2.txt "archivo con espacios.txt" archivo3.doc
-[A
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [K[7mfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l[27mfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l
-[?2004l}4
-[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [K} [7mfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l[27mfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l
-[?2004l4
-[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [K[7mfind . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 -r echo rm --[27mfind . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 -r echo rm --
-[?2004lrm -- ./archivo1.txt ./archivo2.txt ./archivo con espacios.txt
-[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [K[7mtouch -- --malvado.txt[27m
-
-[7mrm -- --malvado.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ touch -- --malvado.txt
-
-rm -- --malvado.txt
-[?2004lrm: remove regular empty file '--malvado.txt'? y
-[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [K[7mfind . -maxdepth 1 -name 'archivo*.txt' -exec rm -i -- {} +[27mfind . -maxdepth 1 -name 'archivo*.txt' -exec rm -i -- {} +
-[?2004lrm: remove regular empty file './archivo1.txt'? y
-rm: remove regular empty file './archivo2.txt'? y
-rm: remove regular empty file './archivo con espacios.txt'? n
-[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [KrepoGithub
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [7mls -A | wc -l[27m
-[7mls > lista.txt[27m
-[7mprintf "Hola\n" >> lista.txt[27m
-[7mwc -l < lista.txt[27m
-[7mls noexiste 2> errores.txt[27m[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ ls -A | wc -l
-ls > lista.txt
-printf "Hola\n" >> lista.txt
-wc -l < lista.txt
-ls noexiste 2> errores.txt
-[?2004l7
-7
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K# /etc listado a   mi proyecto
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [7mcd /etc; ls -a > ~/CC3S2-desarrollo-software/d[27m[7me[27m[7mesarrollo-de-software/Actividad4-CC3S2/lab-cli/etc_lista.txt; cd -[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ cd /etc; ls -a > ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli/etc_lista.txt; cd -
-[?2004l/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kexit
-[?2004lexit
-
-Script done on 2025-09-23 00:30:04-05:00 [COMMAND_EXIT_CODE="0"]
-xdepth 1 -name 'archivo*.txt' -print0 | xargs -0 -r echo rm --
-[?2004lrm -- ./archivo1.txt ./archivo2.txt ./archivo con espacios.txt
-[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [K[7mtouch -- --malvado.txt[27m
-
-[7mrm -- --malvado.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ touch -- --malvado.txt
-
-rm -- --malvado.txt
-[?2004lrm: remove regular empty file '--malvado.txt'? y
-[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [K[7mfind . -maxdepth 1 -name 'archivo*.txt' -exec rm -i -- {} +[27mfind . -maxdepth 1 -name 'archivo*.txt' -exec rm -i -- {} +
-[?2004lrm: remove regular empty file './archivo1.txt'? y
-rm: remove regular empty file './archivo2.txt'? y
-rm: remove regular empty file './archivo con espacios.txt'? n
-[?2004h]0;alulo@DESKTOP-CM8SKM6: /tmp[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m/tmp[00m$ [KrepoGithub
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [7mls -A | wc -l[27m
-[7mls > lista.txt[27m
-[7mprintf "Hola\n" >> lista.txt[27m
-[7mwc -l < lista.txt[27m
-[7mls noexiste 2> errores.txt[27m[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ ls -A | wc -l
-ls > lista.txt
-printf "Hola\n" >> lista.txt
-wc -l < lista.txt
-ls noexiste 2> errores.txt
-[?2004l7
-7
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K# /etc listado a   mi proyecto
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [7mcd /etc; ls -a > ~/CC3S2-desarrollo-software/d[27m[7me[27m[7mesarrollo-de-software/Actividad4-CC3S2/lab-cli/etc_lista.txt; cd -[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ cd /etc; ls -a > ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli/etc_lista.txt; cd -
-[?2004l/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kexit
-[?2004lexit
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7m# 1) palabras sensibl[27m[7me[27m[7mes y clave=valor[27m
-[7msed -E \[27m
-[7m  -e 's/(password|token|secret)/[REDACTED]/gI' \[27m
-[7m  -e 's/\b(pass(word)?|token|secret|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1: [REDACTED]/gI' \[27m
-[7m  evidencias/sesion.txt > evidencias/sesion_redactada.txt[27m
-
-[7m# 2) Authorization: Bearer/Basic[27m
-[7msed -E 's/\b(Authorization:)[[:space:]]+(Basic|Bearer)[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1 \2 [REDACTED]/gI' \[27m
-[7m  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  \mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m
-
-[7m# 3) (opcional) quitar códigos ANSI[27m
-[7msed -E 's/\x1B\[[0-9;]*[A-Za-z]//g' \[27m
-[7m  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  \mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m
-
-[7m# 4) verificación (si no sale nada, mejor)[27m
-[7mgrep -nEi '(pass(word)?|token|secret|api[-_]?key|authorization)' evidencias/sesion_redactada.txt | head[27m
-[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # 1) palabras sensibles y clave=valor
-sed -E \
-  -e 's/(password|token|secret)/[REDACTED]/gI' \
-  -e 's/\b(pass(word)?|token|secret|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1: [REDACTED]/gI' \
-  evidencias/sesion.txt > evidencias/sesion_redactada.txt
-
-# 2) Authorization: Bearer/Basic
-sed -E 's/\b(Authorization:)[[:space:]]+(Basic|Bearer)[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1 \2 [REDACTED]/gI' \
-  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  \mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-
-# 3) (opcional) quitar códigos ANSI
-sed -E 's/\x1B\[[0-9;]*[A-Za-z]//g' \
-  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  \mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-
-# 4) verificación (si no sale nada, mejor)
-grep -nEi '(pass(word)?|token|secret|api[-_]?key|authorization)' evidencias/sesion_redactada.txt | head
-[A
-[?2004l95:[?2004l[?2004h> -e 's/\b(pass(word)?|[REDACTED]|[REDACTED]|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1: [REDACTED]/gI' \> -e 's/\b(pass(word)?|[REDACTED]|[REDACTED]|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1: [REDACTED]/gI' \
-99:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ cd ..sed -E -e 's/([REDACTED]d|[REDACTED]|[REDACTED])/[REDACTED]/gI' -e 's/\b(pass(word)?|[REDACTED]|[REDACTED]|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+//\1: [REDACTED]/gI' evidencias/sesion.txt > evidencias/sesion_redactada.txt
-100:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ " (arg: 1) 3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Estp o busca Authorizaation: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorization: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorica  Authoriz[1@a]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca c Authori[1@z]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca ca Author[1@i]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cab Autho[1@r]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabe Auth[1@o]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabec Aut[1@h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabece Au[1@t]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecer A[1@u]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecera [1@A[1@s Authorization: Bearer/Basic y oculta el contenido
-103:  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ sed -E 's/\b(Authorization:)[[:space:]]+(Basic|Bearer)[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1 \2 [REDACTED]/gI' \
-118:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ grep -nEi '(pass(word))?|[REDACTED]|[REDACTED]|api[-_]?key|authorization)' evidencias/sesion_redactada.txt | head]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ grep -nEi '(pass(word)?|[REDACTED]|[REDACTED]|api[-_]?key|authorization)' evidencias/sesion_redactada.txt | head
-209:  -e 's/\b(pass(word)?|[REDACTED]|[REDACTED]|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1: [REDACTED]/gI' \
-212:# 2) Authorization: Bearer/Basic
-213:sed -E 's/\b(Authorization:)[[:space:]]+(Basic|Bearer)[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1 \2 [REDACTED]/gI' \
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K--------------------- ------------------------------------------------------------------------------------------------------------------------ -
-[?2004l----------------------------------------------------------------------------------------------------------------------------------------------: command not found
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7m# Verificación estri[27m[7mc[27m[7mcta (ignora líneas que contengan 'sed -E' o la palabra 'grep')[27m
-[7mgrep -nEi '(pass(word)?|token|secret|api[-_]?key|authorization)(:|=)' evidencias/sesion_redactada.txt \[27m
-[7m  | grep -viE 'sed -E| grep ' \[27m
-[7m  | head[27m
-[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Verificación estricta (ignora líneas que contengan 'sed -E' o la palabra 'grep')
-grep -nEi '(pass(word)?|token|secret|api[-_]?key|authorization)(:|=)' evidencias/sesion_redactada.txt \
-  | grep -viE 'sed -E| grep ' \
-  | head
-[A
-[?2004l100:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ " (arg: 1) 3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Estp o busca Authorizaation: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorization: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorica  Authoriz[1@a]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca c Authori[1@z]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca ca Author[1@i]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cab Autho[1@r]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabe Auth[1@o]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabec Aut[1@h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabece Au[1@t]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecer A[1@u]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecera [1@A[1@s Authorization: Bearer/Basic y oculta el contenido
-212:# 2) Authorization: Bearer/Basic
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7m# 1) Buscar patrones [27m[7ms[27m[7msensibles seguidos de : o =[27m
-[7mgrep -nEi '(pass(word)?|token|secret|api[-_]?key|authorization)[[:space:]]*[:=]' evidencias/sesion_redactada.txt \[27m
-[7m  | grep -vi '\[REDACTED\]' \[27m
-[7m  | grep -viE 'sed -E| grep ' \[27m
-[7m  | grep -viE '^\s*#' \[27m
-[7m  | head[27m
-[A[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # 1) Buscar patrones sensibles seguidos de : o =
-grep -nEi '(pass(word)?|token|secret|api[-_]?key|authorization)[[:space:]]*[:=]' evidencias/sesion_redactada.txt \
-  | grep -vi '\[REDACTED\]' \
-  | grep -viE 'sed -E| grep ' \
-  | grep -viE '^\s*#' \
-  | head
-[A
-[?2004l100:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ " (arg: 1) 3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Estp o busca Authorizaation: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorization: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorica  Authoriz[1@a]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca c Authori[1@z]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca ca Author[1@i]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cab Autho[1@r]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabe Auth[1@o]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabec Aut[1@h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabece Au[1@t]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecer A[1@u]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecera [1@A[1@s Authorization: Bearer/Basic y oculta el contenido
-212:# 2) Authorization: Bearer/Basic
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mls -l evidencias/sesi[27m[7mo[27m[7mon_redactada.txt lista.txt errores.txt \[27m
-[7m      ../lab-cli/etc_lista.txt 2>/dev/null[27m
-[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ ls -l evidencias/sesion_redactada.txt lista.txt errores.txt \
-      ../lab-cli/etc_lista.txt 2>/dev/null
-[A
-[?2004l-rw-r--r-- 1 alulo alulo  1667 Sep 23 00:29 ../lab-cli/etc_lista.txt
--rw-r--r-- 1 alulo alulo 48254 Sep 23 00:30 evidencias/sesion_redactada.txt
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mprintf "Línea1\nLín[27m[7me[27m[7mea2\n" > ~/lab-cli/test.txt[27m
-[7mnl ~/lab-cli/test.txt[27m
-[7mwc -l ~/lab-cli/lista.txt[27m
-[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ printf "Línea1\nLínea2\n" > ~/lab-cli/test.txt
-nl ~/lab-cli/test.txt
-wc -l ~/lab-cli/lista.txt
-[A
-[?2004lbash: /home/alulo/lab-cli/test.txt: No such file or directory
-nl: /home/alulo/lab-cli/test.txt: No such file or directory
-wc: /home/alulo/lab-cli/lista.txt: No such file or directory
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [Kls
-[?2004letc_lista.txt  [0m[01;34mevidencias[0m
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ ls
-[?2004letc_lista.txt  [0m[01;34mevidencias[0m
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ mkdir -p evidencias
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7msed -E \[27m
-[7m  -e 's/(password|token|secret|api[-_]?key)/[REDACTED]/gI' \[27m
-[7m  -e 's/\b(pass(word)?|token|secret|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:];"]+/\1: [REDACTED]/gI' \[27m
-[7m  evidencias/sesion.txt > evidencias/sesion_redactada.txt[27m
-[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sed -E \
-  -e 's/(password|token|secret|api[-_]?key)/[REDACTED]/gI' \
-  -e 's/\b(pass(word)?|token|secret|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:];"]+/\1: [REDACTED]/gI' \
-  evidencias/sesion.txt > evidencias/sesion_redactada.txt
-[A  evidencias/sesion.txt > evidencias/sesion_redactada.txt
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7msed -E 's/\b(Authoriz[27m[7ma[27m[7mation:)[[:space:]]+(Basic|Bearer)[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1 \2 [REDACTED]/gI' \[27m
-[7m  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m
-[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sed -E 's/\b(Authorization:)[[:space:]]+(Basic|Bearer)[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1 \2 [REDACTED]/gI' \
-  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-[?2004lmv: overwrite 'evidencias/sesion_redactada.txt'? y
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7msed -E 's/\b(Authoriz[27m[7ma[27m[7mation:)[[:space:]]+(Basic|Bearer)[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1 \2 [REDACTED]/gI' \[27m
-[7m  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m
-[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sed -E 's/\b(Authorization:)[[:space:]]+(Basic|Bearer)[[:space:]]+[A-Za-z0-9._~+\/=-]+/\1 \2 [REDACTED]/gI' \
-  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-[A
-[?2004lmv: overwrite 'evidencias/sesion_redactada.txt'? y
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7m# a) user:pass@host[27m
-[7msed -E 's#https?://([^:/@]+):([^@]+)@#https://\1:[REDACTED]@#gI' \[27m
-[7m  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m
-
-[7m# b) parámetros tipo token=..., access_token=..., apikey=...[27m
-[7msed -E 's/([?&](access_)?token|[?&]api[-_]?key)=([^&[:space:]]+)/\1=[REDACTED]/gI' \[27m
-[7m  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m
-
-[7m# c) Cookies[27m
-[7msed -E 's/\b(Set-)?Cookie:[[:space:]]*[^;[:space:]]+=([^;]+)(;?)/Cookie: [REDACTED]\3/gI' \[27m
-[7m  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m
-
-[7m# d) Bloques de llaves privadas (en caso haya) [27m
-[7msed -E '/-----BEGIN (OPENSSH )?PRIVATE KEY-----/,/-----END (OPENSSH )?PRIVATE KEY-----/c\[REDACTED PRIVATE KEY BLOCK\]' [27m[7m\[27m[7m\[27m
-[7m  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \[27m
-[7m  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # a) user:pass@host
-sed -E 's#https?://([^:/@]+):([^@]+)@#https://\1:[REDACTED]@#gI' \
-  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-
-# b) parámetros tipo token=..., access_token=..., apikey=...
-sed -E 's/([?&](access_)?token|[?&]api[-_]?key)=([^&[:space:]]+)/\1=[REDACTED]/gI' \
-  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-
-# c) Cookies
-sed -E 's/\b(Set-)?Cookie:[[:space:]]*[^;[:space:]]+=([^;]+)(;?)/Cookie: [REDACTED]\3/gI' \
-  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-
-# d) Bloques de llaves privadas (en caso haya) 
-sed -E '/-----BEGIN (OPENSSH )?PRIVATE KEY-----/,/-----END (OPENSSH )?PRIVATE KEY-----/c\[REDACTED PRIVATE KEY BLOCK\]' \
-  evidencias/sesion_redactada.txt > evidencias/sesion_redactada.tmp && \
-  mv evidencias/sesion_redactada.tmp evidencias/sesion_redactada.txt
-[?2004lmv: overwrite 'evidencias/sesion_redactada.txt'? y
-mv: overwrite 'evidencias/sesion_redactada.txt'? y
-mv: overwrite 'evidencias/sesion_redactada.txt'? y
-mv: overwrite 'evidencias/sesion_redactada.txt'? y
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mgrep -nEi '(pass(word[27m[7m)[27m[7m)?|token|secret|api[-_]?key|authorization|cookie)[[:space:]]*[:=]' evidencias/sesion_redactada.txt \[27m
-[7m  | grep -vi '\[REDACTED\]' \[27m
-[7m  | grep -viE 'sed -E| grep ' \[27m
-[7m  | grep -viE '^\s*#' \[27m
-[7m  | head[27m
-[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ grep -nEi '(pass(word)?|token|secret|api[-_]?key|authorization|cookie)[[:space:]]*[:=]' evidencias/sesion_redactada.txt \
-  | grep -vi '\[REDACTED\]' \
-  | grep -viE 'sed -E| grep ' \
-  | grep -viE '^\s*#' \
-  | head
-[?2004l100:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K" (arg: 1) [K3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Estp o busca [7mAuthoriz[27m[7ma[27m[7mation: Bearer/Basic[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca Authorization: Bearer/Basic[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca Authorica  Authoriz[1@a[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca c Authori[1@z[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca ca Author[1@i[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cab Autho[1@r[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cabe Auth[1@o[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cabec Aut[1@h[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cabece Au[1@t[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cabecer A[1@u[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ # Esto busca cabecera [1@A[1@s Authorization: Bearer/Basic y oculta el contenido
-212:[7m# 2) Authorization: Bearer/Basic[27m
-230:# 2) Authorization: Bearer/Basic
-245:100:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ " (arg: 1) 3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Estp o busca Authorizaation: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorization: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorica  Authoriz[1@a]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca c Authori[1@z]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca ca Author[1@i]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cab Autho[1@r]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabe Auth[1@o]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabec Aut[1@h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabece Au[1@t]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecer A[1@u]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecera [1@A[1@s Authorization: Bearer/Basic y oculta el contenido
-249:212:# 2) Authorization: Bearer/Basic
-262:[?2004l100:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ " (arg: 1) 3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Estp o busca Authorizaation: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorization: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorica  Authoriz[1@a]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca c Authori[1@z]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca ca Author[1@i]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cab Autho[1@r]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabe Auth[1@o]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabec Aut[1@h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabece Au[1@t]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecer A[1@u]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecera [1@A[1@s Authorization: Bearer/Basic y oculta el contenido
-263:212:# 2) Authorization: Bearer/Basic
-277:[?2004l100:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ " (arg: 1) 3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Estp o busca Authorizaation: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorization: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorica  Authoriz[1@a]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca c Authori[1@z]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca ca Author[1@i]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cab Autho[1@r]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabe Auth[1@o]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabec Aut[1@h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabece Au[1@t]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecer A[1@u]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecera [1@A[1@s Authorization: Bearer/Basic y oculta el contenido
-278:212:# 2) Authorization: Bearer/Basic
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [Kg git   repoGithub
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git add .
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git status
-[?2004lOn branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	[32mnew file:   Actividad4-CC3S2/lab-cli/.gitignore[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/etc_lista.txt[m
-	[32mmodified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/sesion_redactada.txt[m
-	[32mnew file:   errores.txt[m
-	[32mnew file:   lista.txt[m
-
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m ""C"L"I":" "n"a"v"e"a"[1P"g"a"c"i"o"n"," "g"l"o"b"b"i"n"g"," "p"i"p" [A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "CLI: navegacion, globbing, pips""," "r"e"d"i"r"e"c"c"i"o"n"e"s"," "x"a"r"g"s" ""
-[?2004l[main 0732ac5] CLI: navegacion, globbing, pips, redirecciones, xargs
- 6 files changed, 766 insertions(+), 1 deletion(-)
- create mode 100644 Actividad4-CC3S2/lab-cli/.gitignore
- create mode 100644 Actividad4-CC3S2/lab-cli/etc_lista.txt
- create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/sesion_redactada.txt
- create mode 100644 errores.txt
- create mode 100644 lista.txt
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kgit push -u m    origin mqain    ain
-[?2004lUsername for 'https://github.com': AEspinozaHuaman
-Password for 'https://AEspinozaHuaman@github.com': 
-Enumerating objects: 16, done.
-Counting objects:   6% (1/16)Counting objects:  12% (2/16)Counting objects:  18% (3/16)Counting objects:  25% (4/16)Counting objects:  31% (5/16)Counting objects:  37% (6/16)Counting objects:  43% (7/16)Counting objects:  50% (8/16)Counting objects:  56% (9/16)Counting objects:  62% (10/16)Counting objects:  68% (11/16)Counting objects:  75% (12/16)Counting objects:  81% (13/16)Counting objects:  87% (14/16)Counting objects:  93% (15/16)Counting objects: 100% (16/16)Counting objects: 100% (16/16), done.
-Delta compression using up to 12 threads
-Compressing objects:  11% (1/9)Compressing objects:  22% (2/9)Compressing objects:  33% (3/9)Compressing objects:  44% (4/9)Compressing objects:  55% (5/9)Compressing objects:  66% (6/9)Compressing objects:  77% (7/9)Compressing objects:  88% (8/9)Compressing objects: 100% (9/9)Compressing objects: 100% (9/9), done.
-Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  81% (9/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 10.20 KiB | 2.04 MiB/s, done.
-Total 11 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
-To https://github.com/AlanEspinozaH/desarrollo-de-software.git
-   058de1a..0732ac5  main -> main
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [7mwhoami[27m
-[7mid[27m
-[7mtouch ~/lab-cli/secreto.txt[27m
-[7msudo adduser devsec        # en VM/WSL propio; si no, simula con tu usuario[27m
-[7msudo addgroup ops[27m
-[7msudo usermod -aG ops devsec[27m
-[7msudo chown devsec:ops ~/lab-cli/secreto.txt[27m
-[7msudo chmod 640 ~/lab-cli/secreto.txt[27m
-[7mnamei -l ~/lab-cli/secreto.txt[27m
-[7mid devsec[27m
-[A[A[A[A[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ whoami
-id
-touch ~/lab-cli/secreto.txt
-sudo adduser devsec        # en VM/WSL propio; si no, simula con tu usuario
-sudo addgroup ops
-sudo usermod -aG ops devsec
-sudo chown devsec:ops ~/lab-cli/secreto.txt
-sudo chmod 640 ~/lab-cli/secreto.txt
-namei -l ~/lab-cli/secreto.txt
-id devsec
-[A
-[?2004lalulo
-uid=1000(alulo) gid=1000(alulo) groups=1000(alulo),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
-touch: cannot touch '/home/alulo/lab-cli/secreto.txt': No such file or directory
-[sudo] password for alulo: 
-info: Adding user `devsec' ...
-info: Selecting UID/GID from range 1000 to 59999 ...
-info: Adding new group `devsec' (1001) ...
-info: Adding new user `devsec' (1001) with group `devsec (1001)' ...
-info: Creating home directory `/home/devsec' ...
-info: Copying files from `/etc/skel' ...
-New password: 
-Retype new password: 
-passwd: password updated successfully
-Changing the user information for devsec
-Enter the new value, or press ENTER for the default
-	Full Name []: 
-	Room Number []: 
-	Work Phone []: ^[[A    
-	Home Phone []: 
-	Other []: 
-Is the information correct? [Y/n] n
-Changing the user information for devsec
-Enter the new value, or press ENTER for the default
-	Full Name []: al  
-	Room Number []: 
-	Work Phone []: 
-	Home Phone []: 
-	Other []: 
-Is the information correct? [Y/n] 
-info: Adding new user `devsec' to supplemental / extra groups `users' ...
-info: Adding user `devsec' to group `users' ...
-info: Selecting GID from range 1000 to 59999 ...
-info: Adding group `ops' (GID 1002) ...
-chown: cannot access '/home/alulo/lab-cli/secreto.txt': No such file or directory
-chmod: cannot access '/home/alulo/lab-cli/secreto.txt': No such file or directory
-f: /home/alulo/lab-cli/secreto.txt
-drwxr-xr-x root  root  /
-drwxr-xr-x root  root  home
-drwxr-x--- alulo alulo alulo
-                        lab-cli - No such file or directory
-uid=1001(devsec) gid=1001(devsec) groups=1001(devsec),100(users),1002(ops)
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K[7mwhoami[27m
-[7mid[27m
-[7mtouch ~/lab-cli/secreto.txt[27m
-[7msudo adduser devsec        # en VM/WSL propio; si no, simula con tu usuario[27m
-[7msudo addgroup ops[27m
-[7msudo usermod -aG ops devsec[27m
-[7msudo chown devsec:ops ~/lab-cli/secreto.txt[27m
-[7msudo chmod 640 ~/lab-cli/secreto.txt[27m
-[7mnamei -l ~/lab-cli/secreto.txt[27m
-[7mid devsec[27m
-[A[A[A[A[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ whoami
-id
-touch ~/lab-cli/secreto.txt
-sudo adduser devsec        # en VM/WSL propio; si no, simula con tu usuario
-sudo addgroup ops
-sudo usermod -aG ops devsec
-sudo chown devsec:ops ~/lab-cli/secreto.txt
-sudo chmod 640 ~/lab-cli/secreto.txt
-namei -l ~/lab-cli/secreto.txt
-id devsec
-[A
-[?2004lalulo
-uid=1000(alulo) gid=1000(alulo) groups=1000(alulo),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
-touch: cannot touch '/home/alulo/lab-cli/secreto.txt': No such file or directory
-fatal: The user `devsec' already exists.
-fatal: The group `ops' already exists.
-chown: cannot access '/home/alulo/lab-cli/secreto.txt': No such file or directory
-chmod: cannot access '/home/alulo/lab-cli/secreto.txt': No such file or directory
-f: /home/alulo/lab-cli/secreto.txt
-drwxr-xr-x root  root  /
-drwxr-xr-x root  root  home
-drwxr-x--- alulo alulo alulo
-                        lab-cli - No such file or directory
-uid=1001(devsec) gid=1001(devsec) groups=1001(devsec),100(users),1002(ops)
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kcd a Actividad4-CC3S2/
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2[00m$ cd (arg: 1) cd [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2[00m$ cd ab  lab-cli/
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7mmkdir -p "$LAB"[27m
-[7mtouch "$LAB/secreto.txt"[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ mkdir -p "$LAB"
-touch "$LAB/secreto.txt"
-[?2004lmkdir: cannot create directory '': No such file or directory
-touch: cannot touch '/secreto.txt': Permission denied
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [Kpwd
-[?2004l/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ toudch     ch secreto.txt
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7msudo addgroup ops 2>/[27m[7md[27m[7mdev/null || true[27m
-[7msudo usermod -aG ops devsec[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sudo addgroup ops 2>/dev/null || true
-sudo usermod -aG ops devsec
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7msudo chown devsec:ops[27m[7m [27m[7m secreto.txt[27m
-[7msudo chmod 640 secreto.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sudo chown devsec:ops secreto.txt
-sudo chmod 640 secreto.txt
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mnamei -l secreto.txt [27m[7m|[27m[7m| tee evidencias/namei_secreto.txt[27m
-[7mid devsec | tee evidencias/id_devsec.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ namei -l secreto.txt | tee evidencias/namei_secreto.txt
-id devsec | tee evidencias/id_devsec.txt
-[?2004lf: secreto.txt
--rw-r----- devsec ops secreto.txt
-uid=1001(devsec) gid=1001(devsec) groups=1001(devsec),100(users),1002(ops)
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7msleep 100 & [27m
-[7mPID=$![27m
-[7mecho "$PID" | tee evidencias/pid_sleep.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sleep 100 & 
-PID=$!
-echo "$PID" | tee evidencias/pid_sleep.txt
-[?2004l[1] 934
-934
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K---------------
-[?2004l---------------: command not found
-[1]+  Done                    sleep 100
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7mps -o pid,cmd -p "$PI[27m[7mD[27m[7mD" | tee evidencias/ps_before_kill.txt[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ ps -o pid,cmd -p "$PID" | tee evidencias/ps_before_kill.txt
-[?2004l    PID CMD
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mkill -SIGTERM "$PID[27mkill -SIGTERM "$PID
-[?2004l[?2004h> [7msleep 1[27m
-[7mps -o pid,cmd -p "$PID" 2>/dev/null | tee evidencias/ps_after_kill.txt[27m
-[7mpgrep -f "sleep 100" >/dev/null && echo "Sigue vivo" || echo "Terminado" | tee evidencias/kill_result.txt[27m[A[A> sleep 1
-ps -o pid,cmd -p "$PID" 2>/dev/null | tee evidencias/ps_after_kill.txt
-pgrep -f "sleep 100" >/dev/null && echo "Sigue vivo" || echo "Terminado" | tee evidencias/kill_result.txt
-[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ mkdir -p evidencias
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7msleep 300 & [27m
-[7mPID=$![27m
-[7mecho "$PID" | tee evidencias/pid_sleep.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sleep 300 & 
-PID=$!
-echo "$PID" | tee evidencias/pid_sleep.txt
-[?2004l[1] 966
-966
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mps -o pid,cmd -p "$PI[27m[7mD[27m[7mD" | tee evidencias/ps_before_kill.txt[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ ps -o pid,cmd -p "$PID" | tee evidencias/ps_before_kill.txt
-[?2004l    PID CMD
-    966 sleep 300
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mkill -SIGTERM "$PID"[27mkill -SIGTERM "$PID"
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7msleep 1[27m
-[7mps -o pid,cmd -p "$PID" 2>/dev/null | tee evidencias/ps_after_kill.txt[27m
-[7mpgrep -xf "sleep 300" >/dev/null && echo "Sigue vivo" || echo "Terminado" | tee evidencias/kill_result.txt[27m[A[Asleep 1
-ps -o pid,cmd -p "$PID" 2>/dev/null | tee evidencias/ps_after_kill.txt
-pgrep -xf "sleep 300" >/dev/null && echo "Sigue vivo" || echo "Terminado" | tee evidencias/kill_result.txt
-[?2004l[1]+  Terminated              sleep 300
-    PID CMD
-Terminado
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mmkdir -p evidencias[27mmkdir -p evidencias
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ if command -v systemcttl >/dev/null && systemctl is-system-running >/dev/null 2>&1; then
-  echo "systemd activo" | tee evidencias/systemd_estado.txt
-
-  # Estado de un servicio y últimos logs
-  systemctl status systemd-logind --no-pager | sed -n '1,80p' \
-    | tee evidencias/systemctl_logind_status.txt
-  journalctl -u systemd-logind -n 20 --no-pager \
-    | tee evidencias/journal_logind_tail.txt
-
-  # Errores de hoy (severidad err..alert)
-  journalctl -p err..alert --since "today" --no-pager \
-    | tee evidencias/journal_err_alert.txt
-
-  # Mini-pipeline real de auth (sshd/sudo) ordenado por frecuencia
-  sudo journalctl -t sshd -t sudo --since today --no-pager \
-    | awk '{print $1,$2,$3,$5}' | sort | uniq -c | sort -nr \
-    | tee evidencias/mini_pipeline_auth.txt
-else
-  echo "sin systemd (fallback)" | tee evidencias/systemd_estado.txt
-
-  # Logs alternativos en WSL/macOS/Linux sin systemd
-  sudo tail -n 100 /var/log/syslog 2>/dev/null | grep -i error \
-    | tee evidencias/syslog_errors_tail.txt
-  dmesg --ctime | tail -n 50 \
-    | tee evidencias/dmesg_tail.txt
-
-  # Mini-pipeline de auth (fallback)
-  sudo grep -hE 'sshd|sudo' /var/log/auth.log* 2>/dev/null \
-    | awk '{print $1,$2,$3,$5}' | sort | uniq -c | sort -nr \
-    | tee evidencias/mini_pipeline_auth_fallback.txtfi################################# 2) Sección 3 – utilidades texto################################# Archivos de pruebaprintf "linea1: dato1\nlinea2: dato2\n" > datos.txt# grepgrep root /etc/passwd | tee evidencias/grep_root_passwd.txt# sed (sustituye dato1->secreto)sed 's/dato1/secreto/' datos.txt > nuevo.txt# awk y cut/sort/uniq (usuarios del sistema)awk -F: '{print $1}' /etc/passwd | sort | uniq > usuarios.txt# tr + teeprintf "hola\n" | tr 'a-z' 'A-Z' | tee mayus.txt >/dev/null[7m# find (archivos de /tmp modificados últimos 5 días, ordenados por fecha)[27m[7mfind /tmp -mtime -5 -type f -printf '%TY-%Tm-%Td %TT %p\n' 2>/dev/null \[27m[7m  | sort > evidencias/tmp_modificados_5d.txt[27m[7m# pipeline completo: lista de confs en /etc + total[27m[7mls /etc 2>/dev/null | grep conf | sort | tee lista_conf.txt | wc -l \[27m[7m  | tee evidencias/total_conf.txt[27m[7m################################[27m[7m# 3) Auditorías adicionales pedidas[27m[7m################################[27m[7m# Fragmento representativo de sudo -l (evita exponer políticas completas)[27m[7msudo -l | head -n 30 > evidencias/sudo_l_fragmento.txt[27m[7m################################[27m[7m# 4) Checklist rápido en pantalla[27m[7m################################[27m[7mecho[27m[7mecho "==== CHECKLIST ===="[27m[7mls -l \[27m[7m  etc_lista.txt \[27m[7m  secreto.txt \[27m[7m  mayus.txt \[27m[7m  usuarios.txt \[27m[7m  lista_conf.txt 2>/dev/null || true[27m[7mecho[27m[7mecho "Evidencias:"[27m[7mls -1 evidencias | sed 's/^/ - /'[27m# find (archivos de /tmp modificados últimos 5 días, ordenados por fecha)find /tmp -mtime -5 -type f -printf '%TY-%Tm-%Td %TT %p\n' 2>/dev/null \  | sort > evidencias/tmp_modificados_5d.txt# pipeline completo: lista de confs en /etc + totalls /etc 2>/dev/null | grep conf | sort | tee lista_conf.txt | wc -l \  | tee evidencias/total_conf.txt################################# 3) Auditorías adicionales pedidas################################# Fragmento representativo de sudo -l (evita exponer políticas completas)sudo -l | head -n 30 > evidencias/sudo_l_fragmento.txt################################# 4) Checklist rápido en pantalla################################echoecho "==== CHECKLIST ===="ls -l \  etc_lista.txt \  secreto.txt \  mayus.txt \  usuarios.txt \  lista_conf.txt 2>/dev/null || trueechoecho "Evidencias:"ls -1 evidencias | sed 's/^/ - /'
-[?2004lsystemd activo
-* systemd-logind.service - User Login Management
-     Loaded: loaded (/usr/lib/systemd/system/systemd-logind.service; static)
-    Drop-In: /usr/lib/systemd/system/systemd-logind.service.d
-             `-dbus.conf
-     Active: active (running) since Mon 2025-09-22 23:14:27 -05; 2h 9min ago
-       Docs: man:sd-login(3)
-             man:systemd-logind.service(8)
-             man:logind.conf(5)
-             man:org.freedesktop.login1(5)
-   Main PID: 178 (systemd-logind)
-     Status: "Processing requests..."
-      Tasks: 1 (limit: 9155)
-   FD Store: 0 (limit: 512)
-     Memory: 1.7M (peak: 2.2M)
-        CPU: 306ms
-     CGroup: /system.slice/systemd-logind.service
-             `-178 /usr/lib/systemd/systemd-logind
-
-Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
-Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd-logind[178]: New seat seat0.
-Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
-Sep 22 23:14:29 DESKTOP-CM8SKM6 systemd-logind[178]: New session 1 of user alulo.
-Sep 16 23:35:12 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
-Sep 16 23:35:12 DESKTOP-CM8SKM6 systemd-logind[195]: New seat seat0.
-Sep 16 23:35:12 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
-Sep 16 23:36:52 DESKTOP-CM8SKM6 systemd-logind[195]: New session 1 of user alulo.
--- Boot 35185d8a0c5c4fdf87b605ce86ee3c68 --
-Sep 22 16:30:29 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
-Sep 22 16:30:29 DESKTOP-CM8SKM6 systemd-logind[185]: New seat seat0.
-Sep 22 16:30:29 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
-Sep 22 16:30:31 DESKTOP-CM8SKM6 systemd-logind[185]: New session 1 of user alulo.
--- Boot 5015d628865b4599b32310ea364eb47a --
-Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
-Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd-logind[178]: New seat seat0.
-Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
-Sep 22 23:14:29 DESKTOP-CM8SKM6 systemd-logind[178]: New session 1 of user alulo.
-Sep 23 01:05:47 DESKTOP-CM8SKM6 adduser[862]: The user `devsec' already exists.
-Sep 23 01:05:47 DESKTOP-CM8SKM6 addgroup[866]: The group `ops' already exists.
-Sep 23 01:10:36 DESKTOP-CM8SKM6 addgroup[901]: The group `ops' already exists.
-      3 Sep 23 01:10:56 sudo[912]:
-      3 Sep 23 01:10:56 sudo[909]:
-      3 Sep 23 01:10:36 sudo[903]:
-      3 Sep 23 01:10:36 sudo[899]:
-      3 Sep 23 01:05:47 sudo[877]:
-      3 Sep 23 01:05:47 sudo[874]:
-      3 Sep 23 01:05:47 sudo[868]:
-      3 Sep 23 01:05:47 sudo[864]:
-      3 Sep 23 01:05:47 sudo[860]:
-      3 Sep 23 01:05:32 sudo[852]:
-      3 Sep 23 01:05:32 sudo[849]:
-      3 Sep 23 01:05:32 sudo[840]:
-      3 Sep 23 01:05:32 sudo[829]:
-      2 Sep 23 01:23:38 sudo[992]:
-      2 Sep 23 01:04:38 sudo[777]:
-      1 Sep 23 01:05:32 sudo[777]:
-root:x:0:0:root:/root:/bin/bash
-31
-
-==== CHECKLIST ====
--rw-r--r-- 1 alulo  alulo 1667 Sep 23 00:29 etc_lista.txt
--rw-r--r-- 1 alulo  alulo  389 Sep 23 01:23 lista_conf.txt
--rw-r--r-- 1 alulo  alulo    5 Sep 23 01:23 mayus.txt
--rw-r----- 1 devsec ops      0 Sep 23 01:10 secreto.txt
--rw-r--r-- 1 alulo  alulo  207 Sep 23 01:23 usuarios.txt
-
-Evidencias:
- - grep_root_passwd.txt
- - id_devsec.txt
- - journal_err_alert.txt
- - journal_logind_tail.txt
- - kill_result.txt
- - mini_pipeline_auth.txt
- - namei_secreto.txt
- - pid_sleep.txt
- - ps_after_kill.txt
- - ps_before_kill.txt
- - sesion.txt
- - sesion_redactada.txt
- - sudo_l_fragmento.txt
- - systemctl_logind_status.txt
- - systemd_estado.txt
- - tmp_modificados_5d.txt
- - total_conf.txt
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ p repoGithub
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git add .
-[?2004lerror: open("Actividad4-CC3S2/lab-cli/secreto.txt"): Permission denied
-error: unable to index file 'Actividad4-CC3S2/lab-cli/secreto.txt'
-fatal: adding files failed
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git add   status
-[?2004lOn branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	[31mmodified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31mActividad4-CC3S2/lab-cli/datos.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/grep_root_passwd.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/id_devsec.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/journal_err_alert.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/journal_logind_tail.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/kill_result.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/mini_pipeline_auth.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/namei_secreto.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/pid_sleep.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/ps_after_kill.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/ps_before_kill.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/sudo_l_fragmento.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/systemctl_logind_status.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/systemd_estado.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/tmp_modificados_5d.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/total_conf.txt[m
-	[31mActividad4-CC3S2/lab-cli/lista_conf.txt[m
-	[31mActividad4-CC3S2/lab-cli/mayus.txt[m
-	[31mActividad4-CC3S2/lab-cli/nuevo.txt[m
-	[31mActividad4-CC3S2/lab-cli/secreto.txt[m
-	[31mActividad4-CC3S2/lab-cli/usuarios.txt[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git add ..
-[?2004lfatal: ..: '..' is outside repository at '/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software'
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git status
-[?2004lOn branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	[31mmodified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31mActividad4-CC3S2/lab-cli/datos.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/grep_root_passwd.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/id_devsec.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/journal_err_alert.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/journal_logind_tail.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/kill_result.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/mini_pipeline_auth.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/namei_secreto.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/pid_sleep.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/ps_after_kill.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/ps_before_kill.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/sudo_l_fragmento.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/systemctl_logind_status.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/systemd_estado.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/tmp_modificados_5d.txt[m
-	[31mActividad4-CC3S2/lab-cli/evidencias/total_conf.txt[m
-	[31mActividad4-CC3S2/lab-cli/lista_conf.txt[m
-	[31mActividad4-CC3S2/lab-cli/mayus.txt[m
-	[31mActividad4-CC3S2/lab-cli/nuevo.txt[m
-	[31mActividad4-CC3S2/lab-cli/secreto.txt[m
-	[31mActividad4-CC3S2/lab-cli/usuarios.txt[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git add .
-[?2004lerror: open("Actividad4-CC3S2/lab-cli/secreto.txt"): Permission denied
-error: unable to index file 'Actividad4-CC3S2/lab-cli/secreto.txt'
-fatal: adding files failed
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [7mprintf "%s\n" \[27m
-[7m"Actividad4-CC3S2/lab-cli/secreto.txt" \[27m
-[7m"Actividad4-CC3S2/lab-cli/evidencias/sesion.txt" >> .gitignore[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ printf "%s\n" \
-"Actividad4-CC3S2/lab-cli/secreto.txt" \
-"Actividad4-CC3S2/lab-cli/evidencias/sesion.txt" >> .gitignore
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kgit add .
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git status
-[?2004lOn branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	[32mnew file:   .gitignore[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/datos.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/grep_root_passwd.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/id_devsec.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/journal_err_alert.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/journal_logind_tail.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/kill_result.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/mini_pipeline_auth.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/namei_secreto.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/pid_sleep.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/ps_after_kill.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/ps_before_kill.txt[m
-	[32mmodified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/sudo_l_fragmento.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/systemctl_logind_status.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/systemd_estado.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/tmp_modificados_5d.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/total_conf.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/lista_conf.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/mayus.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/nuevo.txt[m
-	[32mnew file:   Actividad4-CC3S2/lab-cli/usuarios.txt[m
-
-[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m ""[7mSección 2 y 3; incluye sesión[27m[7m [27m[7m redactada; ignora sesion.txt y secreto.txt por seguridad[27m"[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Sección 2 y 3; incluye sesión redactada; ignora sesion.txt y secreto.txt por seguridad""                                                          [A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Sección 2 y 3; incluye sesión [K[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Sección 2 y 3; incluye sesió[K
-[K[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Sección 2 y 3; incluye sesió[K[K                     [K[K                    
-[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ s git coo  ommit -m "[7mSección 2 y 3; incluye sesión[27m[7m [27m[7m redactada; ignora sesion.txt y secreto.txt por seguridad[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Sección 2 y 3; incluye sesión redactada; ignora sesion.txt y secreto.txt por seguridad" 
-[?2004l[main c5f9e30] Sección 2 y 3; incluye sesión redactada; ignora sesion.txt y secreto.txt por seguridad
- 22 files changed, 505 insertions(+), 1 deletion(-)
- create mode 100644 .gitignore
- create mode 100644 Actividad4-CC3S2/lab-cli/datos.txt
- create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/grep_root_passwd.txt
- create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/id_devsec.txt
- create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/journal_err_alert.txt
- create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/journal_logind_tail.txt
- create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/kill_result.txt
- create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/mini_pipeline_auth.txt
- create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/namei_secreto.txt
- create mode 100644 Actividad4-CC3S2/lab-cli/eviden
