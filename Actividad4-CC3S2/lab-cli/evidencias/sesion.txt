@@ -744,4 +744,77 @@ Untracked files:
 	[31mActividad4-CC3S2/lab-cli/datos.txt[m
 	[31mActividad4-CC3S2/lab-cli/evidencias/grep_root_passwd.txt[m
 	[31mActividad4-CC3S2/lab-cli/evidencias/id_devsec.txt[m
-	[31mActivi
+	[31mActividad4-CC3S2/lab-cli/evidencias/journal_err_alert.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/journal_logind_tail.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/kill_result.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/mini_pipeline_auth.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/namei_secreto.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/pid_sleep.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/ps_after_kill.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/ps_before_kill.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/sudo_l_fragmento.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/systemctl_logind_status.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/systemd_estado.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/tmp_modificados_5d.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/total_conf.txt[m
+	[31mActividad4-CC3S2/lab-cli/lista_conf.txt[m
+	[31mActividad4-CC3S2/lab-cli/mayus.txt[m
+	[31mActividad4-CC3S2/lab-cli/nuevo.txt[m
+	[31mActividad4-CC3S2/lab-cli/secreto.txt[m
+	[31mActividad4-CC3S2/lab-cli/usuarios.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git add .
+[?2004lerror: open("Actividad4-CC3S2/lab-cli/secreto.txt"): Permission denied
+error: unable to index file 'Actividad4-CC3S2/lab-cli/secreto.txt'
+fatal: adding files failed
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [7mprintf "%s\n" \[27m
+[7m"Actividad4-CC3S2/lab-cli/secreto.txt" \[27m
+[7m"Actividad4-CC3S2/lab-cli/evidencias/sesion.txt" >> .gitignore[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ printf "%s\n" \
+"Actividad4-CC3S2/lab-cli/secreto.txt" \
+"Actividad4-CC3S2/lab-cli/evidencias/sesion.txt" >> .gitignore
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kgit add .
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/datos.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/grep_root_passwd.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/id_devsec.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/journal_err_alert.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/journal_logind_tail.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/kill_result.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/mini_pipeline_auth.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/namei_secreto.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/pid_sleep.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/ps_after_kill.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/ps_before_kill.txt[m
+	[32mmodified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/sudo_l_fragmento.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/systemctl_logind_status.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/systemd_estado.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/tmp_modificados_5d.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/total_conf.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/lista_conf.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/mayus.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/nuevo.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/usuarios.txt[m
+
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m ""[7mSección 2 y 3; incluye sesión[27m[7m [27m[7m redactada; ignora sesion.txt y secreto.txt por seguridad[27m"[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Sección 2 y 3; incluye sesión redactada; ignora sesion.txt y secreto.txt por seguridad""                                                          [A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Sección 2 y 3; incluye sesión [K[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Sección 2 y 3; incluye sesió[K
+[K[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Sección 2 y 3; incluye sesió[K[K                     [K[K                    
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ s git coo  ommit -m "[7mSección 2 y 3; incluye sesión[27m[7m [27m[7m redactada; ignora sesion.txt y secreto.txt por seguridad[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Sección 2 y 3; incluye sesión redactada; ignora sesion.txt y secreto.txt por seguridad" 
+[?2004l[main c5f9e30] Sección 2 y 3; incluye sesión redactada; ignora sesion.txt y secreto.txt por seguridad
+ 22 files changed, 505 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ create mode 100644 Actividad4-CC3S2/lab-cli/datos.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/grep_root_passwd.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/id_devsec.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/journal_err_alert.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/journal_logind_tail.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/kill_result.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/mini_pipeline_auth.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/namei_secreto.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/eviden
