@@ -1,0 +1,14 @@
+Sep 16 23:35:12 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
+Sep 16 23:35:12 DESKTOP-CM8SKM6 systemd-logind[195]: New seat seat0.
+Sep 16 23:35:12 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
+Sep 16 23:36:52 DESKTOP-CM8SKM6 systemd-logind[195]: New session 1 of user alulo.
+-- Boot 35185d8a0c5c4fdf87b605ce86ee3c68 --
+Sep 22 16:30:29 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
+Sep 22 16:30:29 DESKTOP-CM8SKM6 systemd-logind[185]: New seat seat0.
+Sep 22 16:30:29 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
+Sep 22 16:30:31 DESKTOP-CM8SKM6 systemd-logind[185]: New session 1 of user alulo.
+-- Boot 5015d628865b4599b32310ea364eb47a --
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd-logind[178]: New seat seat0.
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
+Sep 22 23:14:29 DESKTOP-CM8SKM6 systemd-logind[178]: New session 1 of user alulo.

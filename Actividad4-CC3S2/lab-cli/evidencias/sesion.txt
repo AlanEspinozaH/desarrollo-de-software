@@ -380,4 +380,368 @@ mv: overwrite 'evidencias/sesion_redactada.txt'? y
 249:212:# 2) Authorization: Bearer/Basic
 262:[?2004l100:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ " (arg: 1) 3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Estp o busca Authorizaation: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorization: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorica  Authoriz[1@a]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca c Authori[1@z]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca ca Author[1@i]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cab Autho[1@r]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabe Auth[1@o]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabec Aut[1@h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabece Au[1@t]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecer A[1@u]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecera [1@A[1@s Authorization: Bearer/Basic y oculta el contenido
 263:212:# 2) Authorization: Bearer/Basic
-277:[?2004l100:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ " (arg: 1) 3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Estp o busca Authorizaation: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorization: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorica  Authoriz[1@a]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca c Authori[1@z]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca ca Author[1@i]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cab Autho[1@r]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabe Auth[1@o]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabec Aut[1@h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabece Au[1@t]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software
+277:[?2004l100:[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ " (arg: 1) 3) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Estp o busca Authorizaation: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorization: Bearer/Basic]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca Authorica  Authoriz[1@a]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca c Authori[1@z]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca ca Author[1@i]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cab Autho[1@r]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabe Auth[1@o]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabec Aut[1@h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabece Au[1@t]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecer A[1@u]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-clialulo@DESKTOP-CM8SKM6:~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli$ # Esto busca cabecera [1@A[1@s Authorization: Bearer/Basic y oculta el contenido
+278:212:# 2) Authorization: Bearer/Basic
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [Kg git   repoGithub
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git add .
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   Actividad4-CC3S2/lab-cli/.gitignore[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/etc_lista.txt[m
+	[32mmodified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/sesion_redactada.txt[m
+	[32mnew file:   errores.txt[m
+	[32mnew file:   lista.txt[m
+
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m ""C"L"I":" "n"a"v"e"a"[1P"g"a"c"i"o"n"," "g"l"o"b"b"i"n"g"," "p"i"p" [A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "CLI: navegacion, globbing, pips""," "r"e"d"i"r"e"c"c"i"o"n"e"s"," "x"a"r"g"s" ""
+[?2004l[main 0732ac5] CLI: navegacion, globbing, pips, redirecciones, xargs
+ 6 files changed, 766 insertions(+), 1 deletion(-)
+ create mode 100644 Actividad4-CC3S2/lab-cli/.gitignore
+ create mode 100644 Actividad4-CC3S2/lab-cli/etc_lista.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/sesion_redactada.txt
+ create mode 100644 errores.txt
+ create mode 100644 lista.txt
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kgit push -u m    origin mqain    ain
+[?2004lUsername for 'https://github.com': AEspinozaHuaman
+Password for 'https://AEspinozaHuaman@github.com': 
+Enumerating objects: 16, done.
+Counting objects:   6% (1/16)Counting objects:  12% (2/16)Counting objects:  18% (3/16)Counting objects:  25% (4/16)Counting objects:  31% (5/16)Counting objects:  37% (6/16)Counting objects:  43% (7/16)Counting objects:  50% (8/16)Counting objects:  56% (9/16)Counting objects:  62% (10/16)Counting objects:  68% (11/16)Counting objects:  75% (12/16)Counting objects:  81% (13/16)Counting objects:  87% (14/16)Counting objects:  93% (15/16)Counting objects: 100% (16/16)Counting objects: 100% (16/16), done.
+Delta compression using up to 12 threads
+Compressing objects:  11% (1/9)Compressing objects:  22% (2/9)Compressing objects:  33% (3/9)Compressing objects:  44% (4/9)Compressing objects:  55% (5/9)Compressing objects:  66% (6/9)Compressing objects:  77% (7/9)Compressing objects:  88% (8/9)Compressing objects: 100% (9/9)Compressing objects: 100% (9/9), done.
+Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  81% (9/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 10.20 KiB | 2.04 MiB/s, done.
+Total 11 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/AlanEspinozaH/desarrollo-de-software.git
+   058de1a..0732ac5  main -> main
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [7mwhoami[27m
+[7mid[27m
+[7mtouch ~/lab-cli/secreto.txt[27m
+[7msudo adduser devsec        # en VM/WSL propio; si no, simula con tu usuario[27m
+[7msudo addgroup ops[27m
+[7msudo usermod -aG ops devsec[27m
+[7msudo chown devsec:ops ~/lab-cli/secreto.txt[27m
+[7msudo chmod 640 ~/lab-cli/secreto.txt[27m
+[7mnamei -l ~/lab-cli/secreto.txt[27m
+[7mid devsec[27m
+[A[A[A[A[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ whoami
+id
+touch ~/lab-cli/secreto.txt
+sudo adduser devsec        # en VM/WSL propio; si no, simula con tu usuario
+sudo addgroup ops
+sudo usermod -aG ops devsec
+sudo chown devsec:ops ~/lab-cli/secreto.txt
+sudo chmod 640 ~/lab-cli/secreto.txt
+namei -l ~/lab-cli/secreto.txt
+id devsec
+[A
+[?2004lalulo
+uid=1000(alulo) gid=1000(alulo) groups=1000(alulo),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+touch: cannot touch '/home/alulo/lab-cli/secreto.txt': No such file or directory
+[sudo] password for alulo: 
+info: Adding user `devsec' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `devsec' (1001) ...
+info: Adding new user `devsec' (1001) with group `devsec (1001)' ...
+info: Creating home directory `/home/devsec' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for devsec
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: ^[[A    
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] n
+Changing the user information for devsec
+Enter the new value, or press ENTER for the default
+	Full Name []: al  
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] 
+info: Adding new user `devsec' to supplemental / extra groups `users' ...
+info: Adding user `devsec' to group `users' ...
+info: Selecting GID from range 1000 to 59999 ...
+info: Adding group `ops' (GID 1002) ...
+chown: cannot access '/home/alulo/lab-cli/secreto.txt': No such file or directory
+chmod: cannot access '/home/alulo/lab-cli/secreto.txt': No such file or directory
+f: /home/alulo/lab-cli/secreto.txt
+drwxr-xr-x root  root  /
+drwxr-xr-x root  root  home
+drwxr-x--- alulo alulo alulo
+                        lab-cli - No such file or directory
+uid=1001(devsec) gid=1001(devsec) groups=1001(devsec),100(users),1002(ops)
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K[7mwhoami[27m
+[7mid[27m
+[7mtouch ~/lab-cli/secreto.txt[27m
+[7msudo adduser devsec        # en VM/WSL propio; si no, simula con tu usuario[27m
+[7msudo addgroup ops[27m
+[7msudo usermod -aG ops devsec[27m
+[7msudo chown devsec:ops ~/lab-cli/secreto.txt[27m
+[7msudo chmod 640 ~/lab-cli/secreto.txt[27m
+[7mnamei -l ~/lab-cli/secreto.txt[27m
+[7mid devsec[27m
+[A[A[A[A[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ whoami
+id
+touch ~/lab-cli/secreto.txt
+sudo adduser devsec        # en VM/WSL propio; si no, simula con tu usuario
+sudo addgroup ops
+sudo usermod -aG ops devsec
+sudo chown devsec:ops ~/lab-cli/secreto.txt
+sudo chmod 640 ~/lab-cli/secreto.txt
+namei -l ~/lab-cli/secreto.txt
+id devsec
+[A
+[?2004lalulo
+uid=1000(alulo) gid=1000(alulo) groups=1000(alulo),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+touch: cannot touch '/home/alulo/lab-cli/secreto.txt': No such file or directory
+fatal: The user `devsec' already exists.
+fatal: The group `ops' already exists.
+chown: cannot access '/home/alulo/lab-cli/secreto.txt': No such file or directory
+chmod: cannot access '/home/alulo/lab-cli/secreto.txt': No such file or directory
+f: /home/alulo/lab-cli/secreto.txt
+drwxr-xr-x root  root  /
+drwxr-xr-x root  root  home
+drwxr-x--- alulo alulo alulo
+                        lab-cli - No such file or directory
+uid=1001(devsec) gid=1001(devsec) groups=1001(devsec),100(users),1002(ops)
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kcd a Actividad4-CC3S2/
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2[00m$ cd (arg: 1) cd [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2[00m$ cd ab  lab-cli/
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7mmkdir -p "$LAB"[27m
+[7mtouch "$LAB/secreto.txt"[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ mkdir -p "$LAB"
+touch "$LAB/secreto.txt"
+[?2004lmkdir: cannot create directory '': No such file or directory
+touch: cannot touch '/secreto.txt': Permission denied
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [Kpwd
+[?2004l/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ toudch     ch secreto.txt
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7msudo addgroup ops 2>/[27m[7md[27m[7mdev/null || true[27m
+[7msudo usermod -aG ops devsec[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sudo addgroup ops 2>/dev/null || true
+sudo usermod -aG ops devsec
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7msudo chown devsec:ops[27m[7m [27m[7m secreto.txt[27m
+[7msudo chmod 640 secreto.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sudo chown devsec:ops secreto.txt
+sudo chmod 640 secreto.txt
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mnamei -l secreto.txt [27m[7m|[27m[7m| tee evidencias/namei_secreto.txt[27m
+[7mid devsec | tee evidencias/id_devsec.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ namei -l secreto.txt | tee evidencias/namei_secreto.txt
+id devsec | tee evidencias/id_devsec.txt
+[?2004lf: secreto.txt
+-rw-r----- devsec ops secreto.txt
+uid=1001(devsec) gid=1001(devsec) groups=1001(devsec),100(users),1002(ops)
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7msleep 100 & [27m
+[7mPID=$![27m
+[7mecho "$PID" | tee evidencias/pid_sleep.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sleep 100 & 
+PID=$!
+echo "$PID" | tee evidencias/pid_sleep.txt
+[?2004l[1] 934
+934
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K---------------
+[?2004l---------------: command not found
+[1]+  Done                    sleep 100
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7mps -o pid,cmd -p "$PI[27m[7mD[27m[7mD" | tee evidencias/ps_before_kill.txt[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ ps -o pid,cmd -p "$PID" | tee evidencias/ps_before_kill.txt
+[?2004l    PID CMD
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mkill -SIGTERM "$PID[27mkill -SIGTERM "$PID
+[?2004l[?2004h> [7msleep 1[27m
+[7mps -o pid,cmd -p "$PID" 2>/dev/null | tee evidencias/ps_after_kill.txt[27m
+[7mpgrep -f "sleep 100" >/dev/null && echo "Sigue vivo" || echo "Terminado" | tee evidencias/kill_result.txt[27m[A[A> sleep 1
+ps -o pid,cmd -p "$PID" 2>/dev/null | tee evidencias/ps_after_kill.txt
+pgrep -f "sleep 100" >/dev/null && echo "Sigue vivo" || echo "Terminado" | tee evidencias/kill_result.txt
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ mkdir -p evidencias
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7msleep 300 & [27m
+[7mPID=$![27m
+[7mecho "$PID" | tee evidencias/pid_sleep.txt[27m[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ sleep 300 & 
+PID=$!
+echo "$PID" | tee evidencias/pid_sleep.txt
+[?2004l[1] 966
+966
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mps -o pid,cmd -p "$PI[27m[7mD[27m[7mD" | tee evidencias/ps_before_kill.txt[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ ps -o pid,cmd -p "$PID" | tee evidencias/ps_before_kill.txt
+[?2004l    PID CMD
+    966 sleep 300
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mkill -SIGTERM "$PID"[27mkill -SIGTERM "$PID"
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [7msleep 1[27m
+[7mps -o pid,cmd -p "$PID" 2>/dev/null | tee evidencias/ps_after_kill.txt[27m
+[7mpgrep -xf "sleep 300" >/dev/null && echo "Sigue vivo" || echo "Terminado" | tee evidencias/kill_result.txt[27m[A[Asleep 1
+ps -o pid,cmd -p "$PID" 2>/dev/null | tee evidencias/ps_after_kill.txt
+pgrep -xf "sleep 300" >/dev/null && echo "Sigue vivo" || echo "Terminado" | tee evidencias/kill_result.txt
+[?2004l[1]+  Terminated              sleep 300
+    PID CMD
+Terminado
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[7mmkdir -p evidencias[27mmkdir -p evidencias
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ if command -v systemcttl >/dev/null && systemctl is-system-running >/dev/null 2>&1; then
+  echo "systemd activo" | tee evidencias/systemd_estado.txt
+
+  # Estado de un servicio y últimos logs
+  systemctl status systemd-logind --no-pager | sed -n '1,80p' \
+    | tee evidencias/systemctl_logind_status.txt
+  journalctl -u systemd-logind -n 20 --no-pager \
+    | tee evidencias/journal_logind_tail.txt
+
+  # Errores de hoy (severidad err..alert)
+  journalctl -p err..alert --since "today" --no-pager \
+    | tee evidencias/journal_err_alert.txt
+
+  # Mini-pipeline real de auth (sshd/sudo) ordenado por frecuencia
+  sudo journalctl -t sshd -t sudo --since today --no-pager \
+    | awk '{print $1,$2,$3,$5}' | sort | uniq -c | sort -nr \
+    | tee evidencias/mini_pipeline_auth.txt
+else
+  echo "sin systemd (fallback)" | tee evidencias/systemd_estado.txt
+
+  # Logs alternativos en WSL/macOS/Linux sin systemd
+  sudo tail -n 100 /var/log/syslog 2>/dev/null | grep -i error \
+    | tee evidencias/syslog_errors_tail.txt
+  dmesg --ctime | tail -n 50 \
+    | tee evidencias/dmesg_tail.txt
+
+  # Mini-pipeline de auth (fallback)
+  sudo grep -hE 'sshd|sudo' /var/log/auth.log* 2>/dev/null \
+    | awk '{print $1,$2,$3,$5}' | sort | uniq -c | sort -nr \
+    | tee evidencias/mini_pipeline_auth_fallback.txtfi################################# 2) Sección 3 – utilidades texto################################# Archivos de pruebaprintf "linea1: dato1\nlinea2: dato2\n" > datos.txt# grepgrep root /etc/passwd | tee evidencias/grep_root_passwd.txt# sed (sustituye dato1->secreto)sed 's/dato1/secreto/' datos.txt > nuevo.txt# awk y cut/sort/uniq (usuarios del sistema)awk -F: '{print $1}' /etc/passwd | sort | uniq > usuarios.txt# tr + teeprintf "hola\n" | tr 'a-z' 'A-Z' | tee mayus.txt >/dev/null[7m# find (archivos de /tmp modificados últimos 5 días, ordenados por fecha)[27m[7mfind /tmp -mtime -5 -type f -printf '%TY-%Tm-%Td %TT %p\n' 2>/dev/null \[27m[7m  | sort > evidencias/tmp_modificados_5d.txt[27m[7m# pipeline completo: lista de confs en /etc + total[27m[7mls /etc 2>/dev/null | grep conf | sort | tee lista_conf.txt | wc -l \[27m[7m  | tee evidencias/total_conf.txt[27m[7m################################[27m[7m# 3) Auditorías adicionales pedidas[27m[7m################################[27m[7m# Fragmento representativo de sudo -l (evita exponer políticas completas)[27m[7msudo -l | head -n 30 > evidencias/sudo_l_fragmento.txt[27m[7m################################[27m[7m# 4) Checklist rápido en pantalla[27m[7m################################[27m[7mecho[27m[7mecho "==== CHECKLIST ===="[27m[7mls -l \[27m[7m  etc_lista.txt \[27m[7m  secreto.txt \[27m[7m  mayus.txt \[27m[7m  usuarios.txt \[27m[7m  lista_conf.txt 2>/dev/null || true[27m[7mecho[27m[7mecho "Evidencias:"[27m[7mls -1 evidencias | sed 's/^/ - /'[27m# find (archivos de /tmp modificados últimos 5 días, ordenados por fecha)find /tmp -mtime -5 -type f -printf '%TY-%Tm-%Td %TT %p\n' 2>/dev/null \  | sort > evidencias/tmp_modificados_5d.txt# pipeline completo: lista de confs en /etc + totalls /etc 2>/dev/null | grep conf | sort | tee lista_conf.txt | wc -l \  | tee evidencias/total_conf.txt################################# 3) Auditorías adicionales pedidas################################# Fragmento representativo de sudo -l (evita exponer políticas completas)sudo -l | head -n 30 > evidencias/sudo_l_fragmento.txt################################# 4) Checklist rápido en pantalla################################echoecho "==== CHECKLIST ===="ls -l \  etc_lista.txt \  secreto.txt \  mayus.txt \  usuarios.txt \  lista_conf.txt 2>/dev/null || trueechoecho "Evidencias:"ls -1 evidencias | sed 's/^/ - /'
+[?2004lsystemd activo
+* systemd-logind.service - User Login Management
+     Loaded: loaded (/usr/lib/systemd/system/systemd-logind.service; static)
+    Drop-In: /usr/lib/systemd/system/systemd-logind.service.d
+             `-dbus.conf
+     Active: active (running) since Mon 2025-09-22 23:14:27 -05; 2h 9min ago
+       Docs: man:sd-login(3)
+             man:systemd-logind.service(8)
+             man:logind.conf(5)
+             man:org.freedesktop.login1(5)
+   Main PID: 178 (systemd-logind)
+     Status: "Processing requests..."
+      Tasks: 1 (limit: 9155)
+   FD Store: 0 (limit: 512)
+     Memory: 1.7M (peak: 2.2M)
+        CPU: 306ms
+     CGroup: /system.slice/systemd-logind.service
+             `-178 /usr/lib/systemd/systemd-logind
+
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd-logind[178]: New seat seat0.
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
+Sep 22 23:14:29 DESKTOP-CM8SKM6 systemd-logind[178]: New session 1 of user alulo.
+Sep 16 23:35:12 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
+Sep 16 23:35:12 DESKTOP-CM8SKM6 systemd-logind[195]: New seat seat0.
+Sep 16 23:35:12 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
+Sep 16 23:36:52 DESKTOP-CM8SKM6 systemd-logind[195]: New session 1 of user alulo.
+-- Boot 35185d8a0c5c4fdf87b605ce86ee3c68 --
+Sep 22 16:30:29 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
+Sep 22 16:30:29 DESKTOP-CM8SKM6 systemd-logind[185]: New seat seat0.
+Sep 22 16:30:29 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
+Sep 22 16:30:31 DESKTOP-CM8SKM6 systemd-logind[185]: New session 1 of user alulo.
+-- Boot 5015d628865b4599b32310ea364eb47a --
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd-logind[178]: New seat seat0.
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
+Sep 22 23:14:29 DESKTOP-CM8SKM6 systemd-logind[178]: New session 1 of user alulo.
+Sep 23 01:05:47 DESKTOP-CM8SKM6 adduser[862]: The user `devsec' already exists.
+Sep 23 01:05:47 DESKTOP-CM8SKM6 addgroup[866]: The group `ops' already exists.
+Sep 23 01:10:36 DESKTOP-CM8SKM6 addgroup[901]: The group `ops' already exists.
+      3 Sep 23 01:10:56 sudo[912]:
+      3 Sep 23 01:10:56 sudo[909]:
+      3 Sep 23 01:10:36 sudo[903]:
+      3 Sep 23 01:10:36 sudo[899]:
+      3 Sep 23 01:05:47 sudo[877]:
+      3 Sep 23 01:05:47 sudo[874]:
+      3 Sep 23 01:05:47 sudo[868]:
+      3 Sep 23 01:05:47 sudo[864]:
+      3 Sep 23 01:05:47 sudo[860]:
+      3 Sep 23 01:05:32 sudo[852]:
+      3 Sep 23 01:05:32 sudo[849]:
+      3 Sep 23 01:05:32 sudo[840]:
+      3 Sep 23 01:05:32 sudo[829]:
+      2 Sep 23 01:23:38 sudo[992]:
+      2 Sep 23 01:04:38 sudo[777]:
+      1 Sep 23 01:05:32 sudo[777]:
+root:x:0:0:root:/root:/bin/bash
+31
+
+==== CHECKLIST ====
+-rw-r--r-- 1 alulo  alulo 1667 Sep 23 00:29 etc_lista.txt
+-rw-r--r-- 1 alulo  alulo  389 Sep 23 01:23 lista_conf.txt
+-rw-r--r-- 1 alulo  alulo    5 Sep 23 01:23 mayus.txt
+-rw-r----- 1 devsec ops      0 Sep 23 01:10 secreto.txt
+-rw-r--r-- 1 alulo  alulo  207 Sep 23 01:23 usuarios.txt
+
+Evidencias:
+ - grep_root_passwd.txt
+ - id_devsec.txt
+ - journal_err_alert.txt
+ - journal_logind_tail.txt
+ - kill_result.txt
+ - mini_pipeline_auth.txt
+ - namei_secreto.txt
+ - pid_sleep.txt
+ - ps_after_kill.txt
+ - ps_before_kill.txt
+ - sesion.txt
+ - sesion_redactada.txt
+ - sudo_l_fragmento.txt
+ - systemctl_logind_status.txt
+ - systemd_estado.txt
+ - tmp_modificados_5d.txt
+ - total_conf.txt
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K[K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ [K]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad4-CC3S2/lab-cli[00m$ p repoGithub
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git add .
+[?2004lerror: open("Actividad4-CC3S2/lab-cli/secreto.txt"): Permission denied
+error: unable to index file 'Actividad4-CC3S2/lab-cli/secreto.txt'
+fatal: adding files failed
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git add   status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mActividad4-CC3S2/lab-cli/datos.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/grep_root_passwd.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/id_devsec.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/journal_err_alert.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/journal_logind_tail.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/kill_result.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/mini_pipeline_auth.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/namei_secreto.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/pid_sleep.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/ps_after_kill.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/ps_before_kill.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/sudo_l_fragmento.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/systemctl_logind_status.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/systemd_estado.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/tmp_modificados_5d.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/total_conf.txt[m
+	[31mActividad4-CC3S2/lab-cli/lista_conf.txt[m
+	[31mActividad4-CC3S2/lab-cli/mayus.txt[m
+	[31mActividad4-CC3S2/lab-cli/nuevo.txt[m
+	[31mActividad4-CC3S2/lab-cli/secreto.txt[m
+	[31mActividad4-CC3S2/lab-cli/usuarios.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git add ..
+[?2004lfatal: ..: '..' is outside repository at '/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software'
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mActividad4-CC3S2/lab-cli/datos.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/grep_root_passwd.txt[m
+	[31mActividad4-CC3S2/lab-cli/evidencias/id_devsec.txt[m
+	[31mActivi

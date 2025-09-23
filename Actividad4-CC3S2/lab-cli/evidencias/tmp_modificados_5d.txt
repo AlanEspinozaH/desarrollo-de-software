@@ -1,0 +1,2 @@
+2025-09-23 00:19:21.6176185570 /tmp/archivo con espacios.txt
+2025-09-23 00:19:21.6176185570 /tmp/archivo3.doc

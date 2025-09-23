@@ -1,0 +1,22 @@
+* systemd-logind.service - User Login Management
+     Loaded: loaded (/usr/lib/systemd/system/systemd-logind.service; static)
+    Drop-In: /usr/lib/systemd/system/systemd-logind.service.d
+             `-dbus.conf
+     Active: active (running) since Mon 2025-09-22 23:14:27 -05; 2h 9min ago
+       Docs: man:sd-login(3)
+             man:systemd-logind.service(8)
+             man:logind.conf(5)
+             man:org.freedesktop.login1(5)
+   Main PID: 178 (systemd-logind)
+     Status: "Processing requests..."
+      Tasks: 1 (limit: 9155)
+   FD Store: 0 (limit: 512)
+     Memory: 1.7M (peak: 2.2M)
+        CPU: 306ms
+     CGroup: /system.slice/systemd-logind.service
+             `-178 /usr/lib/systemd/systemd-logind
+
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Starting systemd-logind.service - User Login Management...
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd-logind[178]: New seat seat0.
+Sep 22 23:14:27 DESKTOP-CM8SKM6 systemd[1]: Started systemd-logind.service - User Login Management.
+Sep 22 23:14:29 DESKTOP-CM8SKM6 systemd-logind[178]: New session 1 of user alulo.

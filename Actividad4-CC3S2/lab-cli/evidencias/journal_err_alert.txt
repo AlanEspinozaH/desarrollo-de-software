@@ -1,0 +1,3 @@
+Sep 23 01:05:47 DESKTOP-CM8SKM6 adduser[862]: The user `devsec' already exists.
+Sep 23 01:05:47 DESKTOP-CM8SKM6 addgroup[866]: The group `ops' already exists.
+Sep 23 01:10:36 DESKTOP-CM8SKM6 addgroup[901]: The group `ops' already exists.

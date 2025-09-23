@@ -1,0 +1,5 @@
+Matching Defaults entries for alulo on DESKTOP-CM8SKM6:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin, use_pty
+
+User alulo may run the following commands on DESKTOP-CM8SKM6:
+    (ALL : ALL) ALL
