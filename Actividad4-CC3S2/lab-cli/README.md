@@ -70,14 +70,19 @@ lab-cli/
 
 ## Sección 2 – Administración básica (**PENDIENTE**)
 
-> Esta sección (usuarios/grupos/permisos, procesos/señales, systemd y journalctl) queda pendiente a propósito.
-> Se agregará evidencia y comandos una vez completada.
+
+
+<img width="1468" height="464" alt="image" src="https://github.com/user-attachments/assets/9ed9e808-bbfe-4416-b9ac-1e713ee1163d" />
+
+<img width="1479" height="369" alt="image" src="https://github.com/user-attachments/assets/70567bbb-2c35-430b-9435-48be5093734e" />
 
 ---
 
 ## Sección 3 – Utilidades de texto (parcial)
 
-> Se siguió el marco teórico y se dejaron listos los comandos de referencia del enunciado. La evidencia concreta de esta sección se agregará al finalizar (p. ej. `mayus.txt`, `usuarios.txt`, `lista_conf.txt`).
+> 
+<img width="739" height="653" alt="image" src="https://github.com/user-attachments/assets/cb4c4459-1330-45ae-af71-7b3be555c218" />
+
 
 Comandos de referencia:
 
