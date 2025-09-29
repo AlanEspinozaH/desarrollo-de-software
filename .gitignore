@@ -1,3 +1,21 @@
 Actividad4-CC3S2/lab-cli/secreto.txt
 Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
 Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+# --- Actividad8 / Python ---
+Actividad8-CC3S2/.venv/
+Actividad8-CC3S2/.pytest_cache/
+Actividad8-CC3S2/**/__pycache__/
+Actividad8-CC3S2/.coverage
+# Mantén solo estos artefactos de out/
+Actividad8-CC3S2/out/*
+!Actividad8-CC3S2/out/coverage.txt
+!Actividad8-CC3S2/out/junit.xml
+# --- Actividad8 / Python ---
+Actividad8-CC3S2/.venv/
+Actividad8-CC3S2/.pytest_cache/
+Actividad8-CC3S2/**/__pycache__/
+Actividad8-CC3S2/.coverage
+# Mantén solo estos artefactos de out/
+Actividad8-CC3S2/out/*
+!Actividad8-CC3S2/out/coverage.txt
+!Actividad8-CC3S2/out/junit.xml
