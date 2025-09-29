@@ -1,0 +1,35 @@
+Script started on 2025-09-29 14:06:21-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="47"]
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad8-CC3S2[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad8-CC3S2[00m$ git branch
+[?2004l[?1h=* [32mactividad8/alan[m[m
+  main[m[m
+[K[?1l>[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad8-CC3S2[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad8-CC3S2[00m$ [7mgit add Actividad8-CC3S2[27m
+[7mgit commit -m "Actividad8: importo esqueleto Lab3 + entorno (pytest/coverage/Makefile)"[27m
+[7mgit push[27m
+[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad8-CC3S2[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad8-CC3S2[00m$ git add Actividad8-CC3S2
+git commit -m "Actividad8: importo esqueleto Lab3 + entorno (pytest/coverage/Makefile)"
+git push[Agit commit -m "Actividad8: importo esqueleto Lab3 + entorno (pytest/coverage/Makefile)"nt[1P[1@e esqueleto Lab3 + entorno (pytest/coverage/Makefile)"
+git push
+[?2004lfatal: pathspec 'Actividad8-CC3S2' did not match any files
+On branch actividad8/alan
+Your branch is up to date with 'origin/actividad8/alan'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m./[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+Everything up-to-date
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad8-CC3S2[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/Actividad8-CC3S2[00m$ [Kgit add .
+[?2004lwarning: in the working copy of 'Actividad8-CC3S2/.venv/bin/Activate.ps1', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/astroid-3.2.4.dist-info/RECORD', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/coverage-7.6.1.dist-info/RECORD', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/dill-0.4.0.dist-info/RECORD', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/factory_boy-3.3.0.dist-info/RECORD', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/faker-37.8.0.dist-info/RECORD', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/faker/providers/automotive/he_IL/__init__.py', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/faker/providers/color/ar_PS/__init__.py', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/faker/providers/color/he_IL/__init__.py', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/iniconfig-2.1.0.dist-info/RECORD', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/isort-5.13.2.dist-info/RECORD', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'Actividad8-CC3S2/.venv/lib/python3.12/site-packages/mccabe-0.7.0.dist-info/RECORD', CRLF will be replaced by LF the next time Git touches it
+warning: in the working co
