@@ -4327,4 +4327,1165 @@ To https://github.com/AlanEspinozaH/desarrollo-de-software.git
 [7m!Actividad8-CC3S2/out/junit.xml[27m
 [7mEOF[27m
 
-[7m# 2.2 Dejar de trackear lo qu
+[7m# 2.2 Dejar de trackear lo que ya se subió por error[27m
+[7mgit rm -r --cached Actividad8-CC3S2/.venv \[27m
+[7m                   Actividad8-CC3S2/.pytest_cache \[27m
+[7m                   Actividad8-CC3S2/**/__pycache__ \[27m
+[7m                   Actividad8-CC3S2/.coverage 2>/dev/null || true[27m
+
+[7mgit commit -m "chore: .gitignore y limpieza de venv/caches del tracking"[27m
+[7mgit push[27m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ # 2.1 Ignorar venv/caches para SIEMPRE
+cat <<'EOF' >> .gitignore
+# --- Actividad8 / Python ---
+Actividad8-CC3S2/.venv/
+Actividad8-CC3S2/.pytest_cache/
+Actividad8-CC3S2/**/__pycache__/
+Actividad8-CC3S2/.coverage
+# Mantén solo estos artefactos de out/
+Actividad8-CC3S2/out/*
+!Actividad8-CC3S2/out/coverage.txt
+!Actividad8-CC3S2/out/junit.xml
+EOF
+
+# 2.2 Dejar de trackear lo que ya se subió por error
+git rm -r --cached Actividad8-CC3S2/.venv \
+                   Actividad8-CC3S2/.pytest_cache \
+                   Actividad8-CC3S2/**/__pycache__ \
+                   Actividad8-CC3S2/.coverage 2>/dev/null || true
+
+git commit -m "chore: .gitignore y limpieza de venv/caches del tracking"
+git push
+[A
+[?2004lOn branch actividad8/alan
+Your branch is up to date with 'origin/actividad8/alan'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .gitignore[m
+	[31mmodified:   Actividad8-CC3S2/evidencias/run.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [K[7mcat <<'EOF' >> .gitignore[27m
+[7m# --- Actividad8 / Python ---[27m
+[7mActividad8-CC3S2/.venv/[27m
+[7mActividad8-CC3S2/.pytest_cache/[27m
+[7mActividad8-CC3S2/**/__pycache__/[27m
+[7mActividad8-CC3S2/.coverage[27m
+[7m# Mantén solo estos artefactos de out/[27m
+[7mActividad8-CC3S2/out/*[27m
+[7m!Actividad8-CC3S2/out/coverage.txt[27m
+[7m!Actividad8-CC3S2/out/junit.xml[27m
+[7mEOF[27m
+
+[7m# 2.2 Dejar de trackear lo que ya se subió por error[27m
+[7mgit rm -r --cached Actividad8-CC3S2/.venv \[27m
+[7m                   Actividad8-CC3S2/.pytest_cache \[27m
+[7m                   Actividad8-CC3S2/**/__pycache__ \[27m
+[7m                   Actividad8-CC3S2/.coverage 2>/dev/null || true[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ cat <<'EOF' >> .gitignore
+# --- Actividad8 / Python ---
+Actividad8-CC3S2/.venv/
+Actividad8-CC3S2/.pytest_cache/
+Actividad8-CC3S2/**/__pycache__/
+Actividad8-CC3S2/.coverage
+# Mantén solo estos artefactos de out/
+Actividad8-CC3S2/out/*
+!Actividad8-CC3S2/out/coverage.txt
+!Actividad8-CC3S2/out/junit.xml
+EOF
+
+# 2.2 Dejar de trackear lo que ya se subió por error
+git rm -r --cached Actividad8-CC3S2/.venv \
+                   Actividad8-CC3S2/.pytest_cache \
+                   Actividad8-CC3S2/**/__pycache__ \
+                   Actividad8-CC3S2/.coverage 2>/dev/null || true
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kgit add .
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git status
+[?2004lOn branch actividad8/alan
+Your branch is up to date with 'origin/actividad8/alan'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   .gitignore[m
+	[32mmodified:   Actividad8-CC3S2/evidencias/run.txt[m
+
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [7mgit commit -m "chore: .gitignore y limpieza de venv/caches del tracking[27mgit commit -m "chore: .gitignore y limpieza de venv/caches del trackingdel tracking"[1@S[1@e[1@ [1@m[1@e[1@ [1@f[1@u[1@e chore: .gitignore y limpieza de venv/caches del tracking" [A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue echore: .gitignore y limpieza de venv/caches del tracking""[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue elchore: .gitignore y limpieza de venv/caches del tracking"[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el chore: .gitignore y limpieza de venv/caches del tracking"[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el [7m.venv/ al repo[27mchore: .gitignore y limpieza de venv/cach[14@es del trackin[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el [7m.venv/ al repo[27m.venv/ al repo chore: .gitignore y limpieza de venv/cac[1@h[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el .venv/ al repo  chore: .gitignore y limpieza de venv/ca[1@c[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el .venv/ al repo  ;chore: .gitignore y limpieza de venv/c[1@a[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el .venv/ al repo  ; chore: .gitignore y limpieza de venv/[1@c[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el .venv/ al repo  ; ; chore: .gitignore y limpieza de venv/c[1P[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el .venv/ al repo  chore: .gitignore y limpieza de venv/ca[1P[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el .venv/ al repo - chore: .gitignore y limpieza de venv/c[1@a[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el .venv/ al repo -> chore: .gitignore y limpieza de venv/[1@c[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git commit -m "Se me fue el .venv/ al repo -> chore: .gitignore y limpieza de ven
+/caches del tracking"
+[?2004l[actividad8/alan a0e4e94] Se me fue el .venv/ al repo -> chore: .gitignore y limpieza de venv/caches del tracking
+ 2 files changed, 4314 insertions(+), 1 deletion(-)
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kgit push
+[?2004lEnumerating objects: 11, done.
+Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 27.61 KiB | 5.52 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/AlanEspinozaH/desarrollo-de-software.git
+   19e2383..a0e4e94  actividad8/alan -> actividad8/alan
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [7m# Genera artefactos EXACTOS que pide la actividad:[27m
+[7mpytest -q --maxfail=1 --disable-warnings \[27m
+[7m  --cov=src --cov-report=term-missing --cov-fail-under=90 \[27m
+[7m  --junitxml=out/junit.xml[27m
+
+[7mpytest --cov=src --cov-report=term-missing > out/coverage.txt[27m
+[A[A[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ # Genera artefactos EXACTOS que pide la actividad:
+pytest -q --maxfail=1 --disable-warnings \
+  --cov=src --cov-report=term-missing --cov-fail-under=90 \
+  --junitxml=out/junit.xml
+
+pytest --cov=src --cov-report=term-missing > out/coverage.txt
+[?2004l[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                                                                                                                                      [100%][0m
+------------------------------ generated xml file: /home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/out/junit.xml ------------------------------
+
+---------- coverage: platform linux, python 3.12.3-final-0 -----------
+Name                                    Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------
+Actividad8-CC3S2/src/__init__.py            0      0   100%
+Actividad8-CC3S2/src/carrito.py            55      7    87%   9, 21, 50, 52, 60, 68, 91
+Actividad8-CC3S2/src/factories.py           7      0   100%
+Actividad8-CC3S2/src/shopping_cart.py      29      3    90%   9, 27, 31
+---------------------------------------------------------------------
+TOTAL                                      91     10    89%
+
+[31m[1mFAIL Required test coverage of 90% not reached. Total coverage: 89.01%
+[0m[32m[32m[1m15 passed[0m[32m in 0.18s[0m[0m
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kgit status
+[?2004lOn branch actividad8/alan
+Your branch is up to date with 'origin/actividad8/alan'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   Actividad8-CC3S2/evidencias/run.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.coverage[m
+	[31mout/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ git statuspytest --cov=src --cov-report=term-missing > out/coverage.txtq --maxfail=1 --disable-warnings   --cov=src --cov-report=term-missing --coov-fail-under=90   --junitxml=out/junit.xml[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ pytest -[21P-cov=src --cov-report=term-missing > out/coverage.txt
+[K[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ pytest --cov=src --cov-report=term-missing > out/coverage.txt
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ pytest --cov=src --cov-report=term-missing > out/coverage.txtgit status[Kpytest --cov=src --cov-report=term-missing > out/coverage.txtq --maxfail=1 --disable-warnings   --cov=src --cov-report=term-missing --coov-fail-under=90   --junitxml=out/junit.xml
+[?2004l[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                                                                                                                                      [100%][0m
+------------------------------ generated xml file: /home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/out/junit.xml ------------------------------
+
+---------- coverage: platform linux, python 3.12.3-final-0 -----------
+Name                                    Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------
+Actividad8-CC3S2/src/__init__.py            0      0   100%
+Actividad8-CC3S2/src/carrito.py            55      7    87%   9, 21, 50, 52, 60, 68, 91
+Actividad8-CC3S2/src/factories.py           7      0   100%
+Actividad8-CC3S2/src/shopping_cart.py      29      3    90%   9, 27, 31
+---------------------------------------------------------------------
+TOTAL                                      91     10    89%
+
+[31m[1mFAIL Required test coverage of 90% not reached. Total coverage: 89.01%
+[0m[32m[32m[1m15 passed[0m[32m in 0.16s[0m[0m
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software[00m$ [Kls  cd laboratorios/
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ s [7mgit clone https://github.com/kapumota/Curso-CC3S2.git[27mgit clone https://github.com/kapumota/Curso-CC3S2.git                                           [7mhttps://github.com/kapumota/Curso-CC3S2/tree/main/labs/Labo[27m[7mr[27m[7mratorio4[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ git clone https://github.com/kapumota/Curso-CC3S2/tree/main/labs/Laboratorio4
+[?2004lCloning into 'Laboratorio4'...
+fatal: repository 'https://github.com/kapumota/Curso-CC3S2/tree/main/labs/Laboratorio4/' not found
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ [Kgit clone https://github.com/kapumota/Curso-CC3S2/tree/main/labs/Laborratorio4[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ git clone https://github.com/kapumota/Curso-CC3S2/tree/main/labs/Lab "https://github.com/kapumota/Curso-CC3S2/tree/main/labs/Labo[1@r[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ git clone "https://github.com/kapumota/Curso-CC3S2/tree/main/labs/La
+oratorio4"
+[?2004lCloning into 'Laboratorio4'...
+fatal: repository 'https://github.com/kapumota/Curso-CC3S2/tree/main/labs/Laboratorio4/' not found
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ [Kpwd
+[?2004l/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ [7msudo apt-get update && sudo apt-get install -y subversion[27msudo apt-get update && sudo apt-get install -y subversion
+[?2004l[sudo] password for alulo: 
+0% [Working]            Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+0% [Waiting for headers]                        Get:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+0% [Waiting for headers] [2 InRelease 0 B/126 kB 0%]0% [Waiting for headers] [2 InRelease 12.6 kB/126 kB 10%]                                                         Get:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+0% [3 InRelease 0 B/126 kB 0%] [2 InRelease 12.6 kB/126 kB 10%]                                                               0% [3 InRelease 86.5 kB/126 kB 69%]                                   0% [3 InRelease 114 kB/126 kB 91%]                                  0% [Waiting for headers]0% [Waiting for headers] [Waiting for headers]                                              Get:4 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1171 kB]
+0% [Waiting for headers] [4 Packages 2335 B/1171 kB 0%]                                                       Get:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+0% [5 InRelease 2492 B/126 kB 2%] [4 Packages 20.4 kB/1171 kB 2%]                                                                 0% [4 Packages 139 kB/1171 kB 12%]26% [Waiting for headers] [4 Packages 187 kB/1171 kB 16%]                                                         Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1443 kB]
+27% [6 Packages 2559 B/1443 kB 0%] [4 Packages 282 kB/1171 kB 24%]                                                                  47% [6 Packages 360 kB/1443 kB 25%]47% [4 Packages store 0 B] [6 Packages 360 kB/1443 kB 25%]                                                          50% [6 Packages 592 kB/1443 kB 41%] [Waiting for headers]                                                         Get:7 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.6 kB]
+54% [6 Packages 799 kB/1443 kB 55%] [7 Components-amd64 7491 B/21.6 kB 35%]                                                                           54% [6 Packages 805 kB/1443 kB 56%] [Waiting for headers]54% [7 Components-amd64 store 0 B] [6 Packages 805 kB/1443 kB 56%] [Waiting for headers]                                                                                        Get:8 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [8744 B]
+54% [7 Components-amd64 store 0 B] [6 Packages 810 kB/1443 kB 56%] [8 Commands-amd64 8744 B/8744 B 100%]                                                                                                        54% [7 Components-amd64 store 0 B] [6 Packages 810 kB/1443 kB 56%] [Waiting for headers]                                                                                        Get:9 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
+54% [7 Components-amd64 store 0 B] [6 Packages 810 kB/1443 kB 56%] [9 Components-amd64 8779 B/52.2 kB 17%]                                                                                                          55% [6 Packages 819 kB/1443 kB 57%] [9 Components-amd64 26.8 kB/52.2 kB 51%]55% [8 Commands-amd64 store 0 B] [6 Packages 819 kB/1443 kB 57%] [9 Components-amd64 26.8 kB/52.2 kB 51%]                                                                                                         56% [6 Packages 830 kB/1443 kB 58%] [9 Components-amd64 52.2 kB/52.2 kB 100%]                                                                             56% [6 Packages 830 kB/1443 kB 58%] [Waiting for headers]                                                         Get:10 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [18.0 kB]
+56% [6 Packages 830 kB/1443 kB 58%] [10 Commands-amd64 1438 B/18.0 kB 8%]56% [9 Components-amd64 store 0 B] [6 Packages 830 kB/1443 kB 58%] [10 Commands-amd64 1438 B/18.0 kB 8%]                                                                                                        56% [9 Components-amd64 store 0 B] [6 Packages 836 kB/1443 kB 58%] [Waiting for headers]                                                                                        Get:11 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+56% [9 Components-amd64 store 0 B] [6 Packages 836 kB/1443 kB 58%] [11 Components-amd64 212 B/212 B 100%]                                                                                                         56% [9 Components-amd64 store 0 B] [6 Packages 836 kB/1443 kB 58%] [Waiting for headers]                                                                                        Get:12 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
+56% [9 Components-amd64 store 0 B] [6 Packages 836 kB/1443 kB 58%] [12 Components-amd64 212 B/212 B 100%]                                                                                                         56% [9 Components-amd64 store 0 B] [6 Packages 836 kB/1443 kB 58%]                                                                  57% [6 Packages 859 kB/1443 kB 60%]57% [10 Commands-amd64 store 0 B] [6 Packages 859 kB/1443 kB 60%]                                                                 57% [6 Packages 868 kB/1443 kB 60%]57% [11 Components-amd64 store 0 B] [6 Packages 868 kB/1443 kB 60%]                                                                   57% [6 Packages 868 kB/1443 kB 60%]57% [12 Components-amd64 store 0 B] [6 Packages 868 kB/1443 kB 60%]                                                                   57% [6 Packages 868 kB/1443 kB 60%]                                   66% [Waiting for headers]                         Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+67% [13 Components-amd64 12.3 kB/175 kB 7%]67% [6 Packages store 0 B] [13 Components-amd64 12.3 kB/175 kB 7%]                                                                  69% [6 Packages store 0 B] [Waiting for headers]                                                Get:14 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1485 kB]
+69% [6 Packages store 0 B] [14 Packages 13.6 kB/1485 kB 1%]                                                           81% [14 Packages 744 kB/1485 kB 50%]81% [13 Components-amd64 store 0 B] [14 Packages 744 kB/1485 kB 50%]                                                                    86% [14 Packages 1038 kB/1485 kB 70%]                                     92% [Waiting for headers]                         Get:15 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [378 kB]
+93% [15 Components-amd64 17.2 kB/378 kB 5%]93% [14 Packages store 0 B] [15 Components-amd64 17.2 kB/378 kB 5%]                                                                   98% [14 Packages store 0 B] [Waiting for headers]                                                 Get:16 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+98% [14 Packages store 0 B] [16 Components-amd64 212 B/212 B 100%]                                                                  98% [14 Packages store 0 B] [Waiting for headers]                                                 Get:17 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+98% [14 Packages store 0 B] [17 Components-amd64 940 B/940 B 100%]                                                                  98% [14 Packages store 0 B] [Waiting for headers]                                                 Get:18 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7160 B]
+98% [14 Packages store 0 B] [18 Components-amd64 7160 B/7160 B 100%]                                                                    98% [14 Packages store 0 B] [Waiting for headers]                                                 Get:19 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]
+99% [14 Packages store 0 B] [19 Components-amd64 10.9 kB/11.0 kB 100%]                                                                      99% [14 Packages store 0 B]99% [Connecting to archive.ubuntu.com (185.125.190.36)]99% [15 Components-amd64 store 0 B] [Connecting to archive.ubuntu.com (185.125.190.36)]                                                                                       99% [Connecting to archive.ubuntu.com (185.125.190.36)]99% [16 Components-amd64 store 0 B] [Connecting to archive.ubuntu.com (185.125.190.36)]                                                                                       99% [Connecting to archive.ubuntu.com (185.125.190.36)]99% [17 Components-amd64 store 0 B] [Connecting to archive.ubuntu.com (185.125.190.36)]                                                                                       99% [Connecting to archive.ubuntu.com (185.125.190.36)]99% [18 Components-amd64 store 0 B] [Connecting to archive.ubuntu.com (185.125.190.36)]                                                                                       99% [Connecting to archive.ubuntu.com (185.125.190.36)]99% [19 Components-amd64 store 0 B] [Connecting to archive.ubuntu.com (185.125.190.36)]                                                                                       100% [Connecting to archive.ubuntu.com (185.125.190.36)]                                                        Get:20 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
+                                                        100% [20 Components-amd64 216 B/216 B 100%]                                           100% [Working]100% [20 Components-amd64 store 0 B] [Waiting for headers]                                                          100% [Waiting for headers]                          Get:21 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+100% [21 Components-amd64 212 B/212 B 100%]                                           100% [Working]100% [21 Components-amd64 store 0 B]                                    100% [Working]              Fetched 5150 kB in 3s (1811 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 5%Reading package lists... 5%Reading package lists... 40%Reading package lists... 40%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 58%Reading package lists... 58%Reading package lists... 61%Reading package lists... 61%Reading package lists... 64%Reading package lists... 64%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 76%Reading package lists... 76%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 84%Reading package lists... 84%Reading package lists... 86%Reading package lists... 86%Reading package lists... 89%Reading package lists... 89%Reading package lists... 90%Reading package lists... 90%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libllvm19
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  libapr1t64 libaprutil1t64 libserf-1-1 libsvn1 libutf8proc3
+Suggested packages:
+  db5.3-util libapache2-mod-svn subversion-tools
+The following NEW packages will be installed:
+  libapr1t64 libaprutil1t64 libserf-1-1 libsvn1 libutf8proc3 subversion
+0 upgraded, 6 newly installed, 0 to remove and 1 not upgraded.
+Need to get 2571 kB of archives.
+After this operation, 10.3 MB of additional disk space will be used.
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libapr1t64 amd64 1.7.2-3.1ubuntu0.1 [108 kB]
+0% [1 libapr1t64 13.7 kB/108 kB 13%]3% [1 libapr1t64 92.1 kB/108 kB 86%]                                    7% [Working]            Get:2 http://archive.ubuntu.com/ubuntu noble/main amd64 libaprutil1t64 amd64 1.6.3-1.1ubuntu7 [91.9 kB]
+7% [2 libaprutil1t64 8109 B/91.9 kB 9%]                                       13% [Waiting for headers]                         Get:3 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libserf-1-1 amd64 1.3.10-1ubuntu0.24.04.1 [48.2 kB]
+13% [3 libserf-1-1 2709 B/48.2 kB 6%]                                     18% [Waiting for headers]                         Get:4 http://archive.ubuntu.com/ubuntu noble/universe amd64 libutf8proc3 amd64 2.9.0-1build1 [70.6 kB]
+18% [4 libutf8proc3 867 B/70.6 kB 1%]                                     23% [Waiting for headers]                         Get:5 http://archive.ubuntu.com/ubuntu noble/universe amd64 libsvn1 amd64 1.14.3-1build4 [1345 kB]
+23% [5 libsvn1 1740 B/1345 kB 0%]                                 68% [Waiting for headers]                         Get:6 http://archive.ubuntu.com/ubuntu noble/universe amd64 subversion amd64 1.14.3-1build4 [908 kB]
+69% [6 subversion 11.0 kB/908 kB 1%]                                    100% [Working]              Fetched 2571 kB in 2s (1386 kB/s)
+Selecting previously unselected package libapr1t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41226 files and directories currently installed.)
+Preparing to unpack .../0-libapr1t64_1.7.2-3.1ubuntu0.1_amd64.deb ...
+Unpacking libapr1t64:amd64 (1.7.2-3.1ubuntu0.1) ...
+Selecting previously unselected package libaprutil1t64:amd64.
+Preparing to unpack .../1-libaprutil1t64_1.6.3-1.1ubuntu7_amd64.deb ...
+Unpacking libaprutil1t64:amd64 (1.6.3-1.1ubuntu7) ...
+Selecting previously unselected package libserf-1-1:amd64.
+Preparing to unpack .../2-libserf-1-1_1.3.10-1ubuntu0.24.04.1_amd64.deb ...
+Unpacking libserf-1-1:amd64 (1.3.10-1ubuntu0.24.04.1) ...
+Selecting previously unselected package libutf8proc3:amd64.
+Preparing to unpack .../3-libutf8proc3_2.9.0-1build1_amd64.deb ...
+Unpacking libutf8proc3:amd64 (2.9.0-1build1) ...
+Selecting previously unselected package libsvn1:amd64.
+Preparing to unpack .../4-libsvn1_1.14.3-1build4_amd64.deb ...
+Unpacking libsvn1:amd64 (1.14.3-1build4) ...
+Selecting previously unselected package subversion.
+Preparing to unpack .../5-subversion_1.14.3-1build4_amd64.deb ...
+Unpacking subversion (1.14.3-1build4) ...
+Setting up libutf8proc3:amd64 (2.9.0-1build1) ...
+Setting up libapr1t64:amd64 (1.7.2-3.1ubuntu0.1) ...
+Setting up libaprutil1t64:amd64 (1.6.3-1.1ubuntu7) ...
+Setting up libserf-1-1:amd64 (1.3.10-1ubuntu0.24.04.1) ...
+Setting up libsvn1:amd64 (1.14.3-1build4) ...
+Setting up subversion (1.14.3-1build4) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.6) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ [7msvn export https://github.com/kapumota/Curso-CC3S2/trunk/labs/Laborat[27m[7mo[27m[7morio4 Laboratorio4[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ svn export https://github.com/kapumota/Curso-CC3S2/trunk/labs/Laboratorio4 Laboratorio4
+[?2004lsvn: E170013: Unable to connect to a repository at URL 'https://github.com/kapumota/Curso-CC3S2/trunk/labs/Laboratorio4'
+svn: E160013: '/kapumota/Curso-CC3S2/trunk/labs/Laboratorio4' path not found
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ [K[7msvn export https://github.com/kapumota/Curso-CC3S2/trunk/labs/Laborat[27m[7mo[27m[7morio4 Laboratorio4[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ svn export https://github.com/kapumota/Curso-CC3S2/trunk/labs/Laboratorio4 Laboratorio4
+[?2004lsvn: E170013: Unable to connect to a repository at URL 'https://github.com/kapumota/Curso-CC3S2/trunk/labs/Laboratorio4'
+svn: E160013: '/kapumota/Curso-CC3S2/trunk/labs/Laboratorio4' path not found
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ [Kls
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ ls -la Laboratorio4
+[?2004lls: cannot access 'Laboratorio4': No such file or directory
+[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ g [7mcd /home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/labor[27m[7ma[27m[7matorios/Laboratorio4/Actividades/pruebas_fixtures[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios[00m$ cd /home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [7mcd /home/alulo/CC3S2-desarr[27m[7mo[27m[7mollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[27m[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ cd /home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures
+[?2004l[?2004h]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [K[7mpython3 -m venv .venv[27m
+[7msource .venv/bin/activate[27m
+[7mpip install -U pip[27m
+[7mpip install flask flask_sqlalchemy pytest pytest-cov[27m
+[A[A[A[A]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+pip install flask flask_sqlalchemy pytest pytest-cov
+[A
+[?2004lRequirement already satisfied: pip in ./.venv/lib/python3.12/site-packages (25.2)
+Collecting flask
+  Downloading flask-3.1.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting flask_sqlalchemy
+  Downloading flask_sqlalchemy-3.1.1-py3-none-any.whl.metadata (3.4 kB)
+Requirement already satisfied: pytest in ./.venv/lib/python3.12/site-packages (8.4.2)
+Requirement already satisfied: pytest-cov in ./.venv/lib/python3.12/site-packages (7.0.0)
+Collecting blinker>=1.9.0 (from flask)
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting click>=8.1.3 (from flask)
+  Downloading click-8.3.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting itsdangerous>=2.2.0 (from flask)
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting jinja2>=3.1.2 (from flask)
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting markupsafe>=2.1.1 (from flask)
+  Downloading markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting werkzeug>=3.1.0 (from flask)
+  Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+Collecting sqlalchemy>=2.0.16 (from flask_sqlalchemy)
+  Downloading sqlalchemy-2.0.43-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.6 kB)
+Requirement already satisfied: iniconfig>=1 in ./.venv/lib/python3.12/site-packages (from pytest) (2.1.0)
+Requirement already satisfied: packaging>=20 in ./.venv/lib/python3.12/site-packages (from pytest) (25.0)
+Requirement already satisfied: pluggy<2,>=1.5 in ./.venv/lib/python3.12/site-packages (from pytest) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in ./.venv/lib/python3.12/site-packages (from pytest) (2.19.2)
+Requirement already satisfied: coverage>=7.10.6 in ./.venv/lib/python3.12/site-packages (from coverage[toml]>=7.10.6->pytest-cov) (7.10.7)
+Collecting greenlet>=1 (from sqlalchemy>=2.0.16->flask_sqlalchemy)
+  Downloading greenlet-3.2.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (4.1 kB)
+Collecting typing-extensions>=4.6.0 (from sqlalchemy>=2.0.16->flask_sqlalchemy)
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading flask-3.1.2-py3-none-any.whl (103 kB)
+Downloading flask_sqlalchemy-3.1.1-py3-none-any.whl (25 kB)
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading click-8.3.0-py3-none-any.whl (107 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Downloading sqlalchemy-2.0.43-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+[?25l   [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.3/3.3 MB[0m [31m38.0 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading greenlet-3.2.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (607 kB)
+[?25l   [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/607.6 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m607.6/607.6 kB[0m [31m27.5 MB/s[0m  [33m0:00:00[0m
+[?25hDownloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+Installing collected packages: typing-extensions, markupsafe, itsdangerous, greenlet, click, blinker, werkzeug, sqlalchemy, jinja2, flask, flask_sqlalchemy
+[?25l[2K   [38;5;197m━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━[0m [32m 5/11[0m [blinker][2K   [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m 7/11[0m [sqlalchemy][2K   [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m 7/11[0m [sqlalchemy][2K   [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m 7/11[0m [sqlalchemy][2K   [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m 7/11[0m [sqlalchemy][2K   [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m 7/11[0m [sqlalchemy][2K   [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m 7/11[0m [sqlalchemy][2K   [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━[0m [32m10/11[0m [flask_sqlalchemy][2K   [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11/11[0m [flask_sqlalchemy]
+[?25h[1A[2KSuccessfully installed blinker-1.9.0 click-8.3.0 flask-3.1.2 flask_sqlalchemy-3.1.1 greenlet-3.2.4 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.3 sqlalchemy-2.0.43 typing-extensions-4.15.0 werkzeug-3.1.3
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [K[7m[tool:pytest][27m
+[7maddopts = -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing[27m
+[7mtestpaths = tests[27m
+
+[7m[coverage:run][27m
+[7mbranch = True[27m
+[7msource = models[27m
+
+[7m[coverage:report][27m
+[7mshow_missing = True[27m
+[A[A[A[A[A[A[A[A[A[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [tool:pytest]
+addopts = -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing
+testpaths = tests
+
+[coverage:run]
+branch = True
+source = models
+
+[coverage:report]
+show_missing = True
+[?2004l[tool:pytest]: command not found
+addopts: command not found
+testpaths: command not found
+[coverage:run]: command not found
+Command 'branch' not found, but can be installed with:
+sudo apt install rheolef
+bash: =: No such file or directory
+[coverage:report]: command not found
+show_missing: command not found
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [Kclear
+[?2004l[H[2J[3J[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [7mcd /home/alulo/CC3S[27m[7m2[27m[7m2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[27m
+[7msource .venv/bin/activate[27m
+[A[A[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ cd /home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures
+source .venv/bin/activate
+[Asource .venv/bin/activate
+[?2004l[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [K[7m# borra streams "Zo[27m[7mn[27m[7mne.Identifier" traídos desde Windows[27m
+[7mfind . -type f -name '*:Zone.Identifier' -delete[27m
+
+[7m# si los archivos están sin extensión, conviértelos al nombre correcto:[27m
+[7m[ -f tests/test_account ] && [ ! -f tests/test_account.py ] && mv tests/test_account tests/test_account.py[27m
+[7m[ -f tests/fixtures/account_data ] && [ ! -f tests/fixtures/account_data.json ] && mv tests/fixtures/account_data tests/fixtures/account_data.json[27m
+[7m[ -f models/account ] && [ ! -f models/account.py ] && mv models/account models/account.py[27m
+
+[7m# verifica el árbol resultante[27m
+[7mls -la models[27m
+[7mls -la tests[27m
+[7mls -la tests/fixtures[27m
+[A[A[A[A[A[A[A[A[A[A[A[A[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ # borra streams "Zone.Identifier" traídos desde Windows
+find . -type f -name '*:Zone.Identifier' -delete
+
+# si los archivos están sin extensión, conviértelos al nombre correcto:
+[ -f tests/test_account ] && [ ! -f tests/test_account.py ] && mv tests/test_account tests/test_account.py
+[ -f tests/fixtures/account_data ] && [ ! -f tests/fixtures/account_data.json ] && mv tests/fixtures/account_data tests/fixtures/account_data.json
+[ -f models/account ] && [ ! -f models/account.py ] && mv models/account models/account.py
+
+# verifica el árbol resultante
+ls -la models
+ls -la tests
+ls -la tests/fixtures
+[?2004ltotal 24
+drwxr-xr-x 2 alulo alulo 4096 Sep 29 15:43 [0m[01;34m.[0m
+drwxr-xr-x 5 alulo alulo 4096 Sep 29 15:40 [01;34m..[0m
+-rw-r--r-- 1 alulo alulo  245 Sep 29 15:26 __init__.py
+-rw-r--r-- 1 alulo alulo 2290 Sep 29 15:26 account.py
+-rw-r--r-- 1 alulo alulo 8192 Sep 29 15:26 test.db
+total 16
+drwxr-xr-x 3 alulo alulo 4096 Sep 29 15:40 [0m[01;34m.[0m
+drwxr-xr-x 5 alulo alulo 4096 Sep 29 15:40 [01;34m..[0m
+drwxr-xr-x 2 alulo alulo 4096 Sep 29 15:40 [01;34mfixtures[0m
+-rw-r--r-- 1 alulo alulo 1828 Sep 29 15:26 test_account.py
+total 12
+drwxr-xr-x 2 alulo alulo 4096 Sep 29 15:40 [0m[01;34m.[0m
+drwxr-xr-x 3 alulo alulo 4096 Sep 29 15:40 [01;34m..[0m
+-rw-r--r-- 1 alulo alulo  795 Sep 29 15:26 account_data.json
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [K[7mcat > setup.cfg <<'[27m[7mE[27m[7mEOF'[27m
+[7m[tool:pytest][27m
+[7maddopts = -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing[27m
+[7mtestpaths = tests[27m
+
+[7m[coverage:run][27m
+[7mbranch = True[27m
+[7msource = models[27m
+
+[7m[coverage:report][27m
+[7mshow_missing = True[27m
+[7mEOF[27m
+[A[A[A[A[A[A[A[A[A[A[A[A[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ cat > setup.cfg <<'EOF'
+[tool:pytest]
+addopts = -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing
+testpaths = tests
+
+[coverage:run]
+branch = True
+source = models
+
+[coverage:report]
+show_missing = True
+EOF
+[A
+[?2004l[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [Kpytest
+[?2004l[31mE[0m
+========================================================================== ERRORS ==========================================================================
+[31m[1m________________________________________________ ERROR at setup of TestAccountModel.test_create_an_account _________________________________________________[0m
+
+    [0m[37m@pytest[39;49;00m.fixture(scope=[33m"[39;49;00m[33mmodule[39;49;00m[33m"[39;49;00m, autouse=[94mTrue[39;49;00m)[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92msetup_database[39;49;00m():[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Configura la base de datos antes y después de todas las pruebas"""[39;49;00m[90m[39;49;00m
+        [90m# Se ejecuta antes de todas las pruebas[39;49;00m[90m[39;49;00m
+>       db.create_all()[90m[39;49;00m
+
+[1m[31mtests/test_account.py[0m:16: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31m.venv/lib/python3.12/site-packages/flask_sqlalchemy/extension.py[0m:900: in create_all
+    [0m[96mself[39;49;00m._call_for_binds(bind_key, [33m"[39;49;00m[33mcreate_all[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/flask_sqlalchemy/extension.py[0m:871: in _call_for_binds
+    [0mengine = [96mself[39;49;00m.engines[key][90m[39;49;00m
+             ^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/flask_sqlalchemy/extension.py[0m:687: in engines
+    [0mapp = current_app._get_current_object()  [90m# type: ignore[attr-defined][39;49;00m[90m[39;49;00m
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92m_get_current_object[39;49;00m() -> T:[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+            obj = local.get()[90m[39;49;00m
+        [94mexcept[39;49;00m [96mLookupError[39;49;00m:[90m[39;49;00m
+>           [94mraise[39;49;00m [96mRuntimeError[39;49;00m(unbound_message) [94mfrom[39;49;00m[90m [39;49;00m[94mNone[39;49;00m[90m[39;49;00m
+[1m[31mE           RuntimeError: Working outside of application context.[0m
+[1m[31mE           [0m
+[1m[31mE           This typically means that you attempted to use functionality that needed[0m
+[1m[31mE           the current application. To solve this, set up an application context[0m
+[1m[31mE           with app.app_context(). See the documentation for more information.[0m
+
+[1m[31m.venv/lib/python3.12/site-packages/werkzeug/local.py[0m:519: RuntimeError
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mERROR[0m tests/test_account.py::[1mTestAccountModel::test_create_an_account[0m - RuntimeError: Working outside of application context.
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[31m[31m[1m1 error[0m[31m in 0.97s[0m[0m
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [7mrm -f test.db[27m
+[7mpytest -q[27m
+[7m# y con cobertura:[27m
+[7mpytest -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing[27m
+[A[A[A[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ rm -f test.db
+pytest -q
+# y con cobertura:
+pytest -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing
+[?2004l
+========================================================================== ERRORS ==========================================================================
+[31m[1m__________________________________________________________ ERROR collecting tests/test_account.py __________________________________________________________[0m
+[31mImportError while importing test module '/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures/tests/test_account.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_account.py:5: in <module>
+    from models import app, db
+E   ModuleNotFoundError: No module named 'models'[0m
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mERROR[0m tests/test_account.py
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+========================================================================== ERRORS ==========================================================================
+[31m[1m__________________________________________________________ ERROR collecting tests/test_account.py __________________________________________________________[0m
+[31mImportError while importing test module '/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures/tests/test_account.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_account.py:5: in <module>
+    from models import app, db
+E   ModuleNotFoundError: No module named 'models'[0m
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mERROR[0m tests/test_account.py
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [Kpytest -q --maxfail==1 --disable-warnings --cov=models --cov-report=term-missing[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [K
+[K[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ pytest -q --maxfail==1 --disable-warnings --cov=models --cov-report=term-missing
+[?2004l[31mF[0m
+========================================================================= FAILURES =========================================================================
+[31m[1m_________________________________________________________ TestAccountModel.test_create_an_account __________________________________________________________[0m
+
+self = <test_account.TestAccountModel object at 0x7ed4424ddbb0>
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_create_an_account[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Probar la creación de una sola cuenta"""[39;49;00m[90m[39;49;00m
+        data = ACCOUNT_DATA[[94m0[39;49;00m]  [90m# obtener la primera cuenta[39;49;00m[90m[39;49;00m
+        account = Account(**data)[90m[39;49;00m
+>       account.create()[90m[39;49;00m
+
+[1m[31mtests/test_account.py[0m:54: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mmodels/account.py[0m:40: in create
+    [0mdb.session.commit()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/scoping.py[0m:599: in commit
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:2032: in commit
+    [0mtrans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1313: in commit
+    [0m[96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1288: in _prepare_impl
+    [0m[96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4345: in flush
+    [0m[96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4480: in _flush
+    [0m[94mwith[39;49;00m util.safe_reraise():[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py[0m:224: in __exit__
+    [0m[94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4441: in _flush
+    [0mflush_context.execute()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:466: in execute
+    [0mrec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:642: in execute
+    [0mutil.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    [0m_emit_insert_statements([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:1233: in _emit_insert_statements
+    [0mresult = connection.execute([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1419: in execute
+    [0m[94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py[0m:526: in _execute_on_connection
+    [0m[94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1641: in _execute_clauseelement
+    [0mret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1846: in _execute_context
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1986: in _exec_single_context
+    [0m[96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:2358: in _handle_dbapi_exception
+    [0m[94mraise[39;49;00m exc_info[[94m1[39;49;00m].with_traceback(exc_info[[94m2[39;49;00m])[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [0mresult = context._setup_result_proxy()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1853: in _setup_result_proxy
+    [0mresult = [96mself[39;49;00m._setup_dml_or_text_result()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1973: in _setup_dml_or_text_result
+    [0mrows = result.all()[90m[39;49;00m
+           ^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:1384: in all
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._allrows()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:551: in _allrows
+    [0mmade_rows = [make_row(row) [94mfor[39;49;00m row [95min[39;49;00m rows][90m[39;49;00m
+                 ^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:22: in sqlalchemy.cyextension.resultproxy.BaseRow.__init__
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:79: in sqlalchemy.cyextension.resultproxy._apply_processors
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mE   ValueError: Invalid isoformat string: '2025-09-29 21:04:47'[0m
+
+[1m[31mlib/sqlalchemy/cyextension/processors.pyx[0m:51: ValueError
+------------------------------------------------------------------ Captured stdout setup -------------------------------------------------------------------
+ACCOUNT_DATA cargado: [{'name': 'Roberta Schaefer', 'email': 'scotttodd@example.org', 'phone_number': '001-630-302-1546x3624', 'disabled': False}, {'name': 'Amber Torres', 'email': 'reedjoann@example.org', 'phone_number': '121.566.9078', 'disabled': True}, {'name': 'Becky Franco', 'email': 'joan88@example.com', 'phone_number': '908-592-2015x1764', 'disabled': False}, {'name': 'Mary Barker', 'email': 'mreyes@example.org', 'phone_number': '872.976.1464x40750', 'disabled': True}, {'name': 'Jennifer Smith', 'email': 'stevensjennifer@example.org', 'phone_number': '351.317.1639x79470', 'disabled': True}]
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mFAILED[0m tests/test_account.py::[1mTestAccountModel::test_create_an_account[0m - ValueError: Invalid isoformat string: '2025-09-29 21:04:47'
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [Kclear
+[?2004l[H[2J[3J[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ clear
+[?2004l[H[2J[3J[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ clearpytest -q --maxfail==1 --disable-warnings --cov=models --cov-report=term-missing[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [1P# y con cobertura:
+[K[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ # y con cobertura:[9Ppytest -q# y con cobertura:pytest -q --maxfail==1 --disable-warnings --cov=models --cov-report=term-missing
+[?2004l[31mF[0m
+========================================================================= FAILURES =========================================================================
+[31m[1m_________________________________________________________ TestAccountModel.test_create_an_account __________________________________________________________[0m
+
+self = <test_account.TestAccountModel object at 0x75a491787470>
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_create_an_account[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Probar la creación de una sola cuenta"""[39;49;00m[90m[39;49;00m
+        data = ACCOUNT_DATA[[94m0[39;49;00m]  [90m# obtener la primera cuenta[39;49;00m[90m[39;49;00m
+        account = Account(**data)[90m[39;49;00m
+>       account.create()[90m[39;49;00m
+
+[1m[31mtests/test_account.py[0m:54: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mmodels/account.py[0m:40: in create
+    [0mdb.session.commit()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/scoping.py[0m:599: in commit
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:2032: in commit
+    [0mtrans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1313: in commit
+    [0m[96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1288: in _prepare_impl
+    [0m[96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4345: in flush
+    [0m[96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4480: in _flush
+    [0m[94mwith[39;49;00m util.safe_reraise():[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py[0m:224: in __exit__
+    [0m[94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4441: in _flush
+    [0mflush_context.execute()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:466: in execute
+    [0mrec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:642: in execute
+    [0mutil.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    [0m_emit_insert_statements([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:1233: in _emit_insert_statements
+    [0mresult = connection.execute([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1419: in execute
+    [0m[94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py[0m:526: in _execute_on_connection
+    [0m[94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1641: in _execute_clauseelement
+    [0mret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1846: in _execute_context
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1986: in _exec_single_context
+    [0m[96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:2358: in _handle_dbapi_exception
+    [0m[94mraise[39;49;00m exc_info[[94m1[39;49;00m].with_traceback(exc_info[[94m2[39;49;00m])[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [0mresult = context._setup_result_proxy()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1853: in _setup_result_proxy
+    [0mresult = [96mself[39;49;00m._setup_dml_or_text_result()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1973: in _setup_dml_or_text_result
+    [0mrows = result.all()[90m[39;49;00m
+           ^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:1384: in all
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._allrows()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:551: in _allrows
+    [0mmade_rows = [make_row(row) [94mfor[39;49;00m row [95min[39;49;00m rows][90m[39;49;00m
+                 ^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:22: in sqlalchemy.cyextension.resultproxy.BaseRow.__init__
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:79: in sqlalchemy.cyextension.resultproxy._apply_processors
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mE   ValueError: Invalid isoformat string: '2025-09-29 21:04:59'[0m
+
+[1m[31mlib/sqlalchemy/cyextension/processors.pyx[0m:51: ValueError
+------------------------------------------------------------------ Captured stdout setup -------------------------------------------------------------------
+ACCOUNT_DATA cargado: [{'name': 'Roberta Schaefer', 'email': 'scotttodd@example.org', 'phone_number': '001-630-302-1546x3624', 'disabled': False}, {'name': 'Amber Torres', 'email': 'reedjoann@example.org', 'phone_number': '121.566.9078', 'disabled': True}, {'name': 'Becky Franco', 'email': 'joan88@example.com', 'phone_number': '908-592-2015x1764', 'disabled': False}, {'name': 'Mary Barker', 'email': 'mreyes@example.org', 'phone_number': '872.976.1464x40750', 'disabled': True}, {'name': 'Jennifer Smith', 'email': 'stevensjennifer@example.org', 'phone_number': '351.317.1639x79470', 'disabled': True}]
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mFAILED[0m tests/test_account.py::[1mTestAccountModel::test_create_an_account[0m - ValueError: Invalid isoformat string: '2025-09-29 21:04:59'
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [Kpytest -q --maxfail==1 --disable-warnings --cov=models --cov-report=term-missing
+[?2004l[31mF[0m
+========================================================================= FAILURES =========================================================================
+[31m[1m_________________________________________________________ TestAccountModel.test_create_an_account __________________________________________________________[0m
+
+self = <test_account.TestAccountModel object at 0x7a21a01ebbc0>
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_create_an_account[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Probar la creación de una sola cuenta"""[39;49;00m[90m[39;49;00m
+        data = ACCOUNT_DATA[[94m0[39;49;00m][90m[39;49;00m
+        account = Account(**data)[90m[39;49;00m
+>       account.create()[90m[39;49;00m
+
+[1m[31mtests/test_account.py[0m:51: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mmodels/account.py[0m:40: in create
+    [0mdb.session.commit()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/scoping.py[0m:599: in commit
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:2032: in commit
+    [0mtrans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1313: in commit
+    [0m[96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1288: in _prepare_impl
+    [0m[96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4345: in flush
+    [0m[96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4480: in _flush
+    [0m[94mwith[39;49;00m util.safe_reraise():[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py[0m:224: in __exit__
+    [0m[94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4441: in _flush
+    [0mflush_context.execute()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:466: in execute
+    [0mrec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:642: in execute
+    [0mutil.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    [0m_emit_insert_statements([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:1233: in _emit_insert_statements
+    [0mresult = connection.execute([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1419: in execute
+    [0m[94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py[0m:526: in _execute_on_connection
+    [0m[94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1641: in _execute_clauseelement
+    [0mret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1846: in _execute_context
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1986: in _exec_single_context
+    [0m[96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:2358: in _handle_dbapi_exception
+    [0m[94mraise[39;49;00m exc_info[[94m1[39;49;00m].with_traceback(exc_info[[94m2[39;49;00m])[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [0mresult = context._setup_result_proxy()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1853: in _setup_result_proxy
+    [0mresult = [96mself[39;49;00m._setup_dml_or_text_result()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1973: in _setup_dml_or_text_result
+    [0mrows = result.all()[90m[39;49;00m
+           ^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:1384: in all
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._allrows()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:551: in _allrows
+    [0mmade_rows = [make_row(row) [94mfor[39;49;00m row [95min[39;49;00m rows][90m[39;49;00m
+                 ^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:22: in sqlalchemy.cyextension.resultproxy.BaseRow.__init__
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:79: in sqlalchemy.cyextension.resultproxy._apply_processors
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mE   ValueError: Invalid isoformat string: '2025-09-29 21:06:10'[0m
+
+[1m[31mlib/sqlalchemy/cyextension/processors.pyx[0m:51: ValueError
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mFAILED[0m tests/test_account.py::[1mTestAccountModel::test_create_an_account[0m - ValueError: Invalid isoformat string: '2025-09-29 21:06:10'
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [Kpytest -q --maxfail==1 --disable-warnings --cov=models --cov-report=term-missing
+[?2004l[31mF[0m
+========================================================================= FAILURES =========================================================================
+[31m[1m_________________________________________________________ TestAccountModel.test_create_an_account __________________________________________________________[0m
+
+self = <test_account.TestAccountModel object at 0x7d1e5cd38fe0>
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_create_an_account[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Probar la creación de una sola cuenta"""[39;49;00m[90m[39;49;00m
+        data = ACCOUNT_DATA[[94m0[39;49;00m]  [90m# obtener la primera cuenta[39;49;00m[90m[39;49;00m
+        account = Account(**data)[90m[39;49;00m
+>       account.create()[90m[39;49;00m
+
+[1m[31mtests/test_account.py[0m:53: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mmodels/account.py[0m:40: in create
+    [0mdb.session.commit()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/scoping.py[0m:599: in commit
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:2032: in commit
+    [0mtrans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1313: in commit
+    [0m[96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1288: in _prepare_impl
+    [0m[96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4345: in flush
+    [0m[96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4480: in _flush
+    [0m[94mwith[39;49;00m util.safe_reraise():[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py[0m:224: in __exit__
+    [0m[94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4441: in _flush
+    [0mflush_context.execute()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:466: in execute
+    [0mrec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:642: in execute
+    [0mutil.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    [0m_emit_insert_statements([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:1233: in _emit_insert_statements
+    [0mresult = connection.execute([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1419: in execute
+    [0m[94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py[0m:526: in _execute_on_connection
+    [0m[94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1641: in _execute_clauseelement
+    [0mret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1846: in _execute_context
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1986: in _exec_single_context
+    [0m[96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:2358: in _handle_dbapi_exception
+    [0m[94mraise[39;49;00m exc_info[[94m1[39;49;00m].with_traceback(exc_info[[94m2[39;49;00m])[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [0mresult = context._setup_result_proxy()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1853: in _setup_result_proxy
+    [0mresult = [96mself[39;49;00m._setup_dml_or_text_result()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1973: in _setup_dml_or_text_result
+    [0mrows = result.all()[90m[39;49;00m
+           ^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:1384: in all
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._allrows()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:551: in _allrows
+    [0mmade_rows = [make_row(row) [94mfor[39;49;00m row [95min[39;49;00m rows][90m[39;49;00m
+                 ^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:22: in sqlalchemy.cyextension.resultproxy.BaseRow.__init__
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:79: in sqlalchemy.cyextension.resultproxy._apply_processors
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mE   ValueError: Invalid isoformat string: '2025-09-29 21:06:47'[0m
+
+[1m[31mlib/sqlalchemy/cyextension/processors.pyx[0m:51: ValueError
+------------------------------------------------------------------ Captured stdout setup -------------------------------------------------------------------
+ACCOUNT_DATA cargado: [{'name': 'Roberta Schaefer', 'email': 'scotttodd@example.org', 'phone_number': '001-630-302-1546x3624', 'disabled': False}, {'name': 'Amber Torres', 'email': 'reedjoann@example.org', 'phone_number': '121.566.9078', 'disabled': True}, {'name': 'Becky Franco', 'email': 'joan88@example.com', 'phone_number': '908-592-2015x1764', 'disabled': False}, {'name': 'Mary Barker', 'email': 'mreyes@example.org', 'phone_number': '872.976.1464x40750', 'disabled': True}, {'name': 'Jennifer Smith', 'email': 'stevensjennifer@example.org', 'phone_number': '351.317.1639x79470', 'disabled': True}]
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mFAILED[0m tests/test_account.py::[1mTestAccountModel::test_create_an_account[0m - ValueError: Invalid isoformat string: '2025-09-29 21:06:47'
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [Kclear
+[?2004l[H[2J[3J[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ clearpytest -q --maxfail==1 --disable-warnings --cov=models --cov-report=term-missing                                                            [A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ pytest -q --maxfail [K[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ pytest -q --maxfai[K
+[K[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ pytest -q --maxfai                  [7m# en la raíz del l[27m[7ma[27m[7mab[27m
+[7mrm -f test.db[27m
+[7mpytest -q[27m
+[7m# con cobertura:[27m
+[7mpytest -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing[27m
+[A[A[A[A[A[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ # en la raíz del lab
+rm -f test.db
+pytest -q
+# con cobertura:
+pytest -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing
+[A[A[A[A[A[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ clear[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ clear# en la raíz del laab
+rm -f test.db
+pytest -q
+# con cobertura:
+pytest -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing
+[A
+[?2004l[31mF[0m
+========================================================================= FAILURES =========================================================================
+[31m[1m_________________________________________________________ TestAccountModel.test_create_an_account __________________________________________________________[0m
+
+self = <test_account.TestAccountModel object at 0x7cad244b5370>
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_create_an_account[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Probar la creación de una sola cuenta"""[39;49;00m[90m[39;49;00m
+        data = ACCOUNT_DATA[[94m0[39;49;00m]  [90m# obtener la primera cuenta[39;49;00m[90m[39;49;00m
+        account = Account(**data)[90m[39;49;00m
+>       account.create()[90m[39;49;00m
+
+[1m[31mtests/test_account.py[0m:53: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mmodels/account.py[0m:40: in create
+    [0mdb.session.commit()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/scoping.py[0m:599: in commit
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:2032: in commit
+    [0mtrans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1313: in commit
+    [0m[96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1288: in _prepare_impl
+    [0m[96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4345: in flush
+    [0m[96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4480: in _flush
+    [0m[94mwith[39;49;00m util.safe_reraise():[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py[0m:224: in __exit__
+    [0m[94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4441: in _flush
+    [0mflush_context.execute()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:466: in execute
+    [0mrec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:642: in execute
+    [0mutil.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    [0m_emit_insert_statements([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:1233: in _emit_insert_statements
+    [0mresult = connection.execute([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1419: in execute
+    [0m[94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py[0m:526: in _execute_on_connection
+    [0m[94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1641: in _execute_clauseelement
+    [0mret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1846: in _execute_context
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1986: in _exec_single_context
+    [0m[96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:2358: in _handle_dbapi_exception
+    [0m[94mraise[39;49;00m exc_info[[94m1[39;49;00m].with_traceback(exc_info[[94m2[39;49;00m])[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [0mresult = context._setup_result_proxy()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1853: in _setup_result_proxy
+    [0mresult = [96mself[39;49;00m._setup_dml_or_text_result()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1973: in _setup_dml_or_text_result
+    [0mrows = result.all()[90m[39;49;00m
+           ^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:1384: in all
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._allrows()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:551: in _allrows
+    [0mmade_rows = [make_row(row) [94mfor[39;49;00m row [95min[39;49;00m rows][90m[39;49;00m
+                 ^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:22: in sqlalchemy.cyextension.resultproxy.BaseRow.__init__
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:79: in sqlalchemy.cyextension.resultproxy._apply_processors
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mE   ValueError: Invalid isoformat string: '2025-09-29 21:07:51'[0m
+
+[1m[31mlib/sqlalchemy/cyextension/processors.pyx[0m:51: ValueError
+------------------------------------------------------------------ Captured stdout setup -------------------------------------------------------------------
+ACCOUNT_DATA cargado: [{'name': 'Roberta Schaefer', 'email': 'scotttodd@example.org', 'phone_number': '001-630-302-1546x3624', 'disabled': False}, {'name': 'Amber Torres', 'email': 'reedjoann@example.org', 'phone_number': '121.566.9078', 'disabled': True}, {'name': 'Becky Franco', 'email': 'joan88@example.com', 'phone_number': '908-592-2015x1764', 'disabled': False}, {'name': 'Mary Barker', 'email': 'mreyes@example.org', 'phone_number': '872.976.1464x40750', 'disabled': True}, {'name': 'Jennifer Smith', 'email': 'stevensjennifer@example.org', 'phone_number': '351.317.1639x79470', 'disabled': True}]
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mFAILED[0m tests/test_account.py::[1mTestAccountModel::test_create_an_account[0m - ValueError: Invalid isoformat string: '2025-09-29 21:07:51'
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[31mF[0m
+========================================================================= FAILURES =========================================================================
+[31m[1m_________________________________________________________ TestAccountModel.test_create_an_account __________________________________________________________[0m
+
+self = <test_account.TestAccountModel object at 0x7ff812de5df0>
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92mtest_create_an_account[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+    [90m    [39;49;00m[33m"""Probar la creación de una sola cuenta"""[39;49;00m[90m[39;49;00m
+        data = ACCOUNT_DATA[[94m0[39;49;00m]  [90m# obtener la primera cuenta[39;49;00m[90m[39;49;00m
+        account = Account(**data)[90m[39;49;00m
+>       account.create()[90m[39;49;00m
+
+[1m[31mtests/test_account.py[0m:53: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mmodels/account.py[0m:40: in create
+    [0mdb.session.commit()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/scoping.py[0m:599: in commit
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._proxied.commit()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:2032: in commit
+    [0mtrans.commit(_to_root=[94mTrue[39;49;00m)[90m[39;49;00m
+[1m[31m<string>[0m:2: in commit
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1313: in commit
+    [0m[96mself[39;49;00m._prepare_impl()[90m[39;49;00m
+[1m[31m<string>[0m:2: in _prepare_impl
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py[0m:137: in _go
+    [0mret_value = fn([96mself[39;49;00m, *arg, **kw)[90m[39;49;00m
+                ^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:1288: in _prepare_impl
+    [0m[96mself[39;49;00m.session.flush()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4345: in flush
+    [0m[96mself[39;49;00m._flush(objects)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4480: in _flush
+    [0m[94mwith[39;49;00m util.safe_reraise():[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py[0m:224: in __exit__
+    [0m[94mraise[39;49;00m exc_value.with_traceback(exc_tb)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py[0m:4441: in _flush
+    [0mflush_context.execute()[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:466: in execute
+    [0mrec.execute([96mself[39;49;00m)[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py[0m:642: in execute
+    [0mutil.preloaded.orm_persistence.save_obj([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:93: in save_obj
+    [0m_emit_insert_statements([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py[0m:1233: in _emit_insert_statements
+    [0mresult = connection.execute([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1419: in execute
+    [0m[94mreturn[39;49;00m meth([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/sql/elements.py[0m:526: in _execute_on_connection
+    [0m[94mreturn[39;49;00m connection._execute_clauseelement([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1641: in _execute_clauseelement
+    [0mret = [96mself[39;49;00m._execute_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1846: in _execute_context
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._exec_single_context([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1986: in _exec_single_context
+    [0m[96mself[39;49;00m._handle_dbapi_exception([90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:2358: in _handle_dbapi_exception
+    [0m[94mraise[39;49;00m exc_info[[94m1[39;49;00m].with_traceback(exc_info[[94m2[39;49;00m])[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py[0m:1983: in _exec_single_context
+    [0mresult = context._setup_result_proxy()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1853: in _setup_result_proxy
+    [0mresult = [96mself[39;49;00m._setup_dml_or_text_result()[90m[39;49;00m
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py[0m:1973: in _setup_dml_or_text_result
+    [0mrows = result.all()[90m[39;49;00m
+           ^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:1384: in all
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m._allrows()[90m[39;49;00m
+           ^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m.venv/lib/python3.12/site-packages/sqlalchemy/engine/result.py[0m:551: in _allrows
+    [0mmade_rows = [make_row(row) [94mfor[39;49;00m row [95min[39;49;00m rows][90m[39;49;00m
+                 ^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:22: in sqlalchemy.cyextension.resultproxy.BaseRow.__init__
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mlib/sqlalchemy/cyextension/resultproxy.pyx[0m:79: in sqlalchemy.cyextension.resultproxy._apply_processors
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31mE   ValueError: Invalid isoformat string: '2025-09-29 21:07:53'[0m
+
+[1m[31mlib/sqlalchemy/cyextension/processors.pyx[0m:51: ValueError
+------------------------------------------------------------------ Captured stdout setup -------------------------------------------------------------------
+ACCOUNT_DATA cargado: [{'name': 'Roberta Schaefer', 'email': 'scotttodd@example.org', 'phone_number': '001-630-302-1546x3624', 'disabled': False}, {'name': 'Amber Torres', 'email': 'reedjoann@example.org', 'phone_number': '121.566.9078', 'disabled': True}, {'name': 'Becky Franco', 'email': 'joan88@example.com', 'phone_number': '908-592-2015x1764', 'disabled': False}, {'name': 'Mary Barker', 'email': 'mreyes@example.org', 'phone_number': '872.976.1464x40750', 'disabled': True}, {'name': 'Jennifer Smith', 'email': 'stevensjennifer@example.org', 'phone_number': '351.317.1639x79470', 'disabled': True}]
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mFAILED[0m tests/test_account.py::[1mTestAccountModel::test_create_an_account[0m - ValueError: Invalid isoformat string: '2025-09-29 21:07:53'
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [K[7mrm -f test.db[27m
+[7mpytest -q[27m
+[7m# y si quieres cobertura[27m
+[7mpytest -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing[27m
+[A[A[A[A(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ rm -f test.db
+pytest -q
+# y si quieres cobertura
+pytest -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing
+[Apytest -q --maxfail=1 --disable-warnings --cov=models --cov-report=term-missing
+[?2004l
+========================================================================== ERRORS ==========================================================================
+[31m[1m__________________________________________________________ ERROR collecting tests/test_account.py __________________________________________________________[0m
+[31m.venv/lib/python3.12/site-packages/_pytest/python.py:498: in importtestmodule
+    mod = import_path(
+.venv/lib/python3.12/site-packages/_pytest/pathlib.py:587: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1331: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:935: in _load_unlocked
+    ???
+.venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:177: in exec_module
+    source_stat, co = _rewrite_test(fn, self.config)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:357: in _rewrite_test
+    tree = ast.parse(source, filename=strfn)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/usr/lib/python3.12/ast.py:52: in parse
+    return compile(source, filename, mode, flags,
+E     File "/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures/tests/test_account.py", line 55
+E       def test_create_all_accounts(self):
+E                                          ^
+E   IndentationError: unindent does not match any outer indentation level[0m
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mERROR[0m tests/test_account.py
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+========================================================================== ERRORS ==========================================================================
+[31m[1m__________________________________________________________ ERROR collecting tests/test_account.py __________________________________________________________[0m
+[31m.venv/lib/python3.12/site-packages/_pytest/python.py:498: in importtestmodule
+    mod = import_path(
+.venv/lib/python3.12/site-packages/_pytest/pathlib.py:587: in import_path
+    importlib.import_module(module_name)
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1387: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1360: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1331: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:935: in _load_unlocked
+    ???
+.venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:177: in exec_module
+    source_stat, co = _rewrite_test(fn, self.config)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py:357: in _rewrite_test
+    tree = ast.parse(source, filename=strfn)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/usr/lib/python3.12/ast.py:52: in parse
+    return compile(source, filename, mode, flags,
+E     File "/home/alulo/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures/tests/test_account.py", line 55
+E       def test_create_all_accounts(self):
+E                                          ^
+E   IndentationError: unindent does not match any outer indentation level[0m
+[36m[1m================================================================= short test summary info ==================================================================[0m
+[31mERROR[0m tests/test_account.py
+[31m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[?2004h(.venv) ]0;alulo@DESKTOP-CM8SKM6: ~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[01;32malulo@DESKTOP-CM8SKM6[00m:[01;34m~/CC3S2-desarrollo-software/desarrollo-de-software/laboratorios/Laboratorio4/Actividades/pruebas_fixtures[00m$ [Kpytest -q --maxfail==1 --disable-warnings --cov=models --cov-report=term-missing
+[?2004l[32m.[0m[32m.[0m[32m                                                                                                                                                   [100%][0m
+====================================================================== tests coverage ======================================================================
+_____________________________________________________ coverage: platform linux, python 3.12.3-final-0 ______________________________________________________
+
+Name                 Stmts   Miss Branch BrPart  Cover   Missing
+----------------------------------------------------------------
+models/__init__.py       6      0      0      0   100%
+models/account.py       40     13      4    

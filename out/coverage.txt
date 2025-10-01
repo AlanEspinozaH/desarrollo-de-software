@@ -1,0 +1,21 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.3.3, pluggy-1.6.0
+rootdir: /home/alulo/CC3S2-desarrollo-software/desarrollo-de-software
+plugins: Faker-37.8.0, cov-5.0.0
+collected 15 items
+
+Actividad8-CC3S2/tests/test_carrito.py .........                         [ 60%]
+Actividad8-CC3S2/tests/test_shopping_cart.py ......                      [100%]
+
+---------- coverage: platform linux, python 3.12.3-final-0 -----------
+Name                                    Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------
+Actividad8-CC3S2/src/__init__.py            0      0   100%
+Actividad8-CC3S2/src/carrito.py            55      7    87%   9, 21, 50, 52, 60, 68, 91
+Actividad8-CC3S2/src/factories.py           7      0   100%
+Actividad8-CC3S2/src/shopping_cart.py      29      3    90%   9, 27, 31
+---------------------------------------------------------------------
+TOTAL                                      91     10    89%
+
+
+============================== 15 passed in 0.14s ==============================
