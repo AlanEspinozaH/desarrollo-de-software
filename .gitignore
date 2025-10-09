@@ -55,3 +55,41 @@ Actividad8-CC3S2/out/*
 # (ya ignoras por patrón, pero por claridad dejo ejemplos)
 Actividad4-CC3S2/lab-cli/secreto.txt
 Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+
+
+# base de datos sqlite
+# --- SQLite satélites / variantes ---
+**/*.sqlite         # por si usas extensión .sqlite
+**/*.sqlite3        # (ya la tienes, lo dejo por claridad)
+**/*.db-wal
+**/*.db-shm
+**/*.db-journal
+**/*.sqlite-wal
+**/*.sqlite-shm
+**/*.sqlite-journal
+
+# --- Archivos de entorno / secretos (Flask / direnv) ---
+.env
+.env.*
+.flaskenv
+.envrc
+.direnv/
+
+# --- Herramientas de test/automation (por si las usas) ---
+.tox/
+.nox/
+.hypothesis/
+
+# --- Jupyter (si aparece en el repo) ---
+**/.ipynb_checkpoints/
+
+# --- Temporales / swap / backups ---
+*.tmp
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# --- Logs comunes sueltos ---
+nohup.out
