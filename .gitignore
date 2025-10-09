@@ -1,21 +1,57 @@
+# --- OS / editores ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.python-version
+
+# Entornos virtuales en cualquier parte del repositorio
+# con **/ ingoras las subcarpetas donde vive la carpeta del entorno .venv ---
+**/.venv/
+**/venv/
+**/env/
+
+# --- Python: cachés / artefactos ---
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/htmlcov/
+**/.coverage*
+**/coverage.xml
+**/*.py[cod]
+**/*.pyo
+pip-wheel-metadata/
+# egg-info/ y .eggs/ Carpetas/archivos de metadata de paquetes generados por setuptools
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# --- Logs / bases de datos locales ---
+**/*.log
+**/*.db
+**/*.sqlite3
+# comunes en proyectos Flask
+**/instance/*.db
+
+# --- Metadatos de Windows o Archivos con ADS(Alternate Data Streams) ---
+# En Windows, cuando descargas/copias archivos, 
+# se crea un Alternate Data Stream llamado Zone.Identifier que guarda el “origen de Internet”.
+**/*:Zone.Identifier
+
+# --- Salidas de CI / reportes (mantén solo lo necesario) ---
+# top-level out/
+out/*
+!out/coverage.txt
+!out/junit.xml
+
+# Actividad8-CC3S2/out/ (mantén coverage y junit)
+Actividad8-CC3S2/out/*
+!Actividad8-CC3S2/out/coverage.txt
+!Actividad8-CC3S2/out/junit.xml
+
+# --- Cosas específicas que quieres ignorar explícitamente ---
+# (ya ignoras por patrón, pero por claridad dejo ejemplos)
 Actividad4-CC3S2/lab-cli/secreto.txt
 Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
-Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
-# --- Actividad8 / Python ---
-Actividad8-CC3S2/.venv/
-Actividad8-CC3S2/.pytest_cache/
-Actividad8-CC3S2/**/__pycache__/
-Actividad8-CC3S2/.coverage
-# Mantén solo estos artefactos de out/
-Actividad8-CC3S2/out/*
-!Actividad8-CC3S2/out/coverage.txt
-!Actividad8-CC3S2/out/junit.xml
-# --- Actividad8 / Python ---
-Actividad8-CC3S2/.venv/
-Actividad8-CC3S2/.pytest_cache/
-Actividad8-CC3S2/**/__pycache__/
-Actividad8-CC3S2/.coverage
-# Mantén solo estos artefactos de out/
-Actividad8-CC3S2/out/*
-!Actividad8-CC3S2/out/coverage.txt
-!Actividad8-CC3S2/out/junit.xml
