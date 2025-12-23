@@ -1,0 +1,32 @@
+{
+  "resource": [
+    {
+      "null_resource": [
+        {
+          "c1": [
+            {
+              "triggers": {
+                "factory_uuid": "68c580ed-840c-4c4e-8641-7596c8a12868",
+                "timestamp": "2025-12-23T07:35:26.795268"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "null_resource": [
+        {
+          "c2": [
+            {
+              "triggers": {
+                "factory_uuid": "385b0bc6-3ac3-474b-9987-46348541e7a7",
+                "timestamp": "2025-12-23T07:35:26.795286"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

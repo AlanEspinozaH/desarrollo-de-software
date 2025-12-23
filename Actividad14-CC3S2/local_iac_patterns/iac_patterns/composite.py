@@ -2,41 +2,65 @@
 Permite tratar múltiples recursos Terraform como una única unidad lógica o módulo compuesto.
 """
 
-from typing import List, Dict, Any
+from __future__ import annotations
+
+from typing import Any, Dict, List
+
+TerraformJSON = Dict[str, Any]
+
 
 class CompositeModule:
     """
-    Clase que agrega múltiples diccionarios de recursos Terraform como un módulo lógico único.
-    Sigue el patrón Composite, donde se unifican estructuras individuales en una sola jerarquía.
+    Agrega múltiples diccionarios Terraform JSON como un módulo lógico único.
     """
 
     def __init__(self) -> None:
-        """
-        Inicializa la estructura compuesta como una lista vacía de recursos hijos.
-        Cada hijo será un diccionario que contiene bloques Terraform.
-        """
-        self._children: List[Dict[str, Any]] = []
+        self._children: List[TerraformJSON] = []
 
-    def add(self, resource_dict: Dict[str, Any]) -> None:
+    def add(self, resource_dict: TerraformJSON) -> None:
         """
-        Agrega un diccionario de recurso (por ejemplo, con una clave 'resource') al módulo.
-
-        Args:
-            resource_dict: Diccionario que representa un recurso Terraform.
+        Agrega un hijo (Terraform JSON parcial o completo).
         """
         self._children.append(resource_dict)
 
-    def export(self) -> Dict[str, Any]:
+    def export(self) -> TerraformJSON:
         """
-        Exporta todos los recursos agregados a un único diccionario.
-        Esta estructura se puede serializar directamente a un archivo Terraform JSON válido.
-
-        Returns:
-            Un diccionario con todos los recursos combinados bajo la clave "resource".
+        Compat: exporta recursos combinados bajo "resource".
         """
-        aggregated: Dict[str, Any] = {"resource": []}
+        aggregated: TerraformJSON = {"resource": []}
         for child in self._children:
-            # Combina ordenadamente todos los bloques 'resource' de los hijos
-            # diccionario {"resource":[...]}
             aggregated["resource"].extend(child.get("resource", []))
         return aggregated
+
+    def execute_all(self) -> TerraformJSON:
+        """
+        Requerido por el ejercicio: combina todos los hijos en un único Terraform JSON.
+        - Une "resource" de todos los hijos.
+        - Si algún hijo trae bloque "terraform" (p.ej. required_providers), lo mergea.
+        """
+        aggregated: TerraformJSON = {"resource": []}
+        tf0: Dict[str, Any] = {}
+        tf_enabled = False
+
+        for child in self._children:
+            # merge resources
+            aggregated["resource"].extend(child.get("resource", []))
+
+            # merge terraform blocks si existen (opcional)
+            tf_blocks = child.get("terraform")
+            if isinstance(tf_blocks, list) and tf_blocks:
+                tf_enabled = True
+                child_tf0 = tf_blocks[0] if isinstance(tf_blocks[0], dict) else {}
+                for k, v in child_tf0.items():
+                    if k == "required_providers" and isinstance(v, dict):
+                        rp = tf0.setdefault("required_providers", {})
+                        # child override si hay colisión
+                        rp.update(v)
+                    else:
+                        tf0.setdefault(k, v)
+
+        if tf_enabled:
+            aggregated["terraform"] = [tf0]
+
+        return aggregated
+

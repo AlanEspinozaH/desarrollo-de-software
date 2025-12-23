@@ -1,3 +1,2 @@
-Traceback (most recent call last):
-  File "<stdin>", line 3, in <module>
-ImportError: cannot import name 'Composite' from 'iac_patterns.composite' (/home/alulo/CC3S2-Desarrollo-2025-2/desarrollo-de-software/Actividad14-CC3S2/local_iac_patterns/iac_patterns/composite.py)
+OK: main.tf.json generado por execute_all()
+Archivo: ../Fase2/Ejercicio2.4/terraform/main.tf.json
