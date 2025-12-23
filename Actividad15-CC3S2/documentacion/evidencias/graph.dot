@@ -1,0 +1,7 @@
+digraph G {
+  rankdir = "RL";
+  node [shape = rect, fontname = "sans-serif"];
+  "local_file.network_state" [label="local_file.network_state"];
+  "null_resource.network" [label="null_resource.network"];
+  "local_file.network_state" -> "null_resource.network";
+}
