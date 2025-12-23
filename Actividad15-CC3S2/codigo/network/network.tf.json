@@ -1,25 +1,29 @@
 {
   "terraform": {
     "required_providers": {
-      "null":  { "source": "hashicorp/null",  "version": "~> 3.2" },
-      "local": { "source": "hashicorp/local", "version": "~> 2.5" }
+      "null": {
+        "source": "hashicorp/null",
+        "version": "~> 3.2"
+      },
+      "local": {
+        "source": "hashicorp/local",
+        "version": "~> 2.5"
+      }
     }
   },
-
   "resource": {
     "null_resource": {
       "network": {
         "triggers": {
-          "render_time": "${timestamp()}"
+          "name": "hello-local-network",
+          "cidr": "10.0.0.0/28"
         }
       }
     },
-
     "local_file": {
-      "network_state": {
-        "filename": "network_outputs.json",
-        "content": "${jsonencode({\"outputs\":{\"name\":{\"value\":\"hello-world-subnet\",\"type\":\"string\"},\"cidr\":{\"value\":\"10.0.0.0/16\",\"type\":\"string\"}}})}",
-        "depends_on": ["null_resource.network"]
+      "network_metadata": {
+        "filename": "network_metadata.json",
+        "content": "${jsonencode({\"name\": null_resource.network.triggers.name, \"cidr\": null_resource.network.triggers.cidr})}"
       }
     }
   }

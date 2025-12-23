@@ -1,0 +1,26 @@
+{
+  "terraform": {
+    "required_providers": {}
+  },
+  "resource": {
+    "null_resource": {
+      "network": {
+        "triggers": {
+          "name": "hello-world-network"
+        }
+      },
+      "server": {
+        "triggers": {
+          "name": "hello-world-server",
+          "depends_on": "null_resource.network"
+        }
+      },
+      "load_balancer": {
+        "triggers": {
+          "name": "hello-world-lb",
+          "depends_on": "null_resource.server"
+        }
+      }
+    }
+  }
+}

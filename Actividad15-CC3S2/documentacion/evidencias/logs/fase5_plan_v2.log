@@ -1,0 +1,38 @@
+[0m[1mnull_resource.firewall: Refreshing state... [id=140389069485470533][0m
+[0m[1mnull_resource.network: Refreshing state... [id=8655264729316018834][0m
+[0m[1mnull_resource.server: Refreshing state... [id=2806259972049162750][0m
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [32m+[0m create[0m
+  [31m-[0m destroy[0m
+
+Terraform will perform the following actions:
+
+[1m  # null_resource.firewall[0m will be [1m[31mdestroyed[0m
+  # (because null_resource.firewall is not in configuration)
+[0m  [31m-[0m[0m resource "null_resource" "firewall" {
+      [31m-[0m[0m id       = "140389069485470533" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "depends_on" = "null_resource.server"
+          [31m-[0m[0m "port"       = "22"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.load_balancer[0m will be created
+[0m  [32m+[0m[0m resource "null_resource" "load_balancer" {
+      [32m+[0m[0m id       = (known after apply)
+      [32m+[0m[0m triggers = {
+          [32m+[0m[0m "depends_on" = "null_resource.server"
+          [32m+[0m[0m "name"       = "hello-world-lb"
+        }
+    }
+
+[1mPlan:[0m [0m1 to add, 0 to change, 1 to destroy.
+[90m
+─────────────────────────────────────────────────────────────────────────────[0m
+
+Saved the plan to: tfplan
+
+To perform exactly these actions, run the following command to apply:
+    terraform apply "tfplan"
