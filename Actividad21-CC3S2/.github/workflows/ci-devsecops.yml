@@ -1,0 +1,89 @@
+name: CI DevSecOps (local-first, no secrets)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+      security-events: write
+    steps:
+      - name: Saludo del pipeline
+        run: |
+          echo "Iniciando construcción del repositorio: ${{ github.repository }}"
+          echo "Rama que se está construyendo: ${{ github.ref_name }}"
+          echo "Iniciado por: ${{ github.actor }}"
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create artifacts directory
+        run: mkdir -p artifacts
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip' 
+          cache-dependency-path: 'requirements-dev.txt'
+
+      - name: Install dev deps
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements-dev.txt
+
+      - name: Install syft/grype
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
+          curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
+
+      - name: Build image
+        run: docker build -t python-microservice:dev -f docker/Dockerfile .
+
+      - name: Unit tests
+        run: pytest -q
+
+      - name: SAST (bandit)
+        run: bandit -r src -f json -o artifacts/bandit.json || true
+
+      - name: SAST (semgrep)
+        run: semgrep --config .semgrep.yml --error --json --output artifacts/semgrep.json || true
+
+      - name: SCA (pip-audit)
+        run: pip-audit -r requirements.txt -f json -o artifacts/pip-audit.json || true
+
+      - name: SBOM (syft project + image)
+        run: |
+          syft packages dir:. -o json > artifacts/sbom-syft-project.json || true
+          syft python-microservice:dev -o json > artifacts/sbom-syft-image.json || true
+
+      - name: Image scan (grype)
+        run: grype python-microservice:dev -o sarif > artifacts/grype-image.sarif || true
+
+      - name: Launch app (compose)
+        run: |
+          docker compose up -d --build
+          sleep 5
+          echo "Respuesta del healthcheck:"
+          curl -sf http://127.0.0.1:8000/health
+
+      - name: Compose down
+        if: always() 
+        run: docker compose down -v
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: devsecops-artifacts
+          path: artifacts/

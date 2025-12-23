@@ -1,0 +1,9 @@
+# Responsables de la lógica de la aplicación y pruebas
+/src/ @AlanEspinozaH
+/tests/ @AlanEspinozaH
+
+# Responsables de la infraestructura y automatización (CI/CD)
+/.github/workflows/ @AlanEspinozaH
+/k8s/ @AlanEspinozaH
+/docker/ @AlanEspinozaH
+Makefile @AlanEspinozaH
