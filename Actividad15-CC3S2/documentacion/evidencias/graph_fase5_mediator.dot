@@ -1,0 +1,7 @@
+digraph G {
+  rankdir = "RL";
+  node [shape = rect, fontname = "sans-serif"];
+  "null_resource.load_balancer" [label="null_resource.load_balancer"];
+  "null_resource.network" [label="null_resource.network"];
+  "null_resource.server" [label="null_resource.server"];
+}
