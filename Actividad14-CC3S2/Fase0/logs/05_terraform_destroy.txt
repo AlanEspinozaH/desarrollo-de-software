@@ -1,0 +1,218 @@
+[0m[1mnull_resource.placeholder_5: Refreshing state... [id=8611649414829547814][0m
+[0m[1mnull_resource.placeholder_6: Refreshing state... [id=4151641786308961462][0m
+[0m[1mnull_resource.placeholder_3: Refreshing state... [id=9222774972805870567][0m
+[0m[1mnull_resource.placeholder_12: Refreshing state... [id=6526357290621514395][0m
+[0m[1mnull_resource.placeholder_7: Refreshing state... [id=5947264989853558417][0m
+[0m[1mnull_resource.placeholder_11: Refreshing state... [id=1282496245192481727][0m
+[0m[1mnull_resource.placeholder_9: Refreshing state... [id=5472855326441818479][0m
+[0m[1mnull_resource.placeholder_14: Refreshing state... [id=7869485273929526803][0m
+[0m[1mnull_resource.placeholder_1: Refreshing state... [id=7810925456043336382][0m
+[0m[1mnull_resource.placeholder_4: Refreshing state... [id=4078279699017018741][0m
+[0m[1mnull_resource.placeholder_10: Refreshing state... [id=2384219597612015669][0m
+[0m[1mnull_resource.placeholder_8: Refreshing state... [id=128322131634501386][0m
+[0m[1mnull_resource.placeholder_2: Refreshing state... [id=7807141418242039307][0m
+[0m[1mnull_resource.placeholder_13: Refreshing state... [id=4177817090288686148][0m
+[0m[1mnull_resource.finalizador: Refreshing state... [id=5959724771971811274][0m
+[0m[1mnull_resource.placeholder_0: Refreshing state... [id=1166430537780637160][0m
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [31m-[0m destroy[0m
+
+Terraform will perform the following actions:
+
+[1m  # null_resource.finalizador[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "finalizador" {
+      [31m-[0m[0m id       = "5959724771971811274" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "c9ab457b-06c2-4a9c-9ff9-752ae4bad7e7"
+          [31m-[0m[0m "nota"         = "Recurso compuesto generado dinámicamente en tiempo de ejecución"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493191"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_0[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_0" {
+      [31m-[0m[0m id       = "1166430537780637160" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "0"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_1[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_1" {
+      [31m-[0m[0m id       = "7810925456043336382" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "1"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_10[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_10" {
+      [31m-[0m[0m id       = "2384219597612015669" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "10"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_11[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_11" {
+      [31m-[0m[0m id       = "1282496245192481727" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "11"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_12[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_12" {
+      [31m-[0m[0m id       = "6526357290621514395" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "12"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_13[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_13" {
+      [31m-[0m[0m id       = "4177817090288686148" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "13"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_14[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_14" {
+      [31m-[0m[0m id       = "7869485273929526803" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "14"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_2[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_2" {
+      [31m-[0m[0m id       = "7807141418242039307" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "2"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_3[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_3" {
+      [31m-[0m[0m id       = "9222774972805870567" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "3"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_4[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_4" {
+      [31m-[0m[0m id       = "4078279699017018741" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "4"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_5[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_5" {
+      [31m-[0m[0m id       = "8611649414829547814" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "5"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_6[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_6" {
+      [31m-[0m[0m id       = "4151641786308961462" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "6"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_7[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_7" {
+      [31m-[0m[0m id       = "5947264989853558417" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "7"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_8[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_8" {
+      [31m-[0m[0m id       = "128322131634501386" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "8"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1m  # null_resource.placeholder_9[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "null_resource" "placeholder_9" {
+      [31m-[0m[0m id       = "5472855326441818479" [90m-> null[0m[0m
+      [31m-[0m[0m triggers = {
+          [31m-[0m[0m "factory_uuid" = "751cfacf-9022-4d87-9b94-278b32bcc49d"
+          [31m-[0m[0m "index"        = "9"
+          [31m-[0m[0m "timestamp"    = "2025-12-23T03:16:51.493020"
+        } [90m-> null[0m[0m
+    }
+
+[1mPlan:[0m [0m0 to add, 0 to change, 16 to destroy.
+[0m[1mnull_resource.placeholder_1: Destroying... [id=7810925456043336382][0m[0m
+[0m[1mnull_resource.finalizador: Destroying... [id=5959724771971811274][0m[0m
+[0m[1mnull_resource.placeholder_0: Destroying... [id=1166430537780637160][0m[0m
+[0m[1mnull_resource.placeholder_7: Destroying... [id=5947264989853558417][0m[0m
+[0m[1mnull_resource.placeholder_2: Destroying... [id=7807141418242039307][0m[0m
+[0m[1mnull_resource.placeholder_12: Destroying... [id=6526357290621514395][0m[0m
+[0m[1mnull_resource.placeholder_6: Destroying... [id=4151641786308961462][0m[0m
+[0m[1mnull_resource.placeholder_5: Destroying... [id=8611649414829547814][0m[0m
+[0m[1mnull_resource.placeholder_3: Destroying... [id=9222774972805870567][0m[0m
+[0m[1mnull_resource.placeholder_8: Destroying... [id=128322131634501386][0m[0m
+[0m[1mnull_resource.placeholder_2: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_12: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_5: Destruction complete after 0s[0m
+[0m[1mnull_resource.finalizador: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_6: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_0: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_7: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_8: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_3: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_1: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_10: Destroying... [id=2384219597612015669][0m[0m
+[0m[1mnull_resource.placeholder_9: Destroying... [id=5472855326441818479][0m[0m
+[0m[1mnull_resource.placeholder_14: Destroying... [id=7869485273929526803][0m[0m
+[0m[1mnull_resource.placeholder_11: Destroying... [id=1282496245192481727][0m[0m
+[0m[1mnull_resource.placeholder_13: Destroying... [id=4177817090288686148][0m[0m
+[0m[1mnull_resource.placeholder_4: Destroying... [id=4078279699017018741][0m[0m
+[0m[1mnull_resource.placeholder_9: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_4: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_10: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_14: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_13: Destruction complete after 0s[0m
+[0m[1mnull_resource.placeholder_11: Destruction complete after 0s[0m
+[0m[1m[32m
+Destroy complete! Resources: 16 destroyed.[0m

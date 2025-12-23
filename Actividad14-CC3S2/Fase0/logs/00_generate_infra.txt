@@ -1,0 +1,1 @@
+[Builder] Terraform JSON escrito en: terraform/main.tf.json
