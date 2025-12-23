@@ -1,0 +1,2 @@
+OK: main.tf.json generado con null_resource + local_file
+Archivo: ../Fase2/Ejercicio2.3/terraform/main.tf.json

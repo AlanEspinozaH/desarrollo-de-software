@@ -1,0 +1,40 @@
+{
+  "resource": [
+    {
+      "null_resource": [
+        {
+          "proto_base": [
+            {
+              "triggers": {
+                "factory_uuid": "f20ee884-74c3-4cef-9e58-8fa4e5b8883a",
+                "timestamp": "2025-12-23T07:13:20.811484"
+              }
+            }
+          ]
+        }
+      ],
+      "local_file": [
+        {
+          "welcome": [
+            {
+              "filename": "${path.module}/welcome.txt",
+              "content": "Welcome from Prototype mutator\n"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "terraform": [
+    {
+      "required_providers": {
+        "null": {
+          "source": "hashicorp/null"
+        },
+        "local": {
+          "source": "hashicorp/local"
+        }
+      }
+    }
+  ]
+}

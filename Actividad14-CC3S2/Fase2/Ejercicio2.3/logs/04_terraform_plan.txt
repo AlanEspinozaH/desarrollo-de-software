@@ -1,0 +1,39 @@
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # local_file.welcome will be created
+  + resource "local_file" "welcome" {
+      + content              = <<-EOT
+            Welcome from Prototype mutator
+        EOT
+      + content_base64sha256 = (known after apply)
+      + content_base64sha512 = (known after apply)
+      + content_md5          = (known after apply)
+      + content_sha1         = (known after apply)
+      + content_sha256       = (known after apply)
+      + content_sha512       = (known after apply)
+      + directory_permission = "0777"
+      + file_permission      = "0777"
+      + filename             = "./welcome.txt"
+      + id                   = (known after apply)
+    }
+
+  # null_resource.proto_base will be created
+  + resource "null_resource" "proto_base" {
+      + id       = (known after apply)
+      + triggers = {
+          + "factory_uuid" = "f20ee884-74c3-4cef-9e58-8fa4e5b8883a"
+          + "timestamp"    = "2025-12-23T07:13:20.811484"
+        }
+    }
+
+Plan: 2 to add, 0 to change, 0 to destroy.
+
+─────────────────────────────────────────────────────────────────────────────
+
+Note: You didn't use the -out option to save this plan, so Terraform can't
+guarantee to take exactly these actions if you run "terraform apply" now.
