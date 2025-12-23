@@ -1,0 +1,17 @@
+--- POST ---
+HTTP/1.1 201 Created
+date: Tue, 23 Dec 2025 16:08:23 GMT
+server: uvicorn
+content-length: 62
+content-type: application/json
+
+{"name":"captura-item","description":"evidencia final","id":1}
+
+--- GET ---
+HTTP/1.1 200 OK
+date: Tue, 23 Dec 2025 16:08:23 GMT
+server: uvicorn
+content-length: 64
+content-type: application/json
+
+[{"name":"captura-item","description":"evidencia final","id":1}]
