@@ -1,0 +1,7 @@
+B2 — SBOM y cadena de suministro
+
+Tras `make sbom` (CycloneDX/SPDX), el JSON lista **providers** (ej. `hashicorp/aws`, `kubernetes`), versiones y, si aplica, módulos internos.  
+**¿Por qué guardar con hash/firma?**  
+Porque asegura **integridad** y **procedencia**: se puede demostrar que el SBOM corresponde al commit/artefacto liberado. Con *attestations* (SLSA) se encadena el “quién, cómo y cuándo”.  
+**¿Cómo demostrar a un auditor que no descargamos providers al azar?**  
+Adjuntamos: (a) política que exige **mirror interno** y verificación de checksums; (b) artefactos de CI que evidencian descargas desde el mirror; (c) SBOM y logs firmados. Así, cualquier *pull* externo quedaría bloqueado por política.

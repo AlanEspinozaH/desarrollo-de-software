@@ -1,11 +1,17 @@
 # 
-Creacion del entorno virtual.
+# Creacion del entorno virtual.
 cd /ruta/al/repositorio/Laboratorio/Laboratorio4
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -U pip
 
-instalacion de requirements.txt
+# para activar el entorno virtual en otro momento.
+
+ `cd ruta donde esta/vive la carpeta .venv` (entorno virtual)         
+(comandode activacion)  
+`source .venv/bin/activate`  
+
+# instalacion de requirements.txt
 pip install -r requirements.txt
 
 

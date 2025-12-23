@@ -1,0 +1,13 @@
+B1 — Captura de plan y policy
+
+1) Ejecuté `make plan` y obtuve un plan en JSON (reproducible).  
+2) Al correr `make policy`, las reglas de OPA/Conftest verifican, entre otras:  
+   - Que no existan *outputs* que coincidan con patrones de secreto.  
+   - Que recursos sensibles (p. ej., buckets) no estén públicos por defecto.  
+   - Que el cifrado esté habilitado (si el recurso lo soporta).
+
+**¿Bloquea algo inseguro?**  
+Sí. Por ejemplo, una regla típica rechaza `public = true` en un bucket sin justificación, o marca como *deny* un `output` que parece credencial.
+
+**¿Qué pasa si fuerzo algo inseguro en `main.tf` y vuelvo a correr `make policy`?**  
+El *gate* debe fallar el pipeline local, impidiendo avanzar a `sbom/release`. Esto obliga a revertir o justificar el cambio vía excepción controlada.

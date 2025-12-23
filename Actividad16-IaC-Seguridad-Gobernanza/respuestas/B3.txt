@@ -1,0 +1,14 @@
+B3 — Evidencia y gobernanza
+
+**Evidencia mínima para ticket de cambio a `prod`:**  
+- Plan firmado (hash/fecha/commit).  
+- Resultado del policy check (sin *deny* críticos).  
+- SBOM con hash + verificación de providers.  
+- Resultado de escaneo de secretos.  
+- Tag semántico del módulo a usar (p. ej., `v1.2.0`) y link a la nota de versión.  
+
+**RACI (resumen):**  
+- **R (Responsible):** ingeniero/a de IaC que ejecuta plan/policy/sbom y prepara el cambio.  
+- **A (Accountable):** líder de plataforma/seguridad que aprueba y asume responsabilidad del impacto.  
+- **C (Consulted):** dueño del servicio afectado, seguridad (GRC) y *SRE* si hay riesgos.  
+- **I (Informed):** auditoría y *stakeholders* de negocio.
