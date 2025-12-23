@@ -1,0 +1,1 @@
+OK: reset() limpia settings, mantiene created_at y preserva identidad singleton.
