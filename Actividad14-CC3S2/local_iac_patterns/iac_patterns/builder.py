@@ -1,89 +1,88 @@
 """Patrón Builder
-Construye de manera fluida configuraciones Terraform locales combinando los patrones Factory, Prototype y Composite.
+Construye de manera fluida configuraciones Terraform locales combinando los patrones
+Factory, Prototype y Composite.
+
+Ejercicio 2.5: build_group(prefix, size)
 """
 
-from typing import Dict, Any
-import os
-import json
+from __future__ import annotations
 
-from .factory import NullResourceFactory
+import json
+import os
+from typing import Any, Dict
+
 from .composite import CompositeModule
+from .factory import NullResourceFactory
 from .prototype import ResourcePrototype
 
+TerraformJSON = Dict[str, Any]
+
+
 class InfrastructureBuilder:
-    """Builder fluido que combina los patrones Factory, Prototype y Composite para crear módulos Terraform."""
+    """Builder fluido que combina Factory, Prototype y Composite para crear módulos Terraform."""
 
     def __init__(self, env_name: str) -> None:
-        """
-        Inicializa el builder con un nombre de entorno y una instancia de módulo compuesto.
-        """
         self.env_name = env_name
         self._module = CompositeModule()
 
-    #  Métodos de construcción (steps) 
-
     def build_null_fleet(self, count: int = 5) -> "InfrastructureBuilder":
         """
-        Construye una flota de `null_resource` clonados a partir de un prototipo base.
-        Cada recurso tiene un trigger que lo identifica por índice, y un nombre válido.
+        Construye una flota de null_resource clonados desde un prototipo base.
+        Cada recurso recibe un trigger "index".
         """
-        # Se crea un prototipo reutilizable a partir de un recurso null de fábrica
-        base_proto = ResourcePrototype(
-            NullResourceFactory.create("placeholder")
-        )
+        if count <= 0:
+            raise ValueError("count debe ser > 0")
+
+        base_proto = ResourcePrototype(NullResourceFactory.create("placeholder"))
 
         for i in range(count):
-            def mutator(d: Dict[str, Any], idx=i) -> None:
-                """
-                Función mutadora: modifica el nombre del recurso clonado
-                e inserta un trigger identificador con el índice correspondiente.
-                """
+            def mutator(d: Dict[str, Any], idx: int = i) -> None:
                 res_block = d["resource"][0]["null_resource"][0]
-                # Nombre original del recurso (por defecto "placeholder")
                 original_name = next(iter(res_block.keys()))
-                # Nuevo nombre válido: empieza con letra y contiene índice
                 new_name = f"{original_name}_{idx}"
-                # Renombramos la clave en el dict
                 res_block[new_name] = res_block.pop(original_name)
-                # Añadimos el trigger de índice
+
+                # Asegura que triggers exista
+                res_block[new_name][0].setdefault("triggers", {})
                 res_block[new_name][0]["triggers"]["index"] = idx
 
-            # Clonamos el prototipo y aplicamos la mutación
             clone = base_proto.clone(mutator).data
-            # Agregamos el recurso clonado al módulo compuesto
             self._module.add(clone)
 
         return self
 
     def add_custom_resource(self, name: str, triggers: Dict[str, Any]) -> "InfrastructureBuilder":
-        """
-        Agrega un recurso null personalizado al módulo compuesto.
-
-        Args:
-            name: nombre del recurso.
-            triggers: diccionario de triggers personalizados.
-        Returns:
-            self: permite encadenar llamadas.
-        """
+        """Agrega un null_resource personalizado al módulo compuesto."""
         self._module.add(NullResourceFactory.create(name, triggers))
         return self
 
-    #  Método final (exportación) 
-
     def export(self, path: str) -> None:
-        """
-        Exporta el módulo compuesto a un archivo JSON compatible con Terraform.
-
-        Args:
-            path: ruta de destino del archivo `.tf.json`.
-        """
+        """Exporta el módulo compuesto a un archivo JSON compatible con Terraform."""
         data = self._module.export()
 
-        # Asegura que el directorio destino exista
-        os.makedirs(os.path.dirname(path), exist_ok=True)
+        dirpath = os.path.dirname(path)
+        if dirpath:
+            os.makedirs(dirpath, exist_ok=True)
 
-        # Escribe el archivo con indentación legible
-        with open(path, "w") as f:
-            json.dump(data, f, indent=4)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
 
         print(f"[Builder] Terraform JSON escrito en: {path}")
+
+
+def build_group(prefix: str, size: int) -> TerraformJSON:
+    """
+    Ejercicio 2.5 (Builder):
+    Construye un grupo de `size` null_resource con nombres: prefix1..prefixN
+    y retorna un Terraform JSON listo para serializar.
+    """
+    if size <= 0:
+        raise ValueError("size debe ser > 0")
+
+    cfg: TerraformJSON = {"resource": []}
+
+    for i in range(1, size + 1):
+        name = f"{prefix}{i}"
+        cfg["resource"].extend(NullResourceFactory.create(name).get("resource", []))
+
+    return cfg

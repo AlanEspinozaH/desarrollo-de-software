@@ -1,0 +1,46 @@
+{
+  "resource": [
+    {
+      "null_resource": [
+        {
+          "g1": [
+            {
+              "triggers": {
+                "factory_uuid": "c42da3f8-e9b9-4d97-9f3a-1c9584176af2",
+                "timestamp": "2025-12-23T08:00:14.566970"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "null_resource": [
+        {
+          "g2": [
+            {
+              "triggers": {
+                "factory_uuid": "36bc6734-3654-4db4-93a6-79a88f11df64",
+                "timestamp": "2025-12-23T08:00:14.566990"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "null_resource": [
+        {
+          "g3": [
+            {
+              "triggers": {
+                "factory_uuid": "307667a9-0741-4eb7-9dde-ef334d3be3c6",
+                "timestamp": "2025-12-23T08:00:14.566999"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

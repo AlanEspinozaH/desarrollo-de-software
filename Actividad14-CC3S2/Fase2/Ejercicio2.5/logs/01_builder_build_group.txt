@@ -1,0 +1,2 @@
+OK: generado main.tf.json con build_group(prefix,size)
+Archivo: ../Fase2/Ejercicio2.5/terraform/main.tf.json

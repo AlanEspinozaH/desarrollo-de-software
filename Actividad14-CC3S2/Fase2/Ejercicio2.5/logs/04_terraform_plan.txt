@@ -1,0 +1,40 @@
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # null_resource.g1 will be created
+  + resource "null_resource" "g1" {
+      + id       = (known after apply)
+      + triggers = {
+          + "factory_uuid" = "c42da3f8-e9b9-4d97-9f3a-1c9584176af2"
+          + "timestamp"    = "2025-12-23T08:00:14.566970"
+        }
+    }
+
+  # null_resource.g2 will be created
+  + resource "null_resource" "g2" {
+      + id       = (known after apply)
+      + triggers = {
+          + "factory_uuid" = "36bc6734-3654-4db4-93a6-79a88f11df64"
+          + "timestamp"    = "2025-12-23T08:00:14.566990"
+        }
+    }
+
+  # null_resource.g3 will be created
+  + resource "null_resource" "g3" {
+      + id       = (known after apply)
+      + triggers = {
+          + "factory_uuid" = "307667a9-0741-4eb7-9dde-ef334d3be3c6"
+          + "timestamp"    = "2025-12-23T08:00:14.566999"
+        }
+    }
+
+Plan: 3 to add, 0 to change, 0 to destroy.
+
+─────────────────────────────────────────────────────────────────────────────
+
+Note: You didn't use the -out option to save this plan, so Terraform can't
+guarantee to take exactly these actions if you run "terraform apply" now.
