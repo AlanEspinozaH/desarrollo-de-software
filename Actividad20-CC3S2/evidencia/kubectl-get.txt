@@ -1,0 +1,11 @@
+NAME                            READY   UP-TO-DATE   AVAILABLE   AGE     CONTAINERS      IMAGES                  SELECTOR
+deployment.apps/order-service   1/1     1            1           57s     order-service   order-service:afa4f10   app=order-service
+deployment.apps/user-service    1/1     1            1           2m13s   user-service    user-service:afa4f10    app=user-service
+
+NAME                    TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE     SELECTOR
+service/order-service   NodePort   10.110.44.170   <none>        80:32051/TCP   57s     app=order-service
+service/user-service    NodePort   10.99.127.75    <none>        80:30307/TCP   2m13s   app=user-service
+
+NAME                                 READY   STATUS    RESTARTS   AGE     IP           NODE       NOMINATED NODE   READINESS GATES
+pod/order-service-77b5598845-gx5nt   1/1     Running   0          57s     10.244.0.4   minikube   <none>           <none>
+pod/user-service-746d859787-vlb77    1/1     Running   0          2m13s   10.244.0.3   minikube   <none>           <none>

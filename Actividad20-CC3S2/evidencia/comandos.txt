@@ -1,0 +1,50 @@
+CMD ["python", "server.py"]
+EOF
+
+ 1878  clear
+ 1879  make dev SERVICE=user-service
+ 1880  cd ..
+ 1881  tree
+ 1882  ls
+ 1883  cd Laboratorio11/
+ 1884  ls
+ 1885  cat << 'EOF' > docker/Dockerfile.python-template
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+WORKDIR /app
+
+# FIX: Instalar curl para que el healthcheck de docker-compose funcione
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+# Seguridad: Usuario no-root
+RUN useradd -m app && chown -R app:app /app
+USER app
+
+CMD ["python", "server.py"]
+EOF
+
+ 1886  eval $(minikube docker-env)
+ 1887  make dev SERVICE=user-service
+ 1888  make dev SERVICE=order-service
+ 1889  # 1. Guardar estado final de Kubernetes (Deployments, Pods y Servicios)
+ 1890  # Esto demuestra que tus pods están "Running" y "Ready"
+ 1891  kubectl get deploy,svc,pods -o wide -n devsecops-lab11 > ../evidencia/kubectl-get.txt
+ 1892  # 2. Guardar reporte de Smoke Tests de AMBOS servicios
+ 1893  echo "=== REPORTE DE SMOKE TESTS ===" > ../evidencia/smoke-tests.txt
+ 1894  echo "" >> ../evidencia/smoke-tests.txt
+ 1895  echo "--- User Service (Puerto 8000) ---" >> ../evidencia/smoke-tests.txt
+ 1896  ./scripts/minikube_smoke.sh user-service 8000 devsecops-lab11 >> ../evidencia/smoke-tests.txt
+ 1897  echo "" >> ../evidencia/smoke-tests.txt
+ 1898  echo "--- Order Service (Puerto 8001) ---" >> ../evidencia/smoke-tests.txt
+ 1899  ./scripts/minikube_smoke.sh order-service 8001 devsecops-lab11 >> ../evidencia/smoke-tests.txt
+ 1900  # 3. Guardar historial de comandos
+ 1901  # Esto prueba que trabajaste en tu máquina local
+ 1902  history | tail -n 50 > ../evidencia/comandos.txt

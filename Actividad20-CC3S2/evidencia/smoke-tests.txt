@@ -1,0 +1,9 @@
+=== REPORTE DE SMOKE TESTS ===
+
+--- User Service (Puerto 8000) ---
+[i] smoke: user-service/devsecops-lab11 -> http://127.0.0.1:8000
+OK[OK] SMOKE user-service -> 200
+
+--- Order Service (Puerto 8001) ---
+[i] smoke: order-service/devsecops-lab11 -> http://127.0.0.1:8001
+OK[OK] SMOKE order-service -> 200
