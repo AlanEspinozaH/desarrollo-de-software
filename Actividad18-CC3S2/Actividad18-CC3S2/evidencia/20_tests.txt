@@ -1,0 +1,111 @@
+docker compose -f docker-compose.test.yml up --build --exit-code-from sut
+time="2025-12-23T10:19:37-05:00" level=warning msg="/home/alulo/CC3S2-Desarrollo-2025-2/desarrollo-de-software/Actividad18-CC3S2/docker-compose.test.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+#1 [internal] load local bake definitions
+#1 reading from stdin 612B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 2.23kB done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 0.7s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [builder 1/4] FROM docker.io/library/python:3.12-slim@sha256:fa48eefe2146644c2308b909d6bb7651a768178f84fc9550dcd495e4d6d84d01
+#5 resolve docker.io/library/python:3.12-slim@sha256:fa48eefe2146644c2308b909d6bb7651a768178f84fc9550dcd495e4d6d84d01 0.0s done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 159B done
+#6 DONE 0.0s
+
+#7 [runtime 5/9] COPY --from=builder /venv /venv
+#7 CACHED
+
+#8 [builder 3/4] COPY requirements.txt .
+#8 CACHED
+
+#9 [runtime 7/9] COPY healthcheck.py ./healthcheck.py
+#9 CACHED
+
+#10 [runtime 8/9] COPY data ./data
+#10 CACHED
+
+#11 [runtime 3/9] RUN useradd --create-home --uid 10001 etluser
+#11 CACHED
+
+#12 [runtime 2/9] RUN apt-get update && apt-get install -y --no-install-recommends     libpq5     && rm -rf /var/lib/apt/lists/*
+#12 CACHED
+
+#13 [runtime 4/9] WORKDIR /app
+#13 CACHED
+
+#14 [builder 2/4] WORKDIR /build
+#14 CACHED
+
+#15 [runtime 6/9] COPY pipeline.py ./pipeline.py
+#15 CACHED
+
+#16 [builder 4/4] RUN apt-get update  && apt-get install -y --no-install-recommends build-essential gcc libpq-dev  && pip install --upgrade pip  && python -m venv /venv  && . /venv/bin/activate  && pip install -r requirements.txt  && apt-get purge -y build-essential gcc  && apt-get autoremove -y  && rm -rf /var/lib/apt/lists/*
+#16 CACHED
+
+#17 [runtime 9/9] RUN chown -R etluser:etluser /app
+#17 CACHED
+
+#18 exporting to image
+#18 exporting layers done
+#18 exporting manifest sha256:b5cfcad807ad3a188b5df143b27cec92d5924d8d18c854e33d51026a077715ab done
+#18 exporting config sha256:b05f14e31103663177dcb61d29c44aca91b24d8f7b5c24b31dc398ef46d34cc6 0.0s done
+#18 exporting attestation manifest sha256:608fcb9f9c1b0e1250d0dc42d68009271b702f54a24fa0fdfe595f1e65ab3eeb 0.0s done
+#18 exporting manifest list sha256:810339acfd1c93506f2fb9cf3ea6850bda5bba3a13afb6da66976e275a8052e4 0.0s done
+#18 naming to docker.io/library/etl-app:test
+#18 naming to docker.io/library/etl-app:test done
+#18 unpacking to docker.io/library/etl-app:test done
+#18 DONE 0.1s
+
+#19 resolving provenance for metadata file
+#19 DONE 0.0s
+ etl-app:test  Built
+time="2025-12-23T10:19:38-05:00" level=warning msg="Found orphan containers ([actividad18-cc3s2-airflow-webserver-1 actividad18-cc3s2-airflow-init-1 actividad18-cc3s2-airflow-scheduler-1 actividad18-cc3s2-etl-app-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container actividad18-cc3s2-postgres-1  Recreate
+ Container actividad18-cc3s2-postgres-1  Recreated
+ Container actividad18-cc3s2-sut-1  Creating
+ Container actividad18-cc3s2-sut-1  Created
+Attaching to postgres-1, sut-1
+postgres-1  | 
+postgres-1  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres-1  | 
+postgres-1  | 2025-12-23 15:19:39.137 UTC [1] LOG:  starting PostgreSQL 13.23 (Debian 13.23-1.pgdg13+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+postgres-1  | 2025-12-23 15:19:39.137 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres-1  | 2025-12-23 15:19:39.137 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres-1  | 2025-12-23 15:19:39.141 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres-1  | 2025-12-23 15:19:39.146 UTC [27] LOG:  database system was shut down at 2025-12-23 15:19:38 UTC
+postgres-1  | 2025-12-23 15:19:39.152 UTC [1] LOG:  database system is ready to accept connections
+[Ksut-1 exited with code 0
+[31m[1mAborting on container exit...[0m
+ Container actividad18-cc3s2-sut-1  Stopping
+ Container actividad18-cc3s2-sut-1  Stopped
+ Container actividad18-cc3s2-postgres-1  Stopping
+postgres-1  | 2025-12-23 15:19:45.549 UTC [1] LOG:  received fast shutdown request
+postgres-1  | 2025-12-23 15:19:45.551 UTC [1] LOG:  aborting any active transactions
+postgres-1  | 2025-12-23 15:19:45.553 UTC [1] LOG:  background worker "logical replication launcher" (PID 33) exited with exit code 1
+postgres-1  | 2025-12-23 15:19:45.553 UTC [28] LOG:  shutting down
+postgres-1  | 2025-12-23 15:19:45.574 UTC [1] LOG:  database system is shut down
+ Container actividad18-cc3s2-postgres-1  Stopped
+[Kpostgres-1 exited with code 0
+docker compose -f docker-compose.test.yml down -v
+time="2025-12-23T10:19:45-05:00" level=warning msg="/home/alulo/CC3S2-Desarrollo-2025-2/desarrollo-de-software/Actividad18-CC3S2/docker-compose.test.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Container actividad18-cc3s2-sut-1  Stopping
+ Container actividad18-cc3s2-sut-1  Stopped
+ Container actividad18-cc3s2-sut-1  Removing
+ Container actividad18-cc3s2-sut-1  Removed
+ Container actividad18-cc3s2-postgres-1  Stopping
+ Container actividad18-cc3s2-postgres-1  Stopped
+ Container actividad18-cc3s2-postgres-1  Removing
+ Container actividad18-cc3s2-postgres-1  Removed
+ Network actividad18-cc3s2_backend  Removing
+ Network actividad18-cc3s2_backend  Resource is still in use

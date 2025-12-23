@@ -1,0 +1,5 @@
+>> Iniciando Test E2E HTTP...
+Request: GET http://localhost:8080/
+Response: HTTP/1.1 200 OK
+Payload: { 'status': 'active', 'backend': 'connected' }
+Test E2E: PASSED

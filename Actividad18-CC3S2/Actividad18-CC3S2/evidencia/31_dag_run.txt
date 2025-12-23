@@ -1,0 +1,50 @@
+airflow-scheduler-1  | 
+airflow-scheduler-1  | ERROR: You need to initialize the database. Please run `airflow db init`. Make sure the command is run using Airflow version 2.9.1.
+airflow-scheduler-1  | 
+airflow-scheduler-1  |   ____________       _____________
+airflow-scheduler-1  |  ____    |__( )_________  __/__  /________      __
+airflow-scheduler-1  | ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+airflow-scheduler-1  | ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+airflow-scheduler-1  |  _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+airflow-scheduler-1  | [[34m2025-12-23T15:26:20.969+0000[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:20.969+0000[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:21.140+0000[0m] {[34mscheduler_job_runner.py:[0m796} INFO[0m - Starting the scheduler[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:21.141+0000[0m] {[34mscheduler_job_runner.py:[0m803} INFO[0m - Processing each file at most -1 times[0m
+airflow-scheduler-1  | [2025-12-23 15:26:21 +0000] [25] [INFO] Starting gunicorn 22.0.0
+airflow-scheduler-1  | [2025-12-23 15:26:21 +0000] [25] [INFO] Listening at: http://[::]:8793 (25)
+airflow-scheduler-1  | [2025-12-23 15:26:21 +0000] [25] [INFO] Using worker: sync
+airflow-scheduler-1  | [[34m2025-12-23T15:26:21.148+0000[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 26[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:21.149+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:21.153+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+airflow-scheduler-1  | [2025-12-23 15:26:21 +0000] [27] [INFO] Booting worker with pid: 27
+airflow-scheduler-1  | [2025-12-23 15:26:21 +0000] [28] [INFO] Booting worker with pid: 28
+airflow-scheduler-1  | [2025-12-23 15:26:36 +0000] [27] [INFO] Worker exiting (pid: 27)
+airflow-scheduler-1  | [2025-12-23 15:26:36 +0000] [28] [INFO] Worker exiting (pid: 28)
+airflow-scheduler-1  | [2025-12-23 15:26:36 +0000] [25] [INFO] Handling signal: term
+airflow-scheduler-1  | [[34m2025-12-23T15:26:36.057+0000[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+airflow-scheduler-1  | [2025-12-23 15:26:36 +0000] [25] [INFO] Shutting down: Master
+airflow-scheduler-1  | [[34m2025-12-23T15:26:37.058+0000[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending 15 to group 26. PIDs of all processes in the group: [26][0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:37.058+0000[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal 15 to group 26[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:37.471+0000[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=26, status='terminated', exitcode=0, started='15:26:20') (26) terminated with exit code 0[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:37.472+0000[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending 15 to group 26. PIDs of all processes in the group: [][0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:37.472+0000[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal 15 to group 26[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:37.472+0000[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal 15 to process 26 as process group is missing.[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:37.472+0000[0m] {[34mscheduler_job_runner.py:[0m872} INFO[0m - Exited execute loop[0m
+airflow-scheduler-1  | 
+airflow-scheduler-1  |   ____________       _____________
+airflow-scheduler-1  |  ____    |__( )_________  __/__  /________      __
+airflow-scheduler-1  | ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+airflow-scheduler-1  | ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+airflow-scheduler-1  |  _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+airflow-scheduler-1  | [[34m2025-12-23T15:26:51.044+0000[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:51.045+0000[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:51.120+0000[0m] {[34mscheduler_job_runner.py:[0m796} INFO[0m - Starting the scheduler[0m
+airflow-scheduler-1  | [2025-12-23 15:26:51 +0000] [25] [INFO] Starting gunicorn 22.0.0
+airflow-scheduler-1  | [[34m2025-12-23T15:26:51.121+0000[0m] {[34mscheduler_job_runner.py:[0m803} INFO[0m - Processing each file at most -1 times[0m
+airflow-scheduler-1  | [2025-12-23 15:26:51 +0000] [25] [INFO] Listening at: http://[::]:8793 (25)
+airflow-scheduler-1  | [2025-12-23 15:26:51 +0000] [25] [INFO] Using worker: sync
+airflow-scheduler-1  | [[34m2025-12-23T15:26:51.128+0000[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 26[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:51.129+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+airflow-scheduler-1  | [[34m2025-12-23T15:26:51.131+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+airflow-scheduler-1  | [2025-12-23 15:26:51 +0000] [27] [INFO] Booting worker with pid: 27
+airflow-scheduler-1  | [2025-12-23 15:26:51 +0000] [28] [INFO] Booting worker with pid: 28

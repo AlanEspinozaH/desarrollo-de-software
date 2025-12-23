@@ -1,0 +1,23 @@
+🚀 Iniciando Suite Completa de Pruebas IaC
+[1/4] Limpiando estados previos...
+[2/4] Ejecutando Smoke Tests...
+🔥 Iniciando Smoke Tests...
+>> Probando módulo: network
+[32m[1mSuccess![0m The configuration is valid.
+[0m
+>> Probando módulo: compute
+[32m[1mSuccess![0m The configuration is valid.
+[0m
+>> Probando módulo: storage
+[32m[1mSuccess![0m The configuration is valid.
+[0m
+>> Probando módulo: firewall
+main.tf
+❌ Fmt failed in firewall
+[32m[1mSuccess![0m The configuration is valid.
+[0m
+>> Probando módulo: dns
+[32m[1mSuccess![0m The configuration is valid.
+[0m
+💥 Hubo fallos en los Smoke Tests.
+⛔ Smoke tests fallaron. Abortando.
